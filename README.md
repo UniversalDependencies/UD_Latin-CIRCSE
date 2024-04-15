@@ -29,10 +29,10 @@ Data available since: UD v2.14
 License: CC BY-SA 4.0
 Includes text: yes
 Genre: fiction
-Lemmas: manual native
-UPOS: manual native
-XPOS: not available
-Features: manual native
+Lemmas: converted with corrections
+UPOS: converted with corrections
+XPOS: converted with corrections
+Features: converted with corrections
 Relations: manual native
 Contributors: Iurescia, Federica; Passarotti, Marco; Mambrini, Francesco; Moretti, Giovanni; Ruffolo, Paolo; Gamba, Federica; Cecchini, Flavio Massimiliano
 Contributing: here
