@@ -34,7 +34,7 @@ UPOS: manual native
 XPOS: not available
 Features: manual native
 Relations: manual native
-Contributors: Iurescia, Federica; Passarotti, Marco; Mambrini, Francesco; Moretti, Giovanni; Ruffolo, Paolo
+Contributors: Iurescia, Federica; Passarotti, Marco; Mambrini, Francesco; Moretti, Giovanni; Ruffolo, Paolo; Gamba, Federica; Cecchini, Flavio Massimiliano
 Contributing: here
 Contact: federica.iurescia@unicatt.it
 ===============================================================================
