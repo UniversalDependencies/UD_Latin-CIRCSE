@@ -28,7 +28,7 @@
 Data available since: UD v2.14
 License: CC BY-SA 4.0
 Includes text: yes
-Genre: fiction
+Genre: fiction:"book", "poetry":"tragedy"
 Lemmas: converted with corrections
 UPOS: converted with corrections
 XPOS: converted with corrections
