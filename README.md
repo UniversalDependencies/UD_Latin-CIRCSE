@@ -6,7 +6,8 @@ The repository includes prose and poetry texts from different periods.
 
 # Introduction
 
-This treebank repository is a work in progress collective endeavour. Presently, it contains the following annotated texts: 
+This treebank repository is a work in progress collective endeavour. Presently, it contains the following annotated texts: Seneca *Hercules Furens*, Seneca *Agamemnon*, Tacitus *Germania*.
+
 Seneca *Hercules Furens*
 
 *Hercules Furens* is a tragedy written by Seneca the younger in 1st century CE. The source text (7711 tokens) was received with tokenisation, and annotation with respect to lemmatisation, POS tagging, and morphological features from the Opera Latina corpus built by the [LASLA] laboratory in Liège (http://github.com/CIRCSE/LASLA).
@@ -57,6 +58,7 @@ In cases of reported speech, the character who utters the reported speech is lis
 
 
 Tacitus *Germania*
+
 *Germania* is a treatise written by Cornelius Tacitus between 1st and 2nd century CE.
 The text (5669 tokens) was received with tokenisation, and annotation with respect to lemmatisation, POS tagging, and morphological features from the Opera Latina corpus built by the [LASLA] laboratory in Liège (http://github.com/CIRCSE/LASLA).
 The syntactic annotation was performed manually at CIRCSE, and follows the UD scheme.
