@@ -29,7 +29,7 @@ In cases where more than one speaker utters words in the same sentence, the indi
 
 #speaker = Theseus (token 1-16), Charon (token 17-19)
 
-# Seneca *Agamemnon*
+#### Seneca *Agamemnon*
 
 *Agamemnon* is a tragedy written by Seneca the younger in 1st century CE. The source text (5576 tokens) was received with tokenisation, and annotation with respect to lemmatisation, POS tagging, and morphological features from the Opera Latina corpus built by the [LASLA] laboratory in Liège (http://github.com/CIRCSE/LASLA).
 In few cases, the received annotation with regard to POS tag and morphological annotation was modified during the syntactic annotation; deviations from the received annotation are detailed in the file Sen_Ag_LASLA_CIRCSE.
@@ -57,7 +57,7 @@ In cases of reported speech, the character who utters the reported speech is lis
 #speaker = Danai (Eurybates)
 
 
-# Tacitus *Germania*
+#### Tacitus *Germania*
 
 *Germania* is a treatise written by Cornelius Tacitus between 1st and 2nd century CE.
 The text (5669 tokens) was received with tokenisation, and annotation with respect to lemmatisation, POS tagging, and morphological features from the Opera Latina corpus built by the [LASLA] laboratory in Liège (http://github.com/CIRCSE/LASLA).
