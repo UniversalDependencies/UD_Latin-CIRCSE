@@ -11,7 +11,7 @@ This treebank repository is a work in progress collective endeavour. Presently, 
 #### Seneca *Hercules Furens*
 
 *Hercules Furens* is a tragedy written by Seneca the younger in 1st century CE. The source text was received with tokenisation, and annotation with respect to lemmatisation, POS tagging, and morphological features from the Opera Latina corpus built by the [LASLA](http://web.philo.ulg.ac.be/lasla/) laboratory in Liège.
-In few cases, the [received annotation](http://github.com/CIRCSE/LASLA) with regard to POS tag and morphological annotation was modified during the syntactic annotation; deviations from the received annotation are detailed in the file Sen_HF_LASLA_CIRCSE.
+In few cases, the [received annotation](http://github.com/CIRCSE/LASLA) with regard to POS tag and morphological annotation was modified during the syntactic annotation; deviations from the received annotation are detailed in the file SenecaYounger_HercF_LASLA_CIRCSE.
 The syntactic annotation was performed manually at CIRCSE, and follows the UD scheme. 
 The text was enhanced with the annotation of the speakers to whom each sentence is attributed. This annotation, performed manually at CIRCSE, is formatted as a comment in the conllu file following the comment line reporting the text of the sentence, as exemplified in what follows:
 
@@ -32,7 +32,7 @@ In cases where more than one speaker utters words in the same sentence, the indi
 #### Seneca *Agamemnon*
 
 *Agamemnon* is a tragedy written by Seneca the younger in 1st century CE. The source text was received with tokenisation, and annotation with respect to lemmatisation, POS tagging, and morphological features from the Opera Latina corpus built by the [LASLA] laboratory in Liège.
-In few cases, the [received annotation](http://github.com/CIRCSE/LASLA) with regard to POS tag and morphological annotation was modified during the syntactic annotation; deviations from the received annotation are detailed in the file Sen_Ag_LASLA_CIRCSE.
+In few cases, the [received annotation](http://github.com/CIRCSE/LASLA) with regard to POS tag and morphological annotation was modified during the syntactic annotation; deviations from the received annotation are detailed in the file SenecaYounger_Ag_LASLA_CIRCSE.
 The syntactic annotation was performed manually at CIRCSE, and follows the UD scheme.
 The text was enhanced with the annotation of the speakers to whom each sentence is attributed. This annotation, performed manually at the CIRCSE, is formatted as a comment in the conllu file following the comment line reporting the text of the sentence, as exemplified in what follows:
 
@@ -65,54 +65,7 @@ In cases of reported speech, the character who utters the reported speech is lis
 The text was received with tokenisation, and annotation with respect to lemmatisation, POS tagging, and morphological features from the Opera Latina corpus built by the [LASLA](http://web.philo.ulg.ac.be/lasla/) laboratory in Liège.
 The syntactic annotation was performed manually at CIRCSE, and follows the UD scheme.
 
-The sentence splitting differs from the [received one](http://github.com/CIRCSE/LASLA) in three cases, as follows:
-
-LASLA: 
-
-#sent_id = TacGerma-Q-01-21
-
-#text = nec tamen affirmauerim nullam Germaniae uenam argentum aurumue gignere quis enim scrutatus est
-
-CIRCSE:
-
-#sent_id = Latin_Tacitus_Ger_prose-21
-
-#text = nec tamen affirmauerim nullam Germaniae uenam argentum aurumue gignere
-
-#sent_id = Latin_Tacitus_Ger_prose-22
-
-#text = quis enim scrutatus est
-
-LASLA:
-#sent_id = TacGerma-Q-01-23
-
-#text = est uidere apud illos argentea uasa legatis et principibus eorum muneri data non in alia uilitate quam quae humo finguntur quamquam proximi ob usum commerciorum aurum et argentum in pretio habent formasque quasdam nostrae pecuniae agnoscunt atque eligunt interiores simplicius et antiquius permutatione mercium utuntur
-
-CIRCSE:
-
-#sent_id = Latin_Tacitus_Ger_prose-24
-
-#text = est uidere apud illos argentea uasa legatis et principibus eorum muneri data non in alia uilitate quam quae humo finguntur
-
-#sent_id = Latin_Tacitus_Ger_prose-25
-
-#text = quamquam proximi ob usum commerciorum aurum et argentum in pretio habent formasque quasdam nostrae pecuniae agnoscunt atque eligunt interiores simplicius et antiquius permutatione mercium utuntur  
-
-LASLA:
-
-#sent_id = TacGerma-Q-01-78
-
-#text = tum in ipso concilio uel principum aliquis uel pater uel propinqui scuto frameaque iuuenem ornant haec apud illos toga hic primus iuuentae honos ante hoc domus pars uidentur mox rei publicae insignis nobilitas aut magna patrum merita principis dignationem etiam adulescentulis assignant ceteri robustioribus ac iam pridem probatis aggregantur nec rubor inter comites aspici
-
-CIRCSE:
-
-#sent_id = Latin_Tacitus_Ger_prose-80
-
-#text = tum in ipso concilio uel principum aliquis uel pater uel propinqui scuto frameaque iuuenem ornant haec apud illos toga hic primus iuuentae honos ante hoc domus pars uidentur mox rei publicae
-
-#sent_id = Latin_Tacitus_Ger_prose-81
-
-#text = insignis nobilitas aut magna patrum merita principis dignationem etiam adulescentulis assignant ceteri robustioribus ac iam pridem probatis aggregantur nec rubor inter comites aspici
+In few cases, the sentence splitting differs from the [received one](http://github.com/CIRCSE/LASLA); deviations from the received annotation are detailed in the file Tacitus_Ger_LASLA_CIRCSE.
 
 
 Each text in the treebank is split into three subsets, `dev`, `test` and `train`, with a respective approximate ratio of 10%/10%/80%.
