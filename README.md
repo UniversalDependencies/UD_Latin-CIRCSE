@@ -143,7 +143,7 @@ The annotation of Seneca *Hercules Furens* and *Agamemnon* has been conducted in
 
 ## References
 
-* (citation)
+
 
 
 # Changelog
