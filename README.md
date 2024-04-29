@@ -63,28 +63,28 @@ In cases of reported speech, the character who utters the reported speech is lis
 
 *Germania* is a treatise written by Cornelius Tacitus between 1st and 2nd century CE.
 The text was received with tokenisation, and annotation with respect to lemmatisation, POS tagging, and morphological features from the Opera Latina corpus built by the [LASLA](http://web.philo.ulg.ac.be/lasla/) laboratory in Liège.
-The syntactic annotation was performed manually at CIRCSE, and follows the UD scheme.
+The syntactic annotation was performed manually, and follows the UD scheme.
 
 In few cases, the sentence splitting differs from the [received one](http://github.com/CIRCSE/LASLA); deviations from the received annotation are detailed in the file Tacitus_Ger_LASLA_CIRCSE.
 
 
 Each text in the treebank is split into three subsets, `dev`, `test` and `train`, with a respective approximate ratio of 10%/10%/80%.
 The distribution of the Seneca Hercules Furens (tokens: 7930) with respect to the subsets is as follows:
-* `train`: sentences 415 - tokens 6382
-* `dev`: sentences 76 - tokens 799
-* `test`: sentences 64 - tokens 749
+* `train`: 415 sentences (Latin_SenecaYounger_HercF_poetry-1; Latin_SenecaYounger_HercF_poetry-415) - 6382 tokens
+* `dev`: 76 sentences (Latin_SenecaYounger_HercF_poetry-416; Latin_SenecaYounger_HercF_poetry-491) - 799 tokens
+* `test`: 64 sentences (Latin_SenecaYounger_HercF_poetry-492; Latin_SenecaYounger_HercF_poetry-555) - 749 tokens
 
 
 The distribution of the Seneca Agamemnon (tokens: 5713) with respect to the subsets is as follows:
-* `train`: sentences 309 - tokens 4579
-* `dev`: sentences 35 - tokens 572
-* `test`: sentences 65 - tokens 562
+* `train`: 309 sentences (Latin_SenecaYounger_Ag_poetry-1; Latin_SenecaYounger_Ag_poetry-309) - 4579 tokens
+* `dev`: 35 sentences (Latin_SenecaYounger_Ag_poetry-310; Latin_SenecaYounger_Ag_poetry-344) - 572 tokens
+* `test`: 65 sentences (Latin_SenecaYounger_Ag_poetry-345; Latin_SenecaYounger_Ag_poetry-409) - 562 tokens
 
 
 The distribution of the Tacitus Germania (tokens: 5840) with respect to the subsets is as follows:
-* `train`: sentences 233 - tokens 4672
-* `dev`: sentences 35 - tokens 587
-* `test`: sentences 31 - tokens 581
+* `train`: 233 sentences (Latin_Tacitus_Ger_prose-1; Latin_Tacitus_Ger_prose-233) - 4672 tokens
+* `dev`: 35 sentences (Latin_Tacitus_Ger_prose-234; Latin_Tacitus_Ger_prose-268) - 587 tokens
+* `test`: 31 sentences (Latin_Tacitus_Ger_prose-269; Latin_Tacitus_Ger_prose-299) - 581 tokens
 
 
 Since the UD_Latin-CIRCSE treebank is a work in progress, its structure is subject to changes.
@@ -116,7 +116,7 @@ UPOS: converted with corrections
 XPOS: converted with corrections
 Features: converted with corrections
 Relations: manual native
-Contributors: Iurescia, Federica; Passarotti, Marco; Mambrini, Francesco; Moretti, Giovanni; Ruffolo, Paolo; Gamba, Federica; Cecchini, Flavio Massimiliano
+Contributors: Iurescia, Federica; Gamba, Federica; Cecchini, Flavio Massimiliano; Mambrini, Francesco; Moretti, Giovanni; Passarotti, Marco; Ruffolo, Paolo 
 Contributing: here
 Contact: federica.iurescia@unicatt.it
 ===============================================================================
