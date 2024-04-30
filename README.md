@@ -110,7 +110,7 @@ The annotation of Seneca *Hercules Furens* and *Agamemnon* has been conducted in
 Data available since: UD v2.14
 License: CC BY-SA 4.0
 Includes text: yes
-Genre: fiction:"book", "poetry":"tragedy"
+Genre: fiction, poetry
 Lemmas: converted with corrections
 UPOS: converted with corrections
 XPOS: converted with corrections
