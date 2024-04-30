@@ -13,7 +13,7 @@ This treebank repository is a work in progress collective endeavour. Presently, 
 *Hercules Furens* is a tragedy written by Seneca the younger in 1st century CE. The source text was received with tokenisation, and annotation with respect to lemmatisation, POS tagging, and morphological features from the Opera Latina corpus built by the [LASLA](http://web.philo.ulg.ac.be/lasla/) laboratory in Liège.
 In few cases, the [received annotation](http://github.com/CIRCSE/LASLA) with regard to POS tag and morphological annotation was modified during the syntactic annotation; deviations from the received annotation are detailed in the file SenecaYounger_HercF_LASLA_CIRCSE.
 The syntactic annotation was performed manually at CIRCSE, and follows the UD scheme. 
-The text was enhanced with the annotation of the speakers to whom each sentence is attributed. This annotation, performed manually at CIRCSE, is formatted as a comment in the conllu file following the comment line reporting the text of the sentence, as exemplified in what follows:
+The text (7714 tokens, 555 sentences) was enhanced with the annotation of the speakers to whom each sentence is attributed. This annotation, performed manually at CIRCSE, is formatted as a comment in the conllu file following the comment line reporting the text of the sentence, as exemplified in what follows:
 
 #sent_id = Latin_SenecaYounger_HercF_poetry-1
 
@@ -34,7 +34,7 @@ In cases where more than one speaker utters words in the same sentence, the indi
 *Agamemnon* is a tragedy written by Seneca the younger in 1st century CE. The source text was received with tokenisation, and annotation with respect to lemmatisation, POS tagging, and morphological features from the Opera Latina corpus built by the [LASLA] laboratory in Liège.
 In few cases, the [received annotation](http://github.com/CIRCSE/LASLA) with regard to POS tag and morphological annotation was modified during the syntactic annotation; deviations from the received annotation are detailed in the file SenecaYounger_Ag_LASLA_CIRCSE.
 The syntactic annotation was performed manually at CIRCSE, and follows the UD scheme.
-The text was enhanced with the annotation of the speakers to whom each sentence is attributed. This annotation, performed manually at the CIRCSE, is formatted as a comment in the conllu file following the comment line reporting the text of the sentence, as exemplified in what follows:
+The text (5580 tokens, 409 sentences) was enhanced with the annotation of the speakers to whom each sentence is attributed. This annotation, performed manually at the CIRCSE, is formatted as a comment in the conllu file following the comment line reporting the text of the sentence, as exemplified in what follows:
 
 #sent_id = Latin_SenecaYounger_Ag_poetry-1
 
@@ -64,27 +64,12 @@ In cases of reported speech, the character who utters the reported speech is lis
 *Germania* is a treatise written by Cornelius Tacitus between 1st and 2nd century CE.
 The text was received with tokenisation, and annotation with respect to lemmatisation, POS tagging, and morphological features from the Opera Latina corpus built by the [LASLA](http://web.philo.ulg.ac.be/lasla/) laboratory in Liège.
 The syntactic annotation was performed manually, and follows the UD scheme.
+The text consists of 5674 tokens, 299 sentences.
 
 In few cases, the sentence splitting differs from the [received one](http://github.com/CIRCSE/LASLA); deviations from the received annotation are detailed in the file Tacitus_Ger_LASLA_CIRCSE.
 
 
-Each text in the treebank is split into three subsets, `dev`, `test` and `train`, with a respective approximate ratio of 10%/10%/80%.
-The distribution of the Seneca Hercules Furens (tokens: 7930) with respect to the subsets is as follows:
-* `train`: 415 sentences (Latin_SenecaYounger_HercF_poetry-1; Latin_SenecaYounger_HercF_poetry-415) - 6382 tokens
-* `dev`: 76 sentences (Latin_SenecaYounger_HercF_poetry-416; Latin_SenecaYounger_HercF_poetry-491) - 799 tokens
-* `test`: 64 sentences (Latin_SenecaYounger_HercF_poetry-492; Latin_SenecaYounger_HercF_poetry-555) - 749 tokens
-
-
-The distribution of the Seneca Agamemnon (tokens: 5713) with respect to the subsets is as follows:
-* `train`: 309 sentences (Latin_SenecaYounger_Ag_poetry-1; Latin_SenecaYounger_Ag_poetry-309) - 4579 tokens
-* `dev`: 35 sentences (Latin_SenecaYounger_Ag_poetry-310; Latin_SenecaYounger_Ag_poetry-344) - 572 tokens
-* `test`: 65 sentences (Latin_SenecaYounger_Ag_poetry-345; Latin_SenecaYounger_Ag_poetry-409) - 562 tokens
-
-
-The distribution of the Tacitus Germania (tokens: 5840) with respect to the subsets is as follows:
-* `train`: 233 sentences (Latin_Tacitus_Ger_prose-1; Latin_Tacitus_Ger_prose-233) - 4672 tokens
-* `dev`: 35 sentences (Latin_Tacitus_Ger_prose-234; Latin_Tacitus_Ger_prose-268) - 587 tokens
-* `test`: 31 sentences (Latin_Tacitus_Ger_prose-269; Latin_Tacitus_Ger_prose-299) - 581 tokens
+In adherence to UD guidelines for data split, all three texts within the treebank are maintained together as `test` set, due to the treebank's size.
 
 
 Since the UD_Latin-CIRCSE treebank is a work in progress, its structure is subject to changes.
