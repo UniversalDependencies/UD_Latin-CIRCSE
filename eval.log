@@ -1,0 +1,40 @@
+Running the following version of UD tools:
+commit 78ce4b21495c6e4c17a7b07925bec1267d833d14
+Author: Dan Zeman <zeman@ufal.mff.cuni.cz>
+Date:   Sun May 5 09:21:16 2024 +0200
+Evaluating the following revision of UD_Latin-CIRCSE:
+commit cf4e6681c09da3f273c99d09517f7e721ad7f4a7
+Author: Dan Zeman <zeman@ufal.mff.cuni.cz>
+Date:   Sun May 5 10:45:56 2024 +0200
+Size: counted 18968 of 18968 words (nodes).
+Size: min(0, log((N/1000)**2)) = 5.88550669752621.
+Size: maximum value 13.815511 is for 1000000 words or more.
+Split: Did not find more than 10000 training words.
+Split: Did not find at least 10000 development words.
+Split: Found at least 10000 test words.
+Lemmas: source of annotation (from README) factor is 0.9.
+Universal POS tags: 14 out of 17 found in the corpus.
+Universal POS tags: source of annotation (from README) factor is 0.9.
+Features: 16992 out of 18968 total words have one or more features.
+Features: source of annotation (from README) factor is 0.9.
+Universal relations: 29 out of 37 found in the corpus.
+Universal relations: source of annotation (from README) factor is 1.
+Udapi:
+               TOTAL        788
+Udapi: found 788 bugs.
+Udapi: worst expected case (threshold) is one bug per 10 words. There are 18968 words.
+Genres: found 2 out of 17 known.
+/net/work/people/zeman/unidep/tools/validate.py --lang la --max-err=10 UD_Latin-CIRCSE/la_circse-ud-test.conllu
+*** PASSED ***
+Validity: 1
+(weight=0.0769230769230769) * (score{features}=0.9) = 0.0692307692307692
+(weight=0.0769230769230769) * (score{genres}=0.117647058823529) = 0.00904977375565611
+(weight=0.0769230769230769) * (score{lemmas}=0.9) = 0.0692307692307692
+(weight=0.256410256410256) * (score{size}=0.426007180323377) = 0.109232610339327
+(weight=0.0512820512820513) * (score{split}=0.34) = 0.0174358974358974
+(weight=0.0769230769230769) * (score{tags}=0.741176470588235) = 0.0570135746606335
+(weight=0.307692307692308) * (score{udapi}=0.584563475326866) = 0.179865684715959
+(weight=0.0769230769230769) * (score{udeprels}=0.783783783783784) = 0.0602910602910603
+(TOTAL score=0.571350139660072) * (availability=1) * (validity=1) = 0.571350139660072
+STARS = 3
+UD_Latin-CIRCSE	0.571350139660072	3
