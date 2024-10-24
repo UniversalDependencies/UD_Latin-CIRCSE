@@ -634,7 +634,7 @@
 1	nemo	nemo	PRON	L	Case=Nom|InflClass=IndEurX|Number=Sing|PronType=Neg	0	root	_	LiLaflcat=n7
 2	est	sum	AUX	B6	Aspect=Imp|InflClass=LatAnom|Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	1	cop	_	LASLAVariant=1|LiLaflcat=v6
 3	nisi	nisi	SCONJ	T	Polarity=Neg	4	mark	_	LiLaflcat=i
-4	ipse	ipse	DET	I	Case=Nom|Gender=Masc|InflClass=LatPron|Number=Sing|PronType=Dem	1	det	_	LiLaflcat=p
+4	ipse	ipse	DET	I	Case=Nom|Gender=Masc|InflClass=LatPron|Number=Sing|PronType=Dem	1	nsubj	_	LiLaflcat=p
 5	bella	bellum	NOUN	A2	Case=Acc|Gender=Neut|InflClass=IndEurO|Number=Plur	9	obj	_	LiLaflcat=n2
 6	iam	iam	ADV	M	Degree=Pos	9	advmod:tmod	_	LiLaflcat=i
 7-8	secum	_	_	_	_	_	_	_	_
@@ -742,7 +742,7 @@
 42	armatus	armo	ADJ	C1	Case=Nom|Degree=Pos|Gender=Masc|InflClass=IndEurO|Number=Sing	43	amod	_	LASLAVariant=2|LiLaflcat=n6
 43	Furor	furor	PROPN	A3	Case=Nom|Gender=Masc|InflClass=IndEurX|Number=Sing	29	conj	_	LASLAVariant=N|LiLaflcat=n3
 44	hoc	hic	DET	I	Case=Abl|Gender=Masc|InflClass=LatPron|Number=Sing|PronType=Dem	46	det	_	LASLAVariant=1|LiLaflcat=p
-45	hoc	hic	DET	I	Case=Abl|Gender=Masc|InflClass=LatPron|Number=Sing|PronType=Dem	44	flat:redup	_	LASLAVariant=1|LiLaflcat=p
+45	hoc	hic	DET	I	Case=Abl|Gender=Masc|InflClass=LatPron|Number=Sing|PronType=Dem	44	conj	_	LASLAVariant=1|LiLaflcat=p
 46	ministro	minister	NOUN	A2	Case=Abl|Gender=Masc|InflClass=IndEurO|Number=Sing	48	obl:arg	_	LASLAVariant=1|LiLaflcat=n2
 47	noster	noster	DET	F	Case=Nom|Gender=Masc|InflClass=IndEurO|Number=Sing|Number[psor]=Plur|Person[psor]=1|Poss=Yes|PronType=Prs	49	det	_	LiLaflcat=n6
 48	utatur	utor	VERB	B3	Aspect=Imp|InflClass=LatX|Mood=Sub|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin|Voice=Pass	27	conj	_	LiLaflcat=v3
