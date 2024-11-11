@@ -1,11 +1,11 @@
 Running the following version of UD tools:
-commit 78ce4b21495c6e4c17a7b07925bec1267d833d14
+commit c1984d97df0ecdcc1b50fbeaa8c96419c6321432
 Author: Dan Zeman <zeman@ufal.mff.cuni.cz>
-Date:   Sun May 5 09:21:16 2024 +0200
+Date:   Sun Nov 10 10:33:45 2024 +0100
 Evaluating the following revision of UD_Latin-CIRCSE:
-commit cf4e6681c09da3f273c99d09517f7e721ad7f4a7
+commit 8ed6ef74d9b5197c025067dd3725aa8d5560f77a
+Merge: 563ef62 10ce4ae
 Author: Dan Zeman <zeman@ufal.mff.cuni.cz>
-Date:   Sun May 5 10:45:56 2024 +0200
 Size: counted 18968 of 18968 words (nodes).
 Size: min(0, log((N/1000)**2)) = 5.88550669752621.
 Size: maximum value 13.815511 is for 1000000 words or more.
