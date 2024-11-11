@@ -17,15 +17,15 @@
   <tags unique="14">
     <tag name="ADJ">2483</tag><!-- magnus, grauis, altus, nouus, primus, longus, leuis, fortis, saeuus, tristis -->
     <tag name="ADP">663</tag><!-- in, ad, ex, per, ab, cum, inter, apud, post, de -->
-    <tag name="ADV">1017</tag><!-- iam, nunc, quis, sic, etiam, hinc, tamen, semper, saepe, adhuc -->
+    <tag name="ADV">1007</tag><!-- iam, nunc, quis, sic, etiam, hinc, tamen, semper, saepe, adhuc -->
     <tag name="AUX">262</tag><!-- sum -->
     <tag name="CCONJ">1482</tag><!-- et, que, atque, sed, aut, neque, nec, ac, ue, uel -->
-    <tag name="DET">1065</tag><!-- hic, omnis, ipse, ille, suus, tuus, nullus, noster, meus, alius -->
+    <tag name="DET">1066</tag><!-- hic, omnis, ipse, ille, suus, tuus, nullus, noster, meus, alius -->
     <tag name="INTJ">32</tag><!-- ecce, en, pro, agedum, ah, eheu, heu -->
     <tag name="NOUN">5841</tag><!-- manus, domus, deus, pater, gens, arma, dies, rex, animus, bellum -->
     <tag name="NUM">48</tag><!-- unus, mille, tres, decem, centum, duo, septem, ducenti, quinque, sex -->
-    <tag name="PART">338</tag><!-- non, ne, o, quidem, enim, an, haud, quoque, nam, quin -->
-    <tag name="PRON">714</tag><!-- qui, tu, quis, ego, is, sui, nos, nihil, aliquis, nemo -->
+    <tag name="PART">348</tag><!-- non, ne, o, quoque, quidem, enim, an, haud, nam, quin -->
+    <tag name="PRON">713</tag><!-- qui, tu, quis, ego, is, sui, nos, nihil, aliquis, nemo -->
     <tag name="PROPN">696</tag><!-- iuppiter, hercules, alcides, phoebus, germania, troia, rhenus, lycus, titan, dis -->
     <tag name="SCONJ">383</tag><!-- ut, si, cum, quam, nisi, quod, dum, ne, quia, tamquam -->
     <tag name="VERB">3944</tag><!-- uideo, do, uinco, fero, ago, possum, peto, uenio, teneo, gero -->
@@ -50,8 +50,8 @@
     <feat name="Degree" value="Abs" upos="ADJ,ADV,DET">123</feat><!-- primo, prima, primus, proximi, primum, imo, summo, extremum, imis, maxime -->
     <feat name="Degree" value="Cmp" upos="ADJ,ADV,DET">182</feat><!-- magis, maior, potius, plus, prius, maius, minus, plerumque, saepius, maiora -->
     <feat name="Degree" value="Dim" upos="NOUN">7</feat><!-- ancillis, anulum, auunculi, auunculum, capillum, sagulo, surculos -->
-    <feat name="Degree" value="Pos" upos="ADJ,ADV,DET,VERB">3024</feat><!-- iam, nunc, hinc, semper, sic, tandem, et, hic, huc, retro -->
-    <feat name="Form" value="Emp" upos="ADV,CCONJ,DET,PART">192</feat><!-- ac, atque, enim, quoque, tamen, eadem, idem, ipso, ipsum, plerumque -->
+    <feat name="Degree" value="Pos" upos="ADJ,ADV,DET,VERB">3014</feat><!-- iam, nunc, hinc, semper, sic, tandem, et, hic, huc, retro -->
+    <feat name="Form" value="Emp" upos="ADV,CCONJ,DET,PART">202</feat><!-- ac, quoque, atque, enim, tamen, eadem, idem, ipso, ipsum, plerumque -->
     <feat name="Gender" value="Fem" upos="ADJ,DET,NOUN,NUM,PRON,PROPN,VERB">3727</feat><!-- quae, manu, manus, domus, pars, tellus, turba, fortuna, haec, ipsa -->
     <feat name="Gender" value="Fem,Masc" upos="ADJ,DET,NOUN,PRON,PROPN,VERB">188</feat><!-- quis, quisquis, diem, caelitum, dies, hostis, omnis, Phrygum, comes, coniunx -->
     <feat name="Gender" value="Fem,Masc,Neut" upos="ADJ,DET,NUM,PRON,PROPN,VERB">95</feat><!-- cuius, cui, amens, omnibus, quibus, aliis, demens, felix, furens, his -->
@@ -63,7 +63,7 @@
     <feat name="InflClass" value="IndEurA,IndEurO" upos="ADJ,DET">13</feat><!-- suis, miseris, fessis, intonsis, inuitis, meis, nostris, nouis, piis, singulis -->
     <feat name="InflClass" value="IndEurE" upos="NOUN">135</feat><!-- diem, dies, fides, fidem, acies, rebus, aciem, rerum, res, die -->
     <feat name="InflClass" value="IndEurI" upos="ADJ,DET,NOUN,NUM,PROPN">1521</feat><!-- mare, omnis, omne, pars, ora, parens, gentis, nox, omnes, omnium -->
-    <feat name="InflClass" value="IndEurO" upos="ADJ,DET,NOUN,NUM,PRON,PROPN">3513</feat><!-- arma, bella, deos, caelum, malis, regna, tela, caelo, armis, fata -->
+    <feat name="InflClass" value="IndEurO" upos="ADJ,DET,NOUN,NUM,PROPN">3513</feat><!-- arma, bella, deos, caelum, malis, regna, tela, caelo, armis, fata -->
     <feat name="InflClass" value="IndEurU" upos="NOUN,PROPN">540</feat><!-- manu, manus, domus, uultus, domum, manum, artus, manibus, sinus, uultu -->
     <feat name="InflClass" value="IndEurX" upos="ADJ,DET,NOUN,PRON,PROPN">1993</feat><!-- caput, pater, genus, tellus, scelus, coniunx, nomen, decus, furor, uictor -->
     <feat name="InflClass" value="LatA" upos="VERB">952</feat><!-- iuuat, precor, dedit, stat, stetit, arbitrantur, date, uacat, da, dat -->
@@ -110,7 +110,7 @@
     <feat name="Polarity" value="Neg" upos="ADJ,ADV,CCONJ,DET,NOUN,PART,PRON,SCONJ,VERB">425</feat><!-- non, nec, ne, nisi, an, nondum, neque, haut, nulla, numquam -->
     <feat name="Poss" value="Yes" upos="DET">245</feat><!-- nostra, sua, suis, mea, meis, meum, suos, suo, tua, tuam -->
     <feat name="PronType" value="Con" upos="ADV,DET,SCONJ">67</feat><!-- cetera, ceterum, sola, solum, solus, alia, aliis, aliud, solis, aliarum -->
-    <feat name="PronType" value="Dem" upos="ADV,DET,PRON">465</feat><!-- hoc, haec, ille, ipse, hic, ipsa, tantum, hunc, idem, illa -->
+    <feat name="PronType" value="Dem" upos="ADV,DET">465</feat><!-- hoc, haec, ille, ipse, hic, ipsa, tantum, hunc, idem, illa -->
     <feat name="PronType" value="Ind" upos="ADV,DET,PRON">183</feat><!-- nulla, ulla, alia, nullis, nemo, quid, quod, aliquid, aliud, multo -->
     <feat name="PronType" value="Int" upos="ADV,DET,PRON">208</feat><!-- quid, quis, quae, cur, quo, ubi, unde, quam, cui, quas -->
     <feat name="PronType" value="Neg" upos="DET,PRON">48</feat><!-- nulla, nullus, nemo, nil, nihil, nulli, nullo, nullos, nullum -->
@@ -134,7 +134,7 @@
     <feat name="Voice" value="Pass" upos="VERB">1128</feat><!-- precor, mori, arbitrantur, pati, uinci, uicta, iuncta, iussus, patitur, relicto -->
   </feats>
   <!-- Statistics of universal dependency relations. -->
-  <deps unique="58">
+  <deps unique="59">
     <dep name="acl">395</dep>
     <dep name="acl:relcl">168</dep>
     <dep name="advcl">298</dep>
@@ -142,40 +142,40 @@
     <dep name="advcl:cmp">80</dep>
     <dep name="advcl:pred">432</dep>
     <dep name="advcl:relcl">25</dep>
-    <dep name="advmod">454</dep>
-    <dep name="advmod:emph">107</dep>
-    <dep name="advmod:lmod">126</dep>
+    <dep name="advmod">453</dep>
+    <dep name="advmod:emph">109</dep>
+    <dep name="advmod:lmod">127</dep>
     <dep name="advmod:neg">193</dep>
     <dep name="advmod:tmod">304</dep>
     <dep name="amod">1796</dep>
     <dep name="appos">51</dep>
-    <dep name="aux">3</dep>
-    <dep name="aux:pass">47</dep>
+    <dep name="aux">2</dep>
+    <dep name="aux:pass">48</dep>
     <dep name="case">661</dep>
     <dep name="cc">1471</dep>
     <dep name="ccomp">89</dep>
     <dep name="ccomp:relcl">21</dep>
     <dep name="ccomp:reported">4</dep>
-    <dep name="conj">2366</dep>
+    <dep name="conj">2367</dep>
     <dep name="conj:expl">37</dep>
     <dep name="cop">210</dep>
     <dep name="csubj">78</dep>
     <dep name="csubj:pass">13</dep>
     <dep name="csubj:relcl">25</dep>
-    <dep name="det">763</dep>
+    <dep name="det">761</dep>
     <dep name="det:numgov">5</dep>
-    <dep name="discourse">138</dep>
+    <dep name="discourse">136</dep>
     <dep name="dislocated:csubj">4</dep>
     <dep name="dislocated:nsubj">4</dep>
     <dep name="fixed">1</dep>
     <dep name="flat">11</dep>
     <dep name="flat:gov">3</dep>
     <dep name="flat:name">7</dep>
-    <dep name="flat:redup">14</dep>
+    <dep name="flat:redup">13</dep>
     <dep name="iobj">1</dep>
     <dep name="mark">384</dep>
     <dep name="nmod">857</dep>
-    <dep name="nsubj">1566</dep>
+    <dep name="nsubj">1568</dep>
     <dep name="nsubj:pass">233</dep>
     <dep name="nummod">40</dep>
     <dep name="obj">1654</dep>
@@ -188,7 +188,8 @@
     <dep name="orphan">94</dep>
     <dep name="orphan:missing">3</dep>
     <dep name="parataxis">38</dep>
-    <dep name="parataxis:reporting">3</dep>
+    <dep name="parataxis:rep">1</dep>
+    <dep name="parataxis:reporting">2</dep>
     <dep name="root">1263</dep>
     <dep name="vocative">156</dep>
     <dep name="xcomp">220</dep>
