@@ -103,6 +103,6 @@ Features: converted with corrections
 Relations: manual native
 Contributors: Iurescia, Federica; Gamba, Federica; Cecchini, Flavio Massimiliano; Mambrini, Francesco; Moretti, Giovanni; Passarotti, Marco; Ruffolo, Paolo 
 Contributing: here
-Contact: federica.iurescia@unicatt.it
+Contact: federica.iurescia@unicatt.it, marco.passarotti@unicatt.it
 ===============================================================================
 </pre>
