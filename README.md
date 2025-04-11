@@ -79,27 +79,26 @@ The text (5931 tokens, 401 sentences) was enhanced with the annotation of the sp
 
 The distribution of the Seneca Hercules Furens (tokens: 7714) with respect to the subsets is as follows:
 * `train`: 260 sentences (Latin_SenecaYounger_HercF_poetry-1; Latin_SenecaYounger_HercF_poetry-260) - 3884 tokens
-* `dev`: 46 sentences (Latin_SenecaYounger_HercF_poetry-261; Latin_SenecaYounger_HercF_poetry-306) - 781 tokens
-* `test`: 249 sentences (Latin_SenecaYounger_HercF_poetry-307; Latin_SenecaYounger_HercF_poetry-555) - 3049 tokens
+* `dev`: 20 sentences (Latin_SenecaYounger_HercF_poetry-261; Latin_SenecaYounger_HercF_poetry-280) - 394 tokens
+* `test`: 275 sentences (Latin_SenecaYounger_HercF_poetry-281; Latin_SenecaYounger_HercF_poetry-555) - 3436 tokens
 
 
 The distribution of the Seneca Agamemnon (tokens: 5580) with respect to the subsets is as follows:
 * `train`: 188 sentences (Latin_SenecaYounger_Ag_poetry-1; Latin_SenecaYounger_Ag_poetry-188) - 2795 tokens
-* `dev`: 35 sentences (Latin_SenecaYounger_Ag_poetry-189; Latin_SenecaYounger_Ag_poetry-223) - 570 tokens
-* `test`: 186 sentences (Latin_SenecaYounger_Ag_poetry-224; Latin_SenecaYounger_Ag_poetry-409) - 2215 tokens
+* `dev`: 19 sentences (Latin_SenecaYounger_Ag_poetry-189; Latin_SenecaYounger_Ag_poetry-207) - 292 tokens
+* `test`: 202 sentences (Latin_SenecaYounger_Ag_poetry-208; Latin_SenecaYounger_Ag_poetry-409) - 2493 tokens
 
 
 The distribution of the Tacitus Germania (tokens: 5674) with respect to the subsets is as follows:
 * `train`: 149 sentences (Latin_Tacitus_Ger_prose-1; Latin_Tacitus_Ger_prose-149) - 2848 tokens
-* `dev`: 31 sentences (Latin_Tacitus_Ger_prose-150; Latin_Tacitus_Ger_prose-180) - 577 tokens
-* `test`: 119 sentences (Latin_Tacitus_Ger_prose-181; Latin_Tacitus_Ger_prose-299) - 2249 tokens
+* `dev`: 17 sentences (Latin_Tacitus_Ger_prose-150; Latin_Tacitus_Ger_prose-166) - 286 tokens
+* `test`: 133 sentences (Latin_Tacitus_Ger_prose-167; Latin_Tacitus_Ger_prose-299) - 2540 tokens
 
 
 The distribution of the Seneca Oedipus (tokens: 5931) with respect to the subsets is as follows:
 * `train`: 165 sentences (Latin_SenecaYounger_Oedip_poetry-1; Latin_SenecaYounger_Oedip_poetry-165) - 2966 tokens
-* `dev`: 24 sentences (Latin_SenecaYounger_Oedip_poetry-166; Latin_SenecaYounger_Oedip_poetry-189) - 616 tokens
-* `test`: 212 sentences (Latin_SenecaYounger_Oedip_poetry-190; Latin_SenecaYounger_Oedip_poetry-401) - 2349 tokens
-
+* `dev`: 14 sentences (Latin_SenecaYounger_Oedip_poetry-166; Latin_SenecaYounger_Oedip_poetry-179) - 304 tokens
+* `test`: 222 sentences (Latin_SenecaYounger_Oedip_poetry-180; Latin_SenecaYounger_Oedip_poetry-401) - 2661 tokens
 
 
 
