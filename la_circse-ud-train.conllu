@@ -9498,7 +9498,7 @@
 # sent_id = Latin_Tacitus_Ger_prose-35
 # text = in uniuersum aestimanti plus penes peditem roboris eoque mixti proeliantur apta et congruente ad equestrem pugnam uelocitate peditum quos ex omni iuuentute delectos ante aciem locant
 1	in	in	ADP	R	_	2	case	_	LiLaflcat=i
-2	uniuersum	uniuersum	NOUN	A2	Case=Acc|Gender=Neut|InflClass=IndEurO|Number=Sing	3	obl	_	LiLaflcat=n2
+2	uniuersum	uniuersus	DET	A2	Case=Acc|Compound=Yes|Gender=Neut|InflClass=IndEurO|Number=Sing|PronType=Tot	3	obl	_	LiLaflcat=n2
 3	aestimanti	aestimo	VERB	B1	Aspect=Imp|Case=Dat|Gender=Masc|InflClass=LatA|InflClass[nominal]=IndEurI|Number=Sing|VerbForm=Part|Voice=Act	6	obl:arg	_	LiLaflcat=v1|TraditionalMood=Participium|TraditionalTense=Praesens
 4	plus	multus	DET	M	Case=Acc|Degree=Cmp|Gender=Neut|InflClass=IndEurX|Number=Sing|NumType=Card	7	det:numgov	_	LASLAVariant=2|LiLaflcat=i
 5	penes	penes	ADP	R	_	6	case	_	LiLaflcat=i
