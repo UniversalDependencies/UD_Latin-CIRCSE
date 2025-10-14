@@ -9192,17 +9192,18 @@
 # text = ita qui olim boni aequique Cherusci nunc inertes ac stulti uocantur Chattis uictoribus fortuna in sapientiam cessit
 1	ita	ita	ADV	M	PronType=Dem	12	advmod	12:advmod	LiLaflcat=i|UniqueTokenId=TacGerma-Q-01-212_1
 2	qui	qui	PRON	J	Case=Nom|Gender=Masc|InflClass=LatPron|Number=Plur|PronType=Rel	7	acl:relcl	7:acl:relcl	LASLAVariant=1|LiLaflcat=p|UniqueTokenId=TacGerma-Q-01-212_2
-3	olim	olim	ADV	M	AdvType=Tim	2	orphan	2:orphan	LiLaflcat=i|UniqueTokenId=TacGerma-Q-01-212_3
-4	boni	bonus	ADJ	C1	Case=Nom|Gender=Masc|InflClass=IndEurO|Number=Plur	2	orphan	2:orphan	LiLaflcat=n6|UniqueTokenId=TacGerma-Q-01-212_4
+3	olim	olim	ADV	M	AdvType=Tim	2	orphan	6.1:advmod	LiLaflcat=i|UniqueTokenId=TacGerma-Q-01-212_3
+4	boni	bonus	ADJ	C1	Case=Nom|Gender=Masc|InflClass=IndEurO|Number=Plur	2	orphan	6.1:xcomp	LiLaflcat=n6|UniqueTokenId=TacGerma-Q-01-212_4
 5-6	aequique	_	_	_	_	_	_	_	UniqueTokenId=TacGerma-Q-01-212_5-6
 5	aequi	aequus	ADJ	C1	Case=Nom|Gender=Masc|InflClass=IndEurO|Number=Plur	4	conj	4:conj	LiLaflcat=n6|UniqueTokenId=TacGerma-Q-01-212_5
 6	que	que	CCONJ	S	_	5	cc	5:cc	LiLaflcat=i|UniqueTokenId=TacGerma-Q-01-212_6
+6.1	uocantur	uoco	VERB	_	Aspect=Imp|InflClass=LatA|Mood=Ind|Number=Plur|Person=3|Tense=Pres|VerbForm=Fin|Voice=Pass	_	_	0:root	AntecPosit=0_TacGerma-Q-01-212_12
 7	Cherusci	cherusci	NOUN	A2	Case=Nom|Gender=Masc|InflClass=IndEurO|NameType=Nat|Number=Plur	12	nsubj:pass	12:nsubj:pass	LASLAVariant=N|LiLaflcat=n2|UniqueTokenId=TacGerma-Q-01-212_7
 8	nunc	nunc	ADV	M	AdvType=Tim	12	advmod:tmod	12:advmod:tmod	LiLaflcat=i|UniqueTokenId=TacGerma-Q-01-212_8
 9	inertes	iners	ADJ	C5	Case=Nom|Gender=Masc|InflClass=IndEurI|Number=Plur	12	xcomp	12:xcomp	LiLaflcat=n7|UniqueTokenId=TacGerma-Q-01-212_9
 10	ac	atque	CCONJ	S	Form=Emp	11	cc	11:cc	LASLAVariant=1|LiLaflcat=i|UniqueTokenId=TacGerma-Q-01-212_10
 11	stulti	stultus	ADJ	C1	Case=Nom|Gender=Masc|InflClass=IndEurO|Number=Plur	9	conj	9:conj	LiLaflcat=n6|UniqueTokenId=TacGerma-Q-01-212_11
-12	uocantur	uoco	VERB	B1	Aspect=Imp|InflClass=LatA|Mood=Ind|Number=Plur|Person=3|Tense=Pres|VerbForm=Fin|Voice=Pass	0	root	0:root	LiLaflcat=v1|TraditionalMood=Indicativus|TraditionalTense=Praesens|UniqueTokenId=TacGerma-Q-01-212_12
+12	uocantur	uoco	VERB	B1	Aspect=Imp|InflClass=LatA|Mood=Ind|Number=Plur|Person=3|Tense=Pres|VerbForm=Fin|Voice=Pass	0	root	0:root|6.1:conj	LiLaflcat=v1|TraditionalMood=Indicativus|TraditionalTense=Praesens|UniqueTokenId=TacGerma-Q-01-212_12
 13	Chattis	chatti	NOUN	A2	Case=Dat|Gender=Masc|InflClass=IndEurO|NameType=Nat|Number=Plur	18	obl:arg	18:obl:arg	LASLAVariant=N|LiLaflcat=n2|UniqueTokenId=TacGerma-Q-01-212_13
 14	uictoribus	uictor	NOUN	A3	Case=Dat|Gender=Masc|InflClass=IndEurX|Number=Plur	13	appos	13:appos	LiLaflcat=n3|UniqueTokenId=TacGerma-Q-01-212_14
 15	fortuna	fortuna	NOUN	A1	Case=Nom|Gender=Fem|InflClass=IndEurA|Number=Sing	18	nsubj	18:nsubj	LiLaflcat=n1|UniqueTokenId=TacGerma-Q-01-212_15
