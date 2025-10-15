@@ -9197,7 +9197,7 @@
 5-6	aequique	_	_	_	_	_	_	_	UniqueTokenId=TacGerma-Q-01-212_5-6
 5	aequi	aequus	ADJ	C1	Case=Nom|Gender=Masc|InflClass=IndEurO|Number=Plur	4	conj	4:conj	LiLaflcat=n6|UniqueTokenId=TacGerma-Q-01-212_5
 6	que	que	CCONJ	S	_	5	cc	5:cc	LiLaflcat=i|UniqueTokenId=TacGerma-Q-01-212_6
-6.1	uocantur	uoco	VERB	_	Aspect=Imp|InflClass=LatA|Mood=Ind|Number=Plur|Person=3|Tense=Pres|VerbForm=Fin|Voice=Pass	_	_	0:root	AntecPosit=0_TacGerma-Q-01-212_12
+6.1	uocabantur	uoco	VERB	_	Aspect=Imp|InflClass=LatA|Mood=Ind|Number=Plur|Person=3|Tense=Past|VerbForm=Fin|Voice=Pass	_	_	0:root	AntecPosit=0_TacGerma-Q-01-212_12
 7	Cherusci	cherusci	NOUN	A2	Case=Nom|Gender=Masc|InflClass=IndEurO|NameType=Nat|Number=Plur	12	nsubj:pass	12:nsubj:pass	LASLAVariant=N|LiLaflcat=n2|UniqueTokenId=TacGerma-Q-01-212_7
 8	nunc	nunc	ADV	M	AdvType=Tim	12	advmod:tmod	12:advmod:tmod	LiLaflcat=i|UniqueTokenId=TacGerma-Q-01-212_8
 9	inertes	iners	ADJ	C5	Case=Nom|Gender=Masc|InflClass=IndEurI|Number=Plur	12	xcomp	12:xcomp	LiLaflcat=n7|UniqueTokenId=TacGerma-Q-01-212_9
@@ -10002,8 +10002,9 @@
 # sent_id = TacGerma-Q-01-246
 # text = iuxta Hermunduros Naristi ac deinde Marcomani et Quadi agunt
 1	iuxta	iuxta	ADP	R	_	2	case	2:case	LASLAVariant=2|LiLaflcat=i|UniqueTokenId=TacGerma-Q-01-246_1
-2	Hermunduros	hermunduri	NOUN	A2	Case=Acc|Gender=Masc|InflClass=IndEurO|NameType=Nat|Number=Plur	3	orphan	3:orphan	LASLAVariant=N|LiLaflcat=n2|UniqueTokenId=TacGerma-Q-01-246_2
-3	Naristi	naristi	PROPN	A2	Case=Nom|Gender=Masc|InflClass=IndEurO|Number=Plur	0	root	0:root	LASLAVariant=N|LiLaflcat=n2|UniqueTokenId=TacGerma-Q-01-246_3
+2	Hermunduros	hermunduri	NOUN	A2	Case=Acc|Gender=Masc|InflClass=IndEurO|NameType=Nat|Number=Plur	3	orphan	3.1:obl:lmod	LASLAVariant=N|LiLaflcat=n2|UniqueTokenId=TacGerma-Q-01-246_2
+3	Naristi	naristi	PROPN	A2	Case=Nom|Gender=Masc|InflClass=IndEurO|Number=Plur	0	root	0:root|3.1:nsubj	LASLAVariant=N|LiLaflcat=n2|UniqueTokenId=TacGerma-Q-01-246_3
+3.1	agunt	ago	VERB	_	Aspect=Imp|InflClass=LatX|Mood=Ind|Number=Plur|Person=3|Tense=Pres|VerbForm=Fin|Voice=Act	_	_	0:root	Antec=Yes|AntecPosit=0_UniqueTokenId
 4	ac	atque	CCONJ	S	Form=Emp	9	cc	9:cc	LASLAVariant=1|LiLaflcat=i|UniqueTokenId=TacGerma-Q-01-246_4
 5	deinde	deinde	ADV	M	AdvType=Loc	9	advmod:lmod	9:advmod:lmod	LiLaflcat=i|UniqueTokenId=TacGerma-Q-01-246_5
 6	Marcomani	marcomani	NOUN	A2	Case=Nom|Gender=Masc|InflClass=IndEurO|NameType=Nat|Number=Plur	9	nsubj	9:nsubj	LASLAVariant=N|LiLaflcat=n2|UniqueTokenId=TacGerma-Q-01-246_6
