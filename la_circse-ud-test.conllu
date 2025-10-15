@@ -4716,7 +4716,7 @@
 23	terra	terra	NOUN	A1	Case=Abl|Gender=Fem|InflClass=IndEurA|Number=Sing	27	obl:agent	_	LiLaflcat=n1
 24	que	que	CCONJ	S	_	30	cc	_	LiLaflcat=i
 25	et	et	CCONJ	S	_	26	cc	_	LASLAVariant=2|LiLaflcat=i
-26	igne	ignis	NOUN	A3	Case=Abl|Gender=Masc|InflClass=IndEurI|Number=Sing	23	obl	_	LiLaflcat=n3
+26	igne	ignis	NOUN	A3	Case=Abl|Gender=Masc|InflClass=IndEurI|Number=Sing	23	conj	_	LiLaflcat=n3
 27	uictus	uinco	VERB	B3	Aspect=Perf|Case=Nom|Degree=Pos|Gender=Masc|InflClass=LatX|InflClass[nominal]=IndEurO|Number=Sing|VerbForm=Part|Voice=Pass	30	advcl:pred	_	LiLaflcat=v3
 28	et	et	CCONJ	S	_	29	cc	_	LASLAVariant=2|LiLaflcat=i
 29	pelago	pelagus	NOUN	A2	Case=Abl|Gender=Neut|InflClass=IndEurO|Number=Sing	23	conj	_	LiLaflcat=n2
@@ -5356,7 +5356,7 @@
 2	uidi	uideo	VERB	B2	Aspect=Perf|InflClass=LatE|Mood=Ind|Number=Sing|Person=1|Tense=Past|VerbForm=Fin|Voice=Act	1	flat:redup	_	LiLaflcat=v2
 3	senis	senex	NOUN	A3	Case=Gen|Gender=Neut|InflClass=IndEurX|Number=Sing	5	nmod	_	LASLAVariant=1|LiLaflcat=n3
 4	in	in	ADP	R	AdpType=Prep	5	case	_	LiLaflcat=i
-5	iugulo	iugulum	NOUN	A2	Case=Abl|Gender=Neut|InflClass=IndEurO|Number=Sing	6	obl:lmod	_	LiLaflcat=n2
+5	iugulo	iugulum	NOUN	A2	Case=Abl|Gender=Neut|InflClass=IndEurO|Number=Sing	11	obl:lmod	_	LiLaflcat=n2
 6	telum	telum	NOUN	A2	Case=Acc|Gender=Neut|InflClass=IndEurO|Number=Sing	11	nsubj:pass	_	LiLaflcat=n2
 7	Pyrrhi	pyrrhus	PROPN	A2	Case=Gen|Gender=Masc|InflClass=IndEurO|NameType=Giv|Number=Sing	6	nmod	_	LASLAVariant=N|LiLaflcat=n2
 8	uix	uix	ADV	M	Degree=Pos	11	advmod	_	LiLaflcat=i
@@ -6468,11 +6468,11 @@
 # speaker = Chorus
 1	Argos	argos	PROPN	A7	Case=Voc|Gender=Neut|InflClass=IndEurO|NameType=Geo|Number=Sing|Variant=Greek	12	vocative	_	LASLAVariant=N|LiLaflcat=n2
 2	nobilibus	nobilis	ADJ	C4	Case=Abl|Degree=Pos|Gender=Fem,Masc,Neut|InflClass=IndEurI|Number=Plur	4	amod	_	LASLAVariant=2|LiLaflcat=n7
-3	nobile	nobilis	ADJ	C4	Case=Voc|Degree=Pos|Gender=Neut|InflClass=IndEurI|Number=Sing	5	amod	_	LASLAVariant=2|LiLaflcat=n7
-4	ciuibus	ciuis	NOUN	A3	Case=Abl|Gender=Fem,Masc|InflClass=IndEurI|Number=Plur	1	obl	_	LiLaflcat=n3
+3	nobile	nobilis	ADJ	C4	Case=Voc|Degree=Pos|Gender=Neut|InflClass=IndEurI|Number=Sing	1	amod	_	LASLAVariant=2|LiLaflcat=n7
+4	ciuibus	ciuis	NOUN	A3	Case=Abl|Gender=Fem,Masc|InflClass=IndEurI|Number=Plur	3	obl	_	LiLaflcat=n3
 5	Argos	argos	PROPN	A7	Case=Voc|Gender=Neut|InflClass=IndEurO|NameType=Geo|Number=Sing|Variant=Greek	1	flat:redup	_	LASLAVariant=N|LiLaflcat=n2
 6	iratae	iratus	ADJ	C1	Case=Dat|Degree=Pos|Gender=Fem|InflClass=IndEurA|Number=Sing	8	amod	_	LiLaflcat=n6
-7	carum	carus	ADJ	C1	Case=Voc|Degree=Pos|Gender=Neut|InflClass=IndEurO|Number=Sing	3	conj	_	LiLaflcat=n6
+7	carum	carus	ADJ	C1	Case=Voc|Degree=Pos|Gender=Neut|InflClass=IndEurO|Number=Sing	5	obl	_	LiLaflcat=n6
 8	nouercae	nouerca	NOUN	A1	Case=Dat|Gender=Fem|InflClass=IndEurA|Number=Sing	7	obl	_	LiLaflcat=n1
 9	semper	semper	ADV	M	Degree=Pos	12	advmod:tmod	_	LiLaflcat=i
 10	ingentes	ingens	ADJ	C5	Case=Acc|Degree=Pos|Gender=Masc|InflClass=IndEurI|Number=Plur	11	amod	_	LiLaflcat=n7
@@ -7267,7 +7267,7 @@
 11	Aegisthus	aegisthus	PROPN	A2	Case=Nom|Gender=Masc|InflClass=IndEurO|NameType=Giv|Number=Sing	15	nsubj	_	LASLAVariant=N|LiLaflcat=n2
 12	arces	arx	NOUN	A3	Case=Acc|Gender=Fem|InflClass=IndEurI|Number=Plur	15	obj	_	LiLaflcat=n3
 13	Uenere	uenus	PROPN	A3	Case=Abl|Gender=Fem|InflClass=IndEurX|NameType=Rel|Number=Sing	14	obl:agent	_	LASLAVariant=N|LiLaflcat=n3
-14	quaesitas	quaero	VERB	B3	Aspect=Perf|Case=Acc|Degree=Pos|Gender=Fem|InflClass=LatX|InflClass[nominal]=IndEurA|Number=Plur|VerbForm=Part|Voice=Pass	12	obl	_	LiLaflcat=v3
+14	quaesitas	quaero	VERB	B3	Aspect=Perf|Case=Acc|Degree=Pos|Gender=Fem|InflClass=LatX|InflClass[nominal]=IndEurA|Number=Plur|VerbForm=Part|Voice=Pass	12	acl	_	LiLaflcat=v3
 15	tenet	teneo	VERB	B2	Aspect=Imp|InflClass=LatE|Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin|Voice=Act	5	conj	_	LiLaflcat=v2
 
 # sent_id = Latin_SenecaYounger_Ag_poetry-352
@@ -9618,7 +9618,7 @@
 3	in	in	ADP	R	_	4	case	4:case	LiLaflcat=i|UniqueTokenId=TacGerma-Q-01-228_3
 4	siluam	silua	NOUN	A1	Case=Acc|Gender=Fem|InflClass=IndEurA|Number=Sing	16	obl:lmod	16:obl:lmod	LiLaflcat=n1|UniqueTokenId=TacGerma-Q-01-228_4
 5	auguriis	augurium	NOUN	A2	Case=Abl|Gender=Neut|InflClass=IndEurO|Number=Plur	10	obl	10:obl	LiLaflcat=n2|UniqueTokenId=TacGerma-Q-01-228_5
-6	patrum	pater	NOUN	A3	Case=Gen|Gender=Masc|InflClass=IndEurX|Number=Plur	5	obl	5:obl	LiLaflcat=n3|UniqueTokenId=TacGerma-Q-01-228_6
+6	patrum	pater	NOUN	A3	Case=Gen|Gender=Masc|InflClass=IndEurX|Number=Plur	5	nmod	5:obl	LiLaflcat=n3|UniqueTokenId=TacGerma-Q-01-228_6
 7	et	et	CCONJ	S	_	9	cc	9:cc	LASLAVariant=2|LiLaflcat=i|UniqueTokenId=TacGerma-Q-01-228_7
 8	prisca	priscus	ADJ	C1	Case=Abl|Gender=Fem|InflClass=IndEurA|Number=Sing	9	amod	9:amod	LiLaflcat=n6|UniqueTokenId=TacGerma-Q-01-228_8
 9	formidine	formido	NOUN	A3	Case=Abl|Gender=Fem|InflClass=IndEurX|Number=Sing	5	conj	5:conj	LASLAVariant=1|LiLaflcat=n3|UniqueTokenId=TacGerma-Q-01-228_9
