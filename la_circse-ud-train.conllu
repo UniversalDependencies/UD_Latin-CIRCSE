@@ -11396,12 +11396,12 @@
 
 # sent_id = TacGerma-Q-01-112
 # text = melius quidem adhuc eae ciuitates in quibus tantum uirgines nubunt et cum spe uotoque uxoris semel transigitur
-1	melius	bene	ADV	M	Degree=Cmp	5	orphan	5:advmod	LiLaflcat=i|UniqueTokenId=TacGerma-Q-01-112_1
-2	quidem	quidem	PART	M	_	5	discourse	5:discourse	LiLaflcat=i|UniqueTokenId=TacGerma-Q-01-112_2
+1	melius	bene	ADV	M	Degree=Cmp	5	orphan	5:advmod|5.1:advmod	LiLaflcat=i|UniqueTokenId=TacGerma-Q-01-112_1
+2	quidem	quidem	PART	M	_	5	discourse	5:discourse|5.1:discourse	LiLaflcat=i|UniqueTokenId=TacGerma-Q-01-112_2
 3	adhuc	adhuc	ADV	M	AdvType=Tim|Compound=Yes	1	advmod:emph	1:advmod:emph	LiLaflcat=i|UniqueTokenId=TacGerma-Q-01-112_3
 4	eae	is	PRON	I	Case=Nom|Gender=Fem|InflClass=LatPron|Number=Plur|Person=3|PronType=Prs	5	det	5:det	LiLaflcat=p|UniqueTokenId=TacGerma-Q-01-112_4
-5	ciuitates	ciuitas	NOUN	A3	Case=Nom|Gender=Fem|InflClass=IndEurX|Number=Plur	0	root	0:root	LiLaflcat=n3|UniqueTokenId=TacGerma-Q-01-112_5
-5.1	_	sum	AUX	_	_	_	_	5:cop	Antec=No|AntecPosit=wk
+5	ciuitates	ciuitas	NOUN	A3	Case=Nom|Gender=Fem|InflClass=IndEurX|Number=Plur	0	root	0:root|5.1:nsubj	LiLaflcat=n3|UniqueTokenId=TacGerma-Q-01-112_5
+5.1	_	_	VERB	_	_	_	_	0:root	Antec=No|AntecPosit=wk
 6	in	in	ADP	R	_	7	case	7:case	LiLaflcat=i|UniqueTokenId=TacGerma-Q-01-112_6
 7	quibus	qui	PRON	J	Case=Abl|Gender=Fem|InflClass=LatPron|Number=Plur|PronType=Rel	10	obl:lmod	10:obl:lmod	LASLAVariant=1|LiLaflcat=p|UniqueTokenId=TacGerma-Q-01-112_7
 8	tantum	tantum	ADV	M	NumType=Card|PronType=Dem	9	advmod	9:advmod	LASLAVariant=2|LiLaflcat=i|UniqueTokenId=TacGerma-Q-01-112_8
