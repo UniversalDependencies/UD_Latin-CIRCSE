@@ -989,7 +989,6 @@
 6	opere	opus	NOUN	A3	Case=Abl|Gender=Neut|InflClass=IndEurX|Number=Sing	4	conj	_	LASLAVariant=1|LiLaflcat=n3|UniqueTokenId=TacGerma-Q-01-153_6
 7	coercere	coerceo	VERB	B2	Aspect=Imp|InflClass=LatE|VerbForm=Inf|Voice=Act	1	conj	_	LiLaflcat=v2|TraditionalMood=Infinitivus|TraditionalTense=Praesens|UniqueTokenId=TacGerma-Q-01-153_7
 8	rarum	rarus	ADJ	C1	Case=Nom|Gender=Neut|InflClass=IndEurO|Number=Sing	0	root	_	LiLaflcat=n6|UniqueTokenId=TacGerma-Q-01-153_8
-8.1	verberare	verbero	VERB	_	Aspect=Imp|InflClass=LatA|VerbForm=Inf|Voice=Act	_	_	_	Antec=Yes|AntecPosit=0_UniqueTokenId
 9	solent	soleo	VERB	B2	Aspect=Imp|InflClass=LatE|Mood=Ind|Number=Plur|Person=3|Tense=Pres|VerbForm=Fin|Voice=Act	8	conj	_	LiLaflcat=v2|TraditionalMood=Indicativus|TraditionalTense=Praesens|UniqueTokenId=TacGerma-Q-01-153_9
 10	non	non	PART	P	Polarity=Neg	11	advmod:neg	_	LiLaflcat=i|UniqueTokenId=TacGerma-Q-01-153_10
 11	disciplina	disciplina	NOUN	A1	Case=Abl|Gender=Fem|InflClass=IndEurA|Number=Sing	9	orphan:missing	_	LiLaflcat=n1|UniqueTokenId=TacGerma-Q-01-153_11
@@ -1000,7 +999,6 @@
 16	et	et	CCONJ	S	_	17	cc	_	LASLAVariant=2|LiLaflcat=i|UniqueTokenId=TacGerma-Q-01-153_16
 17	ira	ira	NOUN	A1	Case=Abl|Gender=Fem|InflClass=IndEurA|Number=Sing	15	conj	_	LiLaflcat=n1|UniqueTokenId=TacGerma-Q-01-153_17
 18	ut	ut	SCONJ	N	PronType=Rel	19	mark	_	LASLAVariant=1|LiLaflcat=i|UniqueTokenId=TacGerma-Q-01-153_18
-18.1	_	_	VERB	_	_	_	_	_	Antec=No|AntecPosit=wk
 19	inimicum	inimicus	NOUN	A2	Case=Acc|Gender=Masc|InflClass=IndEurO|Number=Sing	9	orphan:missing	_	LASLAVariant=1|LiLaflcat=n2|UniqueTokenId=TacGerma-Q-01-153_19
 20	nisi	nisi	SCONJ	T	Polarity=Neg	22	mark	_	LiLaflcat=i|UniqueTokenId=TacGerma-Q-01-153_20
 21	quod	quod	SCONJ	T	PronType=Rel	22	mark	_	LASLAVariant=2|LiLaflcat=i|UniqueTokenId=TacGerma-Q-01-153_21
@@ -1021,7 +1019,6 @@
 10	in	in	ADP	R	_	11	case	_	LiLaflcat=i|UniqueTokenId=TacGerma-Q-01-154_10
 11	domo	domus	NOUN	A2	Case=Abl|Gender=Fem|InflClass=IndEurO|Number=Sing	9	obl:lmod	_	LiLaflcat=n2|UniqueTokenId=TacGerma-Q-01-154_11
 12	numquam	numquam	ADV	P	AdvType=Tim|Polarity=Neg	14	orphan	_	LiLaflcat=i|UniqueTokenId=TacGerma-Q-01-154_12
-12.1	momentum	momentum	NOUN	_	Case=Nom|Gender=Neut|InflClass=IndEurO|Number=Sing	_	_	_	Antec=Yes|AntecPosit=0_UniqueTokenId
 13	in	in	ADP	R	_	14	case	_	LiLaflcat=i|UniqueTokenId=TacGerma-Q-01-154_13
 14	ciuitate	ciuitas	NOUN	A3	Case=Abl|Gender=Fem|InflClass=IndEurX|Number=Sing	9	conj	_	LiLaflcat=n3|UniqueTokenId=TacGerma-Q-01-154_14
 15	exceptis	excipio	VERB	B5	Aspect=Perf|Case=Abl|Gender=Fem|InflClass=LatI2|InflClass[nominal]=IndEurA|Number=Plur|VerbForm=Part|Voice=Pass	14	advcl:abs	_	LiLaflcat=v5|TraditionalMood=Participium|TraditionalTense=Perfectum|UniqueTokenId=TacGerma-Q-01-154_15
@@ -1062,7 +1059,6 @@
 8-9	ideoque	_	_	_	_	_	_	_	UniqueTokenId=TacGerma-Q-01-156_8-9
 8	ideo	ideo	ADV	M	Compound=Yes|PronType=Dem	11	advmod	_	LiLaflcat=i|UniqueTokenId=TacGerma-Q-01-156_8
 9	que	que	CCONJ	S	_	11	cc	_	LiLaflcat=i|UniqueTokenId=TacGerma-Q-01-156_9
-9.1	_	_	_	_	_	_	_	_	Antec=No|AntecPosit=wk
 10	magis	magis	ADV	M	Degree=Cmp	11	advmod	_	LASLAVariant=2|LiLaflcat=i|UniqueTokenId=TacGerma-Q-01-156_10
 11	seruatur	seruo	VERB	B1	Aspect=Imp|InflClass=LatA|Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin|Voice=Pass	7	conj	_	LiLaflcat=v1|TraditionalMood=Indicativus|TraditionalTense=Praesens|UniqueTokenId=TacGerma-Q-01-156_11
 12	quam	quam	SCONJ	N	PronType=Rel	14	mark	_	LASLAVariant=1|LiLaflcat=i|UniqueTokenId=TacGerma-Q-01-156_12
@@ -1184,7 +1180,6 @@
 8	sua	suus	DET	H	Case=Nom|Gender=Neut|InflClass=IndEurO|Number=Plur|Person[psor]=3|Poss=Yes|PronType=Prs|Reflex=Yes	10	det	_	LiLaflcat=n6|UniqueTokenId=TacGerma-Q-01-162_8
 9	cuique	quisque	DET	L	Case=Dat|Gender=Masc|InflClass=LatPron|Number=Sing|PronType=Tot	10	orphan	_	LASLAVariant=2|LiLaflcat=p|UniqueTokenId=TacGerma-Q-01-162_9
 10	arma	arma	NOUN	A2	Case=Nom|Gender=Neut|InflClass=IndEurO|Number=Plur	7	conj	_	LiLaflcat=n2|UniqueTokenId=TacGerma-Q-01-162_10
-10.1	adicitur	adicio	VERB	_	Aspect=Imp|InflClass=LatI2|Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin|Voice=Pass	_	_	_	Antec=Yes|AntecPosit=0_UniqueTokenId
 11	quorundam	quidam	DET	L	Case=Gen|Gender=Masc|InflClass=LatPron|Number=Plur|PronType=Ind	14	nmod	_	LiLaflcat=p|UniqueTokenId=TacGerma-Q-01-162_11
 12	igni	ignis	NOUN	A3	Case=Dat|Gender=Masc|InflClass=IndEurI|Number=Sing	15	obl:arg	_	LiLaflcat=n3|UniqueTokenId=TacGerma-Q-01-162_12
 13	et	et	CCONJ	M	_	14	advmod:emph	_	LASLAVariant=1|LiLaflcat=i|UniqueTokenId=TacGerma-Q-01-162_13
