@@ -113,7 +113,7 @@
     <feat name="Poss" value="Yes" upos="DET">313</feat><!-- nostra, sua, suis, mea, meis, tua, suo, suum, meum, suos -->
     <feat name="PronType" value="Con" upos="ADV,DET,SCONJ">67</feat><!-- cetera, ceterum, sola, solum, solus, alia, aliis, aliud, solis, aliarum -->
     <feat name="PronType" value="Dem" upos="ADV,DET">584</feat><!-- hoc, ipse, ille, haec, hic, ipsa, illa, ista, hunc, tantum -->
-    <feat name="PronType" value="Ind" upos="ADV,DET,PRON">221</feat><!-- ulla, alia, nulla, aliquid, quid, aliquis, multo, nullis, aliquod, aliud -->
+    <feat name="PronType" value="Ind" upos="ADV,DET,PRON">222</feat><!-- ulla, alia, nulla, aliquid, quid, aliquis, multo, nullis, aliquod, aliud -->
     <feat name="PronType" value="Int" upos="ADV,DET,PRON">282</feat><!-- quid, quis, quae, quo, cur, ubi, quam, unde, cui, quem -->
     <feat name="PronType" value="Neg" upos="DET,PRON">59</feat><!-- nulla, nullus, nemo, nil, nihil, nulli, nullo, nullum, nullos -->
     <feat name="PronType" value="Prs" upos="DET,PRON">741</feat><!-- te, me, tibi, se, mihi, tu, nostra, sua, suis, mea -->
@@ -137,12 +137,12 @@
   </feats>
   <!-- Statistics of universal dependency relations. -->
   <deps unique="58">
-    <dep name="acl">568</dep>
+    <dep name="acl">569</dep>
     <dep name="acl:relcl">207</dep>
     <dep name="advcl">365</dep>
     <dep name="advcl:abs">127</dep>
     <dep name="advcl:cmp">91</dep>
-    <dep name="advcl:pred">564</dep>
+    <dep name="advcl:pred">584</dep>
     <dep name="advcl:relcl">36</dep>
     <dep name="advmod">601</dep>
     <dep name="advmod:emph">135</dep>
@@ -154,11 +154,11 @@
     <dep name="aux">2</dep>
     <dep name="aux:pass">64</dep>
     <dep name="case">812</dep>
-    <dep name="cc">1849</dep>
+    <dep name="cc">1850</dep>
     <dep name="ccomp">100</dep>
     <dep name="ccomp:relcl">50</dep>
     <dep name="ccomp:reported">10</dep>
-    <dep name="conj">3022</dep>
+    <dep name="conj">3027</dep>
     <dep name="conj:expl">57</dep>
     <dep name="cop">260</dep>
     <dep name="csubj">105</dep>
@@ -173,27 +173,27 @@
     <dep name="flat">11</dep>
     <dep name="flat:gov">3</dep>
     <dep name="flat:name">7</dep>
-    <dep name="flat:redup">22</dep>
+    <dep name="flat:redup">23</dep>
     <dep name="iobj">3</dep>
     <dep name="mark">465</dep>
-    <dep name="nmod">1071</dep>
+    <dep name="nmod">1074</dep>
     <dep name="nsubj">2139</dep>
     <dep name="nsubj:pass">286</dep>
     <dep name="nummod">53</dep>
-    <dep name="obj">2302</dep>
-    <dep name="obl">1511</dep>
+    <dep name="obj">2297</dep>
+    <dep name="obl">1506</dep>
     <dep name="obl:agent">125</dep>
-    <dep name="obl:arg">429</dep>
+    <dep name="obl:arg">426</dep>
     <dep name="obl:cmp">24</dep>
     <dep name="obl:lmod">432</dep>
     <dep name="obl:tmod">55</dep>
-    <dep name="orphan">107</dep>
+    <dep name="orphan">110</dep>
     <dep name="orphan:missing">4</dep>
     <dep name="parataxis">54</dep>
     <dep name="parataxis:reporting">4</dep>
     <dep name="root">1664</dep>
     <dep name="vocative">196</dep>
-    <dep name="xcomp">292</dep>
+    <dep name="xcomp">271</dep>
     <dep name="xcomp:relcl">1</dep>
   </deps>
 </treebank>
