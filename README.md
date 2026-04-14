@@ -6,7 +6,7 @@ The repository includes prose and poetry texts from different periods.
 
 # Introduction
 
-This treebank repository is a work in progress collective endeavour. Presently, it contains the following annotated texts: Seneca *Hercules Furens*, Seneca *Agamemnon*, Tacitus *Germania*, Seneca *Oedipus*.
+This treebank repository is a work in progress collective endeavour. Presently, it contains the following annotated texts: Seneca *Hercules Furens*, Seneca *Agamemnon*, Tacitus *Germania*, Seneca *Oedipus*, Seneca *Phoenissae*.
 
 #### Seneca *Hercules Furens*
 
@@ -76,29 +76,56 @@ In few cases, the [received annotation](http://github.com/CIRCSE/LASLA) with reg
 The syntactic annotation was performed manually at CIRCSE, and follows the UD scheme.
 The text (5931 tokens, 401 sentences) was enhanced with the annotation of the speakers to whom each sentence is attributed. This annotation, performed manually at the CIRCSE, is formatted as a comment in the conllu file following the comment line reporting the text of the sentence.
 
+### Seneca *Phoenissae*
+
+*Phoenissae* is a tragedy written by Seneca the younger in 1st century CE. The source text was received with tokenisation, and annotation with respect to lemmatisation, POS tagging, and morphological features from the *Opera Latina* corpus built by the [LASLA](http://web.philo.ulg.ac.be/lasla/) laboratory in Liège.
+In few cases, the [received annotation](http://github.com/CIRCSE/LASLA) with regard to POS tag and morphological annotation was modified during the syntactic annotation; deviations from the received annotation are detailed in the file [SenecaYounger_Phoen_LASLA_CIRCSE](https://github.com/CIRCSE/UD_Latin-CIRCSE/blob/main/documentation/SenecaYounger_Phoen_LASLA_CIRCSE.md)).
+The syntactic annotation was performed manually at CIRCSE, and follows the UD scheme. 
+The text (4155 tokens, 308 sentences) was enhanced with the annotation of the speakers to whom each sentence is attributed, following the attribution as in Zwierlein 1986 (Zwierlein, O. (1986) *L. Annaei Senecae Tragoediae, Incertorum auctorum Hercules (Oetaeus), Octauia*. Oxford: Clarendon Press). This annotation, performed manually at CIRCSE, is formatted as a comment in the conllu file following the comment line reporting the text of the sentence, as exemplified in what follows:
+
+#sent_id = Latin_SenecaYounger_Phoen_poetry-1
+
+#text = caeci parentis regimen et fessi unicum lateris leuamen gnata quam tanti est mihi genuisse uel sic desere infaustum patrem
+
+#speaker = Oedipus
+
+In cases where more than one speaker utters words in the same sentence, the indication of speakers details the distribution of tokens between the speakers, as exemplified in what follows:
+
+#sent_id = Latin_SenecaYounger_Phoen_poetry-241 
+
+#text = dixit inridens deus ipsum timebis
+
+#speaker = Iocasta (token 1-3), deus (token 4-5)
+
 
 The distribution of the Seneca Hercules Furens (tokens: 7714) with respect to the subsets is as follows:
 * `train`: 260 sentences (Latin_SenecaYounger_HercF_poetry-1; Latin_SenecaYounger_HercF_poetry-260) - 3884 tokens
-* `dev`: 20 sentences (Latin_SenecaYounger_HercF_poetry-261; Latin_SenecaYounger_HercF_poetry-280) - 394 tokens
-* `test`: 275 sentences (Latin_SenecaYounger_HercF_poetry-281; Latin_SenecaYounger_HercF_poetry-555) - 3436 tokens
+* `dev`: 46 sentences (Latin_SenecaYounger_HercF_poetry-261; Latin_SenecaYounger_HercF_poetry-306) - 781 tokens
+* `test`: 249 sentences (Latin_SenecaYounger_HercF_poetry-307; Latin_SenecaYounger_HercF_poetry-555) - 3049 tokens
 
 
 The distribution of the Seneca Agamemnon (tokens: 5580) with respect to the subsets is as follows:
 * `train`: 188 sentences (Latin_SenecaYounger_Ag_poetry-1; Latin_SenecaYounger_Ag_poetry-188) - 2795 tokens
-* `dev`: 19 sentences (Latin_SenecaYounger_Ag_poetry-189; Latin_SenecaYounger_Ag_poetry-207) - 292 tokens
-* `test`: 202 sentences (Latin_SenecaYounger_Ag_poetry-208; Latin_SenecaYounger_Ag_poetry-409) - 2493 tokens
+* `dev`: 35 sentences (Latin_SenecaYounger_Ag_poetry-189; Latin_SenecaYounger_Ag_poetry-223) - 570 tokens
+* `test`: 186 sentences (Latin_SenecaYounger_Ag_poetry-224; Latin_SenecaYounger_Ag_poetry-409) - 2215 tokens
 
 
 The distribution of the Tacitus Germania (tokens: 5674) with respect to the subsets is as follows:
 * `train`: 149 sentences (Latin_Tacitus_Ger_prose-1; Latin_Tacitus_Ger_prose-149) - 2848 tokens
-* `dev`: 17 sentences (Latin_Tacitus_Ger_prose-150; Latin_Tacitus_Ger_prose-166) - 286 tokens
-* `test`: 133 sentences (Latin_Tacitus_Ger_prose-167; Latin_Tacitus_Ger_prose-299) - 2540 tokens
+* `dev`: 31 sentences (Latin_Tacitus_Ger_prose-150; Latin_Tacitus_Ger_prose-180) - 577 tokens
+* `test`: 119 sentences (Latin_Tacitus_Ger_prose-181; Latin_Tacitus_Ger_prose-299) - 2249 tokens
 
 
 The distribution of the Seneca Oedipus (tokens: 5931) with respect to the subsets is as follows:
 * `train`: 165 sentences (Latin_SenecaYounger_Oedip_poetry-1; Latin_SenecaYounger_Oedip_poetry-165) - 2966 tokens
-* `dev`: 14 sentences (Latin_SenecaYounger_Oedip_poetry-166; Latin_SenecaYounger_Oedip_poetry-179) - 304 tokens
-* `test`: 222 sentences (Latin_SenecaYounger_Oedip_poetry-180; Latin_SenecaYounger_Oedip_poetry-401) - 2661 tokens
+* `dev`: 24 sentences (Latin_SenecaYounger_Oedip_poetry-166; Latin_SenecaYounger_Oedip_poetry-189) - 616 tokens
+* `test`: 212 sentences (Latin_SenecaYounger_Oedip_poetry-190; Latin_SenecaYounger_Oedip_poetry-401) - 2349 tokens
+
+
+The distribution of the Seneca Phoenissae (tokens: 4156) with respect to the subsets is as follows:
+* `train`: 156 sentences (Latin_SenecaYounger_Phoen_poetry-1; Latin_SenecaYounger_Phoen_poetry-156) - 2081 tokens
+* `dev`: 25 sentences (Latin_SenecaYounger_Phoen_poetry-157; Latin_SenecaYounger_Phoen_poetry-181) - 434 tokens
+* `test`: 127 sentences (Latin_SenecaYounger_Phoen_poetry-182; Latin_SenecaYounger_Phoen_poetry-308) - 1641 tokens
 
 
 Since the UD_Latin-CIRCSE treebank is a work in progress, its structure is subject to changes.
