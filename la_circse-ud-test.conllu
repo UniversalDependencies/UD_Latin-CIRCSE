@@ -4503,7 +4503,7 @@
 # speaker = Chorus_Iliadum
 1	uidi	uideo	VERB	B2	Aspect=Perf|InflClass=LatE|Mood=Ind|Number=Sing|Person=1|Tense=Past|VerbForm=Fin|Voice=Act	0	root	_	LiLaflcat=v2
 2	uidi	uideo	VERB	B2	Aspect=Perf|InflClass=LatE|Mood=Ind|Number=Sing|Person=1|Tense=Past|VerbForm=Fin|Voice=Act	1	flat:redup	_	LiLaflcat=v2
-3	senis	senex	NOUN	A3	Case=Gen|Gender=Neut|InflClass=IndEurX|Number=Sing	5	nmod	_	LASLAVariant=1|LiLaflcat=n3
+3	senis	senex	NOUN	A3	Case=Gen|Gender=Masc|InflClass=IndEurX|Number=Sing	5	nmod	_	LASLAVariant=1|LiLaflcat=n3
 4	in	in	ADP	R	AdpType=Prep	5	case	_	LiLaflcat=i
 5	iugulo	iugulum	NOUN	A2	Case=Abl|Gender=Neut|InflClass=IndEurO|Number=Sing	11	obl:lmod	_	LiLaflcat=n2
 6	telum	telum	NOUN	A2	Case=Acc|Gender=Neut|InflClass=IndEurO|Number=Sing	11	nsubj:pass	_	LiLaflcat=n2
@@ -4791,7 +4791,7 @@
 2	nempe	nempe	PART	M	Form=Emp	1	discourse	_	LiLaflcat=i
 3	regia	regia	NOUN	A1	Case=Abl|Gender=Fem|InflClass=IndEurA|Number=Sing	7	obl:lmod	_	LiLaflcat=n1
 4	miseri	miser	ADJ	C1	Case=Nom|Degree=Pos|Gender=Masc|InflClass=IndEurO|Number=Plur	5	amod	_	LiLaflcat=n6
-5	senes	senex	NOUN	A3	Case=Nom|Gender=Neut|InflClass=IndEurX|Number=Plur	7	nsubj	_	LASLAVariant=1|LiLaflcat=n3
+5	senes	senex	NOUN	A3	Case=Nom|Gender=Masc|InflClass=IndEurX|Number=Plur	7	nsubj	_	LASLAVariant=1|LiLaflcat=n3
 6	uacua	uacuus	ADJ	C1	Case=Abl|Degree=Pos|Gender=Fem|InflClass=IndEurA|Number=Sing	3	amod	_	LiLaflcat=n6
 7	relicti	relinquo	VERB	Y3	Aspect=Perf|Case=Nom|Degree=Pos|Gender=Masc|InflClass=LatX|InflClass[nominal]=IndEurO|Number=Plur|VerbForm=Part|Voice=Pass	1	conj	_	LiLaflcat=v3|Tac=sunt
 8-9	totque	_	_	_	_	_	_	_	_
@@ -5268,7 +5268,7 @@
 1	et	et	CCONJ	S	_	10	cc	_	LASLAVariant=2|LiLaflcat=i
 2	ecce	ecce	INTJ	U	_	10	discourse	_	LiLaflcat=i
 3	defessus	defessus	ADJ	C1	Case=Nom|Degree=Pos|Gender=Masc|InflClass=IndEurO|Number=Sing	4	amod	_	LiLaflcat=n6
-4	senex	senex	NOUN	A3	Case=Nom|Gender=Neut|InflClass=IndEurX|Number=Sing	10	nsubj	_	LASLAVariant=1|LiLaflcat=n3
+4	senex	senex	NOUN	A3	Case=Nom|Gender=Masc|InflClass=IndEurX|Number=Sing	10	nsubj	_	LASLAVariant=1|LiLaflcat=n3
 5	ad	ad	ADP	R	AdpType=Prep	6	case	_	LASLAVariant=2|LiLaflcat=i
 6	ora	os	NOUN	A3	Case=Acc|Gender=Neut|InflClass=IndEurI|Number=Plur	7	obl:lmod	_	LASLAVariant=1|LiLaflcat=n3
 7	ludentes	ludo	VERB	B3	Aspect=Imp|Case=Acc|Degree=Pos|Gender=Fem|InflClass=LatX|InflClass[nominal]=IndEurI|Number=Plur|VerbForm=Part|Voice=Act	8	acl	_	LiLaflcat=v3
@@ -6370,7 +6370,7 @@
 # speaker = Strophius
 1-2	quaenam	_	_	_	_	_	_	_	_
 1	quae	quis	PRON	K	Case=Nom|Gender=Fem|InflClass=LatPron|Number=Sing|PronType=Int	3	nsubj	_	LiLaflcat=p
-2	nam	nam	ADV	M	_	3	advmod	_	LiLaflcat=i
+2	nam	nam	ADV	M	_	3	discourse	_	LiLaflcat=i
 3	ista	iste	DET	I	Case=Nom|Gender=Fem|InflClass=LatPron|Number=Sing|PronType=Dem	0	root	_	LiLaflcat=p
 4	lacrimis	lacrima	NOUN	A1	Case=Abl|Gender=Fem|InflClass=IndEurA|Number=Plur	7	obl	_	LiLaflcat=n1
 5	lugubrem	lugubris	ADJ	C4	Case=Acc|Degree=Pos|Gender=Masc|InflClass=IndEurI|Number=Sing	6	amod	_	LiLaflcat=n7
@@ -10669,7 +10669,7 @@
 40	nimium	nimium	ADV	M	Degree=Pos	41	advmod	_	LASLAVariant=2|LiLaflcat=i
 41	saeui	saeuus	ADJ	C1	Case=Gen|Degree=Pos|Gender=Masc|InflClass=IndEurO|Number=Sing	43	amod	_	LiLaflcat=n6
 42	diua	diua	NOUN	A1	Case=Nom|Gender=Fem|InflClass=IndEurA|Number=Sing	38	nsubj	_	LiLaflcat=n1
-43	pudoris	pudor	NOUN	A3	Case=Gen|Gender=Masc|InflClass=IndEurX|Number=Sing	42	nmod	_	LiLaflcat=n3
+43	pudoris	pudor	NOUN	A3	Case=Gen|Gender=Masc|InflClass=IndEurX|Number=Sing	42	obl	_	LiLaflcat=n3
 
 # sent_id = Latin_SenecaYounger_Oedip_poetry-229
 # text = curas reuoluit animus et repetit metus
@@ -11617,7 +11617,7 @@
 13	uera	uerum	NOUN	A2	Case=Acc|Gender=Neut|InflClass=IndEurO|Number=Plur	12	obj	_	LASLAVariant=1|LiLaflcat=n2
 14-15	quisnam	_	_	_	_	_	_	_	_
 14	quis	quis	PRON	K	Case=Nom|Gender=Fem,Masc|InflClass=LatPron|Number=Sing|PronType=Int	12	conj	_	LiLaflcat=p
-15	nam	nam	ADV	M	_	14	advmod	_	LiLaflcat=i
+15	nam	nam	ADV	M	_	14	discourse	_	LiLaflcat=i
 
 # sent_id = Latin_SenecaYounger_Oedip_poetry-312
 # text = quoue generatus patre
@@ -13091,7 +13091,7 @@
 3	uti	utor	VERB	B3	Aspect=Imp|InflClass=LatX|InflClass[nominal]=Ind|VerbForm=Inf|Voice=Pass	4	csubj	_	LiLaflcat=v3
 4	libet	libet	VERB	B2	Aspect=Imp|InflClass=LatE|Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin|Voice=Act	0	root	_	LiLaflcat=v2
 
-# sent_id = Latin_SenecaYounger_Phoen_poetry-182
+# sent_id = SenPhoen-P-17-182
 # text = i redde amorem fratribus pacem omnibus et impia arma matris oppositu impedi
 # speaker = Satelles
 1	i	eo	VERB	B6	Aspect=Imp|InflClass=LatAnom|Mood=Imp|Number=Sing|Person=2|Tense=Pres|VerbForm=Fin|Voice=Act	0	root	_	_
@@ -13107,7 +13107,7 @@
 11	oppositu	oppositus	NOUN	A4	Case=Abl|Gender=Masc|InflClass=IndEurU|Number=Sing	12	obl	_	_
 12	impedi	impedio	VERB	B4	Aspect=Imp|InflClass=LatI|Mood=Imp|Number=Sing|Person=2|Tense=Pres|VerbForm=Fin|Voice=Act	1	conj	_	_
 
-# sent_id = Latin_SenecaYounger_Phoen_poetry-183
+# sent_id = SenPhoen-P-17-183
 # text = perge o parens et concita celerem gradum compesce tela fratribus ferrum excute nudum inter enses pectus infestos tene aut solue bellum mater aut prima excipe
 # speaker = Antigona
 1	perge	pergo	VERB	B3	Aspect=Imp|InflClass=LatX|Mood=Imp|Number=Sing|Person=2|Tense=Pres|VerbForm=Fin|Voice=Act	0	root	_	_
@@ -13136,7 +13136,7 @@
 24	prima	primus	ADJ	D2	Case=Nom|Degree=Abs|Gender=Fem|InflClass=IndEurA|Number=Sing|NumType=Ord	25	advcl:pred	_	_
 25	excipe	excipio	VERB	B5	Aspect=Imp|InflClass=LatI2|Mood=Imp|Number=Sing|Person=2|Tense=Pres|VerbForm=Fin|Voice=Act	20	conj	_	_
 
-# sent_id = Latin_SenecaYounger_Phoen_poetry-184
+# sent_id = SenPhoen-P-17-184
 # text = ibo ibo et armis obuium opponam caput stabo inter arma petere qui fratrem uolet petat ante matrem
 # speaker = Iocasta
 1	ibo	eo	VERB	B6	Aspect=Imp|InflClass=LatAnom|Mood=Ind|Number=Sing|Person=1|Tense=Fut|VerbForm=Fin|Voice=Act	0	root	_	_
@@ -13157,7 +13157,7 @@
 16	ante	ante	ADV	M	Degree=Pos	15	advmod:tmod	_	_
 17	matrem	mater	NOUN	A3	Case=Acc|Gender=Fem|InflClass=IndEurX|Number=Sing	15	obj	_	_
 
-# sent_id = Latin_SenecaYounger_Phoen_poetry-185
+# sent_id = SenPhoen-P-17-185
 # text = tela qui fuerit pius rogante ponat matre qui non est pius incipiat a me
 # speaker = Iocasta
 1	tela	telum	NOUN	A2	Case=Acc|Gender=Neut|InflClass=IndEurO|Number=Plur	6	obj	_	_
@@ -13175,7 +13175,7 @@
 13	a	ab	ADP	R	AdpType=Prep	14	case	_	_
 14	me	ego	PRON	E	Case=Abl|InflClass=LatAnom|Number=Sing|Person=1|PronType=Prs	12	obl	_	_
 
-# sent_id = Latin_SenecaYounger_Phoen_poetry-186
+# sent_id = SenPhoen-P-17-186
 # text = feruidos iuuenes anus tenebo nullum teste me fiet nefas aut si aliquod et me teste committi potest non fiet unum
 # speaker = Iocasta
 1	feruidos	feruidus	ADJ	C1	Case=Acc|Degree=Pos|Gender=Masc|InflClass=IndEurO|Number=Plur	2	amod	_	_
@@ -13199,7 +13199,7 @@
 19	fiet	fio	VERB	B6	Aspect=Imp|InflClass=LatAnom|Mood=Ind|Number=Sing|Person=3|Tense=Fut|VerbForm=Fin|Voice=Act	4	conj	_	_
 20	unum	unus	DET	D1	Case=Nom|Gender=Neut|InflClass=LatPron|Number=Sing|NumType=Card|PronType=Ind	19	xcomp	_	_
 
-# sent_id = Latin_SenecaYounger_Phoen_poetry-187
+# sent_id = SenPhoen-P-17-187
 # text = signa collatis micant uicina signis clamor hostilis fremit scelus in propinquo est occupa mater preces
 # speaker = Antigona
 1	signa	signum	NOUN	A2	Case=Nom|Gender=Neut|InflClass=IndEurO|Number=Plur	3	nsubj	_	_
@@ -13218,7 +13218,7 @@
 14	mater	mater	NOUN	A3	Case=Voc|Gender=Fem|InflClass=IndEurX|Number=Sing	13	vocative	_	_
 15	preces	prex	NOUN	A3	Case=Acc|Gender=Fem|InflClass=IndEurX|Number=Plur	13	obj	_	_
 
-# sent_id = Latin_SenecaYounger_Phoen_poetry-188
+# sent_id = SenPhoen-P-17-188
 # text = et ecce motos fletibus credas meis sic agmen armis segne compositis uenit
 # speaker = Antigona
 1	et	et	CCONJ	S	_	5	cc	_	_
@@ -13234,7 +13234,7 @@
 11	compositis	compono	VERB	B3	Aspect=Perf|Case=Abl|Degree=Pos|Gender=Neut|InflClass=LatX|InflClass[nominal]=IndEurO|Number=Plur|VerbForm=Part|Voice=Pass	9	acl	_	_
 12	uenit	uenio	VERB	B4	Aspect=Imp|InflClass=LatI|Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin|Voice=Act	5	conj	_	_
 
-# sent_id = Latin_SenecaYounger_Phoen_poetry-189
+# sent_id = SenPhoen-P-17-189
 # text = procedit acies tarda sed properant duces
 # speaker = Satelles
 1	procedit	procedo	VERB	B3	Aspect=Imp|InflClass=LatX|Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin|Voice=Act	0	root	_	_
@@ -13244,7 +13244,7 @@
 5	properant	propero	VERB	B1	Aspect=Imp|InflClass=LatA|Mood=Ind|Number=Plur|Person=3|Tense=Pres|VerbForm=Fin|Voice=Act	1	conj	_	_
 6	duces	dux	NOUN	A3	Case=Nom|Gender=Fem,Masc|InflClass=IndEurX|Number=Plur	5	nsubj	_	_
 
-# sent_id = Latin_SenecaYounger_Phoen_poetry-190
+# sent_id = SenPhoen-P-17-190
 # text = quis me procellae turbine insano uehens uolucer per auras uentus aetherias aget
 # speaker = Iocasta
 1	quis	quis	PRON	K	Case=Nom|Gender=Fem,Masc|InflClass=LatPron|Number=Sing|PronType=Int	10	det	_	_
@@ -13260,7 +13260,7 @@
 11	aetherias	aetherius	ADJ	C1	Case=Acc|Degree=Pos|Gender=Fem|InflClass=IndEurA|Number=Plur	9	amod	_	_
 12	aget	ago	VERB	B3	Aspect=Imp|InflClass=LatX|Mood=Ind|Number=Sing|Person=3|Tense=Fut|VerbForm=Fin|Voice=Act	0	root	_	_
 
-# sent_id = Latin_SenecaYounger_Phoen_poetry-191
+# sent_id = SenPhoen-P-17-191
 # text = quae Sphinx uel atra nube subtexens diem Stymphalis auidis praepetem pinnis feret
 # speaker = Iocasta
 1	quae	quis	PRON	K	Case=Nom|Gender=Fem|InflClass=LatPron|Number=Sing|PronType=Int	2	det	_	_
@@ -13276,7 +13276,7 @@
 11	pinnis	penna	NOUN	A1	Case=Abl|Gender=Fem|InflClass=IndEurA|Number=Plur	12	obl	_	_
 12	feret	fero	VERB	B6	Aspect=Imp|InflClass=LatAnom|Mood=Ind|Number=Sing|Person=3|Tense=Fut|VerbForm=Fin|Voice=Act	0	root	_	_
 
-# sent_id = Latin_SenecaYounger_Phoen_poetry-192
+# sent_id = SenPhoen-P-17-192
 # text = aut quae per altas aeris rapiet uias Harpyia saeui regis obseruans famem et inter acies proiciet raptam duas
 # speaker = Iocasta
 1	aut	aut	CCONJ	S	_	6	cc	_	_
@@ -13298,7 +13298,7 @@
 17	raptam	rapio	VERB	B5	Aspect=Perf|Case=Acc|Degree=Pos|Gender=Fem|InflClass=LatI2|InflClass[nominal]=IndEurA|Number=Sing|VerbForm=Part|Voice=Pass	16	obj	_	_
 18	duas	duo	NUM	D1	Case=Acc|Gender=Fem|InflClass=IndEurA|Number=Plur|NumType=Card	15	nummod	_	_
 
-# sent_id = Latin_SenecaYounger_Phoen_poetry-193
+# sent_id = SenPhoen-P-17-193
 # text = uadit furenti similis aut etiam furit
 # speaker = Satelles
 1	uadit	uado	VERB	B3	Aspect=Imp|InflClass=LatX|Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin|Voice=Act	0	root	_	_
@@ -13308,7 +13308,7 @@
 5	etiam	etiam	ADV	M	Degree=Pos	6	advmod:emph	_	_
 6	furit	furo	VERB	B3	Aspect=Imp|InflClass=LatX|Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin|Voice=Act	1	conj	_	_
 
-# sent_id = Latin_SenecaYounger_Phoen_poetry-194
+# sent_id = SenPhoen-P-17-194
 # text = sagitta qualis Parthica uelox manu excussa fertur qualis insano ratis premente uento rapitur aut qualis cadit delapsa caelo stella cum stringens polum rectam citatis ignibus rumpit uiam attonita cursu fugit et binas statim diduxit acies
 # speaker = Satelles
 1	sagitta	sagitta	NOUN	A1	Case=Nom|Gender=Fem|InflClass=IndEurA|Number=Sing	7	nsubj	_	_
@@ -13347,7 +13347,7 @@
 34	diduxit	diduco	VERB	B3	Aspect=Perf|InflClass=LatX|Mood=Ind|Number=Sing|Person=3|Tense=Past|VerbForm=Fin|Voice=Act	30	conj	_	_
 35	acies	acies	NOUN	A5	Case=Acc|Gender=Fem|InflClass=IndEurE|Number=Plur	34	obj	_	_
 
-# sent_id = Latin_SenecaYounger_Phoen_poetry-195
+# sent_id = SenPhoen-P-17-195
 # text = uicta materna prece haesere bella iamque in alternam necem illinc et hinc miscere cupientes manus librata dextra tela suspensa tenent
 # speaker = Satelles
 1	uicta	uinco	VERB	B3	Aspect=Perf|Case=Nom|Degree=Pos|Gender=Neut|InflClass=LatX|InflClass[nominal]=IndEurO|Number=Plur|VerbForm=Part|Voice=Pass	5	acl	_	_
@@ -13373,7 +13373,7 @@
 20	suspensa	suspensus	ADJ	C1	Case=Acc|Degree=Pos|Gender=Neut|InflClass=IndEurO|Number=Plur	19	amod	_	_
 21	tenent	teneo	VERB	B2	Aspect=Imp|InflClass=LatE|Mood=Ind|Number=Plur|Person=3|Tense=Pres|VerbForm=Fin|Voice=Act	4	conj	_	_
 
-# sent_id = Latin_SenecaYounger_Phoen_poetry-196
+# sent_id = SenPhoen-P-17-196
 # text = paci fauetur omnium ferrum iacet cessatue tectum uibrat in fratrum manu
 # speaker = Satelles
 1	paci	pax	NOUN	A3	Case=Dat|Gender=Fem|InflClass=IndEurX|Number=Sing	2	obl	_	_
@@ -13390,7 +13390,7 @@
 11	fratrum	frater	NOUN	A3	Case=Gen|Gender=Masc|InflClass=IndEurX|Number=Plur	12	nmod	_	_
 12	manu	manus	NOUN	A4	Case=Abl|Gender=Fem|InflClass=IndEurU|Number=Sing	9	obl	_	_
 
-# sent_id = Latin_SenecaYounger_Phoen_poetry-197
+# sent_id = SenPhoen-P-17-197
 # text = laniata canas mater ostendit comas rogat abnuentes irrigat fletu genas
 # speaker = Satelles
 1	laniata	lanio	VERB	B1	Aspect=Perf|Case=Nom|Degree=Pos|Gender=Fem|InflClass=LatA|InflClass[nominal]=IndEurA|Number=Sing|VerbForm=Part|Voice=Pass	3	acl	_	_
@@ -13404,7 +13404,7 @@
 9	fletu	fletus	NOUN	A4	Case=Abl|Gender=Masc|InflClass=IndEurU|Number=Sing	8	obl	_	_
 10	genas	gena	NOUN	A1	Case=Acc|Gender=Fem|InflClass=IndEurA|Number=Plur	8	obj	_	_
 
-# sent_id = Latin_SenecaYounger_Phoen_poetry-198
+# sent_id = SenPhoen-P-17-198
 # text = negare matri qui diu dubitat potest
 # speaker = Satelles
 1	negare	nego	VERB	B1	Aspect=Imp|InflClass=LatA|InflClass[nominal]=Ind|VerbForm=Inf|Voice=Act	6	xcomp	_	_
@@ -13414,7 +13414,7 @@
 5	dubitat	dubito	VERB	B1	Aspect=Imp|InflClass=LatA|Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin|Voice=Act	6	csubj:relcl	_	_
 6	potest	possum	VERB	B6	Aspect=Imp|InflClass=LatAnom|Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin|Voice=Act	0	root	_	_
 
-# sent_id = Latin_SenecaYounger_Phoen_poetry-199
+# sent_id = SenPhoen-P-17-199
 # text = in me arma et ignes uertite in me omnis ruat unam iuuentus quaeque ab Inachio uenit animosa muro quaeque Thebana ferox descendit arce ciuis atque hostis simul hunc petite uentrem qui dedit fratres uiro
 # speaker = Iocasta
 1	in	in	ADP	R	AdpType=Prep	2	case	_	_
@@ -13456,7 +13456,7 @@
 35	fratres	frater	NOUN	A3	Case=Acc|Gender=Masc|InflClass=IndEurX|Number=Plur	34	obj	_	_
 36	uiro	uir	NOUN	A2	Case=Dat|Gender=Masc|InflClass=IndEurO|Number=Sing	34	obl:arg	_	_
 
-# sent_id = Latin_SenecaYounger_Phoen_poetry-200
+# sent_id = SenPhoen-P-17-200
 # text = haec membra passim spargite ac diuellite ego utrumque peperi ponitis ferrum ocius
 # speaker = Iocasta
 1	haec	hic	DET	I	Case=Acc|Gender=Neut|InflClass=LatPron|Number=Plur|PronType=Dem	4	nsubj	_	_
@@ -13472,7 +13472,7 @@
 11	ferrum	ferrum	NOUN	A2	Case=Acc|Gender=Neut|InflClass=IndEurO|Number=Sing	10	obj	_	_
 12	ocius	ociter	ADV	M	Degree=Cmp	10	advmod:tmod	_	_
 
-# sent_id = Latin_SenecaYounger_Phoen_poetry-201
+# sent_id = SenPhoen-P-17-201
 # text = an dico et ex quo
 # speaker = Iocasta
 1	an	an	PART	O	PartType=Int|Polarity=Neg	2	cc	_	_
@@ -13481,7 +13481,7 @@
 4	ex	ex	ADP	R	AdpType=Prep	5	case	_	_
 5	quo	quis	PRON	K	Case=Abl|Gender=Masc,Neut|InflClass=LatPron|Number=Sing|PronType=Int	2	obl	_	_
 
-# sent_id = Latin_SenecaYounger_Phoen_poetry-202
+# sent_id = SenPhoen-P-17-202
 # text = dexteras matri date date dum piae sunt
 # speaker = Iocasta
 1	dexteras	dextera	NOUN	A1	Case=Acc|Gender=Fem|InflClass=IndEurA|Number=Plur	3	obj	_	_
@@ -13492,7 +13492,7 @@
 6	piae	pius	ADJ	C1	Case=Nom|Degree=Pos|Gender=Fem|InflClass=IndEurA|Number=Plur	4	advcl	_	_
 7	sunt	sum	AUX	B6	Aspect=Imp|InflClass=LatAnom|Mood=Ind|Number=Plur|Person=3|Tense=Pres|VerbForm=Fin	6	cop	_	_
 
-# sent_id = Latin_SenecaYounger_Phoen_poetry-203
+# sent_id = SenPhoen-P-17-203
 # text = error inuitos adhuc fecit nocentes omne Fortunae fuit peccantis in nos crimen hoc primum nefas inter scientes geritur
 # speaker = Iocasta
 1	error	error	NOUN	A3	Case=Nom|Gender=Masc|InflClass=IndEurX|Number=Sing	4	nsubj	_	_
@@ -13514,7 +13514,7 @@
 17	scientes	scio	VERB	B4	Aspect=Imp|Case=Acc|Degree=Pos|Gender=Fem,Masc|InflClass=LatI|InflClass[nominal]=IndEurI|Number=Plur|VerbForm=Part|Voice=Act	18	obl	_	_
 18	geritur	gero	VERB	B3	Aspect=Imp|InflClass=LatX|Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin|Voice=Pass	4	conj	_	_
 
-# sent_id = Latin_SenecaYounger_Phoen_poetry-204
+# sent_id = SenPhoen-P-17-204
 # text = in uestra manu est utrum uelitis sancta si pietas placet donate matri pacem si placuit scelus maius paratum est media se opponit parens
 # speaker = Iocasta
 1	in	in	ADP	R	AdpType=Prep	3	case	_	_
@@ -13541,7 +13541,7 @@
 22	opponit	oppono	VERB	B3	Aspect=Imp|InflClass=LatX|Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin|Voice=Act	11	conj	_	_
 23	parens	parens	NOUN	A3	Case=Nom|Gender=Masc,Neut|InflClass=IndEurI|Number=Sing	22	nsubj	_	_
 
-# sent_id = Latin_SenecaYounger_Phoen_poetry-205
+# sent_id = SenPhoen-P-17-205
 # text = proinde bellum tollite aut belli moram
 # speaker = Iocasta
 1	proinde	proinde	ADV	M	Degree=Pos	3	advmod	_	_
@@ -13551,7 +13551,7 @@
 5	belli	bellum	NOUN	A2	Case=Gen|Gender=Neut|InflClass=IndEurO|Number=Sing	6	nmod	_	_
 6	moram	mora	NOUN	A1	Case=Acc|Gender=Fem|InflClass=IndEurA|Number=Sing	2	conj	_	_
 
-# sent_id = Latin_SenecaYounger_Phoen_poetry-206
+# sent_id = SenPhoen-P-17-206
 # text = sollicita cui nunc mater alterna prece uerba admouebo
 # speaker = Iocasta
 1	sollicita	sollicitus	ADJ	C1	Case=Nom|Degree=Pos|Gender=Fem|InflClass=IndEurA|Number=Sing	4	amod	_	_
@@ -13563,7 +13563,7 @@
 7	uerba	uerbum	NOUN	A2	Case=Acc|Gender=Neut|InflClass=IndEurO|Number=Plur	8	obj	_	_
 8	admouebo	admoueo	VERB	B2	Aspect=Imp|InflClass=LatE|Mood=Ind|Number=Sing|Person=1|Tense=Fut|VerbForm=Fin|Voice=Act	0	root	_	_
 
-# sent_id = Latin_SenecaYounger_Phoen_poetry-207
+# sent_id = SenPhoen-P-17-207
 # text = misera quem amplectar prius
 # speaker = Iocasta
 1	misera	miser	ADJ	C1	Case=Nom|Degree=Pos|Gender=Fem|InflClass=IndEurA|Number=Sing	3	advcl:pred	_	_
@@ -13571,7 +13571,7 @@
 3	amplectar	amplector	VERB	B3	Aspect=Imp|InflClass=LatX|Mood=Ind|Number=Sing|Person=1|Tense=Fut|VerbForm=Fin|Voice=Pass	0	root	_	_
 4	prius	prius	ADV	D5	Degree=Cmp|NumType=Ord	3	advmod:tmod	_	_
 
-# sent_id = Latin_SenecaYounger_Phoen_poetry-208
+# sent_id = SenPhoen-P-17-208
 # text = in utramque partem ducor affectu pari
 # speaker = Iocasta
 1	in	in	ADP	R	AdpType=Prep	3	case	_	_
@@ -13581,7 +13581,7 @@
 5	affectu	affectus	NOUN	A4	Case=Abl|Gender=Masc|InflClass=IndEurU|Number=Sing	4	obl	_	_
 6	pari	par	ADJ	C5	Case=Abl|Degree=Pos|Gender=Masc|InflClass=IndEurI|Number=Sing	5	amod	_	_
 
-# sent_id = Latin_SenecaYounger_Phoen_poetry-209
+# sent_id = SenPhoen-P-17-209
 # text = hic afuit sed pacta si fratrum ualent nunc alter aberit
 # speaker = Iocasta
 1	hic	hic	DET	I	Case=Nom|Gender=Masc|InflClass=LatPron|Number=Sing|PronType=Dem	2	nsubj	_	_
@@ -13595,7 +13595,7 @@
 9	alter	alter	DET	L	Case=Nom|Gender=Masc|InflClass=LatPron|Number=Sing|PronType=Con	10	nsubj	_	_
 10	aberit	absum	VERB	B6	Aspect=Imp|InflClass=LatAnom|Mood=Ind|Number=Sing|Person=3|Tense=Fut|VerbForm=Fin|Voice=Act	2	conj	_	_
 
-# sent_id = Latin_SenecaYounger_Phoen_poetry-210
+# sent_id = SenPhoen-P-17-210
 # text = ergo iam numquam duos nisi sic uidebo
 # speaker = Iocasta
 1	ergo	ergo	CCONJ	S	_	4	cc	_	_
@@ -13606,7 +13606,7 @@
 6	sic	sic	ADV	M	Degree=Pos	7	advmod	_	_
 7	uidebo	uideo	VERB	B2	Aspect=Imp|InflClass=LatE|Mood=Ind|Number=Sing|Person=1|Tense=Fut|VerbForm=Fin|Voice=Act	4	advcl	_	_
 
-# sent_id = Latin_SenecaYounger_Phoen_poetry-211
+# sent_id = SenPhoen-P-17-211
 # text = iunge complexus prior qui tot labores totque perpessus mala longo parentem fessus exilio uides
 # speaker = Iocasta
 1	iunge	iungo	VERB	B3	Aspect=Imp|InflClass=LatX|Mood=Imp|Number=Sing|Person=2|Tense=Pres|VerbForm=Fin|Voice=Act	0	root	_	_
@@ -13626,7 +13626,7 @@
 14	exilio	exsilium	NOUN	A2	Case=Abl|Gender=Neut|InflClass=IndEurO|Number=Sing	13	obl	_	_
 15	uides	uideo	VERB	B2	Aspect=Imp|InflClass=LatE|Mood=Ind|Number=Sing|Person=2|Tense=Pres|VerbForm=Fin|Voice=Act	1	csubj:relcl	_	_
 
-# sent_id = Latin_SenecaYounger_Phoen_poetry-212
+# sent_id = SenPhoen-P-17-212
 # text = accede propius clude uagina impium ensem et trementem iamque cupientem excuti hastam solo defige maternum tuo coire pectus pectori clipeus uetat hunc quoque repone
 # speaker = Iocasta
 1	accede	accedo	VERB	B3	Aspect=Imp|InflClass=LatX|Mood=Imp|Number=Sing|Person=2|Tense=Pres|VerbForm=Fin|Voice=Act	0	root	_	_
@@ -13656,7 +13656,7 @@
 24	quoque	quoque	PART	M	_	23	advmod:emph	_	_
 25	repone	repono	VERB	B3	Aspect=Imp|InflClass=LatX|Mood=Imp|Number=Sing|Person=2|Tense=Pres|VerbForm=Fin|Voice=Act	1	conj	_	_
 
-# sent_id = Latin_SenecaYounger_Phoen_poetry-213
+# sent_id = SenPhoen-P-17-213
 # text = uinculo frontem exue tegumenque capitis triste belligeri leua et ora matri redde
 # speaker = Iocasta
 1	uinculo	uinculum	NOUN	A2	Case=Abl|Gender=Neut|InflClass=IndEurO|Number=Sing	3	obl	_	_
@@ -13674,7 +13674,7 @@
 12	matri	mater	NOUN	A3	Case=Dat|Gender=Fem|InflClass=IndEurX|Number=Sing	13	obl:arg	_	_
 13	redde	reddo	VERB	B3	Aspect=Imp|InflClass=LatX|Mood=Imp|Number=Sing|Person=2|Tense=Pres|VerbForm=Fin|Voice=Act	3	conj	_	_
 
-# sent_id = Latin_SenecaYounger_Phoen_poetry-214
+# sent_id = SenPhoen-P-17-214
 # text = quo uultus refers acieque pauida fratris obseruas manum
 # speaker = Iocasta
 1	quo	quo	ADV	O	PronType=Int	3	advmod	_	_
@@ -13688,7 +13688,7 @@
 8	obseruas	obseruo	VERB	B1	Aspect=Imp|InflClass=LatA|Mood=Ind|Number=Sing|Person=2|Tense=Pres|VerbForm=Fin|Voice=Act	3	conj	_	_
 9	manum	manus	NOUN	A4	Case=Acc|Gender=Fem|InflClass=IndEurU|Number=Sing	8	obj	_	_
 
-# sent_id = Latin_SenecaYounger_Phoen_poetry-215
+# sent_id = SenPhoen-P-17-215
 # text = affusa totum corpus amplexu tegam tuo cruori per meum fiet uia
 # speaker = Iocasta
 1	affusa	affundo	VERB	B3	Aspect=Perf|Case=Nom|Degree=Pos|Gender=Fem|InflClass=LatX|InflClass[nominal]=IndEurA|Number=Sing|VerbForm=Part|Voice=Pass	5	advcl:pred	_	_
@@ -13703,14 +13703,14 @@
 10	fiet	fio	VERB	B6	Aspect=Imp|InflClass=LatAnom|Mood=Ind|Number=Sing|Person=3|Tense=Fut|VerbForm=Fin|Voice=Act	5	conj	_	_
 11	uia	uia	NOUN	A1	Case=Nom|Gender=Fem|InflClass=IndEurA|Number=Sing	10	nsubj	_	_
 
-# sent_id = Latin_SenecaYounger_Phoen_poetry-216
+# sent_id = SenPhoen-P-17-216
 # text = quid dubius haeres
 # speaker = Iocasta
 1	quid	quis	ADV	K	PronType=Int	3	advmod	_	_
 2	dubius	dubius	ADJ	C1	Case=Nom|Degree=Pos|Gender=Masc|InflClass=IndEurO|Number=Sing	3	advcl:pred	_	_
 3	haeres	haereo	VERB	B2	Aspect=Imp|InflClass=LatE|Mood=Ind|Number=Sing|Person=2|Tense=Pres|VerbForm=Fin|Voice=Act	0	root	_	_
 
-# sent_id = Latin_SenecaYounger_Phoen_poetry-217
+# sent_id = SenPhoen-P-17-217
 # text = an times matris fidem
 # speaker = Iocasta
 1	an	an	PART	O	PartType=Int|Polarity=Neg	2	cc	_	_
@@ -13718,7 +13718,7 @@
 3	matris	mater	NOUN	A3	Case=Gen|Gender=Fem|InflClass=IndEurX|Number=Sing	4	nmod	_	_
 4	fidem	fides	NOUN	A5	Case=Acc|Gender=Fem|InflClass=IndEurE|Number=Sing	2	obj	_	_
 
-# sent_id = Latin_SenecaYounger_Phoen_poetry-218
+# sent_id = SenPhoen-P-17-218
 # text = timeo nihil iam iura naturae ualent
 # speaker = Polynices
 1	timeo	timeo	VERB	B2	Aspect=Imp|InflClass=LatE|Mood=Ind|Number=Sing|Person=1|Tense=Pres|VerbForm=Fin|Voice=Act	0	root	_	_
@@ -13728,7 +13728,7 @@
 5	naturae	natura	NOUN	A1	Case=Gen|Gender=Fem|InflClass=IndEurA|Number=Sing	4	nmod	_	_
 6	ualent	ualeo	VERB	B2	Aspect=Imp|InflClass=LatE|Mood=Ind|Number=Plur|Person=3|Tense=Pres|VerbForm=Fin|Voice=Act	1	conj	_	_
 
-# sent_id = Latin_SenecaYounger_Phoen_poetry-219
+# sent_id = SenPhoen-P-17-219
 # text = post ista fratrum exempla ne matri quidem fides habenda est
 # speaker = Polynices
 1	post	post	ADP	R	AdpType=Prep	4	case	_	_
@@ -13742,7 +13742,7 @@
 9	habenda	habeo	VERB	B2	Aspect=Prosp|Case=Nom|Degree=Pos|Gender=Fem|InflClass=LatE|InflClass[nominal]=IndEurA|Number=Sing|VerbForm=Gdv|Voice=Pass	0	root	_	_
 10	est	sum	AUX	B6	Aspect=Imp|InflClass=LatAnom|Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	9	aux:pass	_	_
 
-# sent_id = Latin_SenecaYounger_Phoen_poetry-220
+# sent_id = SenPhoen-P-17-220
 # text = redde iam capulo manum astringe galeam laeua se clipeo inserat dum frater exarmatur armatus mane
 # speaker = Iocasta
 1	redde	reddo	VERB	B3	Aspect=Imp|InflClass=LatX|Mood=Imp|Number=Sing|Person=2|Tense=Pres|VerbForm=Fin|Voice=Act	0	root	_	_
@@ -13761,7 +13761,7 @@
 14	armatus	armatus	ADJ	C1	Case=Nom|Degree=Pos|Gender=Masc|InflClass=IndEurO|Number=Sing	15	advcl:pred	_	_
 15	mane	maneo	VERB	B2	Aspect=Imp|InflClass=LatE|Mood=Imp|Number=Sing|Person=2|Tense=Pres|VerbForm=Fin|Voice=Act	1	conj	_	_
 
-# sent_id = Latin_SenecaYounger_Phoen_poetry-221
+# sent_id = SenPhoen-P-17-221
 # text = tu pone ferrum causa qui ferri es prior
 # speaker = Iocasta
 1	tu	tu	PRON	E	Case=Nom|InflClass=LatAnom|Number=Sing|Person=2|PronType=Prs	2	nsubj	_	_
@@ -13773,7 +13773,7 @@
 7	es	sum	AUX	B6	Aspect=Imp|InflClass=LatAnom|Mood=Ind|Number=Sing|Person=2|Tense=Pres|VerbForm=Fin	4	cop	_	_
 8	prior	prior	ADJ	D2	Case=Nom|Degree=Cmp|Gender=Fem,Masc|InflClass=IndEurX|Number=Sing|NumType=Ord	4	advcl:pred	_	_
 
-# sent_id = Latin_SenecaYounger_Phoen_poetry-222
+# sent_id = SenPhoen-P-17-222
 # text = si pacis odium est furere si bello placet inducias te mater exiguas rogat ferat ut reuerso post fugam nato oscula uel prima uel suprema
 # speaker = Iocasta
 1	si	si	SCONJ	T	_	3	mark	_	_
@@ -13801,7 +13801,7 @@
 23	uel	uel	CCONJ	S	_	24	cc	_	_
 24	suprema	superus	ADJ	C1	Case=Acc|Degree=Abs|Gender=Neut|InflClass=IndEurO|Number=Plur	22	conj	_	_
 
-# sent_id = Latin_SenecaYounger_Phoen_poetry-223
+# sent_id = SenPhoen-P-17-223
 # text = dum pacem peto audite inermes
 # speaker = Iocasta
 1	dum	dum	SCONJ	T	_	3	mark	_	_
@@ -13810,7 +13810,7 @@
 4	audite	audio	VERB	B4	Aspect=Imp|InflClass=LatI|Mood=Imp|Number=Plur|Person=2|Tense=Pres|VerbForm=Fin|Voice=Act	0	root	_	_
 5	inermes	inermis	ADJ	C4	Case=Nom|Degree=Pos|Gender=Fem,Masc|InflClass=IndEurI|Number=Plur	4	advcl:pred	_	_
 
-# sent_id = Latin_SenecaYounger_Phoen_poetry-224
+# sent_id = SenPhoen-P-17-224
 # text = ille te tu illum times
 # speaker = Iocasta
 1	ille	ille	DET	I	Case=Nom|Gender=Masc|InflClass=LatPron|Number=Sing|PronType=Dem	2	nsubj	_	_
@@ -13819,7 +13819,7 @@
 4	illum	ille	DET	I	Case=Acc|Gender=Masc|InflClass=LatPron|Number=Sing|PronType=Dem	5	obj	_	_
 5	times	timeo	VERB	B2	Aspect=Imp|InflClass=LatE|Mood=Ind|Number=Sing|Person=2|Tense=Pres|VerbForm=Fin|Voice=Act	2	conj	_	_
 
-# sent_id = Latin_SenecaYounger_Phoen_poetry-225
+# sent_id = SenPhoen-P-17-225
 # text = ego utrumque sed pro utroque
 # speaker = Iocasta
 1	ego	ego	PRON	E	Case=Nom|InflClass=LatAnom|Number=Sing|Person=1|PronType=Prs	2	orphan	_	_
@@ -13828,7 +13828,7 @@
 4	pro	pro	ADP	R	AdpType=Prep	5	case	_	_
 5	utroque	uterque	DET	L	Case=Abl|Gender=Masc,Neut|InflClass=LatPron|Number=Sing|PronType=Con	2	obl	_	_
 
-# sent_id = Latin_SenecaYounger_Phoen_poetry-226
+# sent_id = SenPhoen-P-17-226
 # text = quid strictum abnuis recondere ensem
 # speaker = Iocasta
 1	quid	quis	ADV	K	PronType=Int	3	advmod	_	_
@@ -13837,7 +13837,7 @@
 4	recondere	recondo	VERB	B3	Aspect=Imp|InflClass=LatX|InflClass[nominal]=Ind|VerbForm=Inf|Voice=Act	3	xcomp	_	_
 5	ensem	ensis	NOUN	A3	Case=Acc|Gender=Masc|InflClass=IndEurI|Number=Sing	4	obj	_	_
 
-# sent_id = Latin_SenecaYounger_Phoen_poetry-227
+# sent_id = SenPhoen-P-17-227
 # text = qualibet gaude mora id gerere bellum cupitis in quo est optimum uinci
 # speaker = Iocasta
 1	qualibet	quilibet	DET	L	Case=Abl|Gender=Fem|InflClass=LatPron|Number=Sing|PronType=Ind	3	det	_	_
@@ -13853,7 +13853,7 @@
 11	optimum	bonus	ADJ	C1	Case=Nom|Degree=Abs|Gender=Neut|InflClass=IndEurO|Number=Sing	6	acl:relcl	_	_
 12	uinci	uinco	VERB	B3	Aspect=Imp|InflClass=LatX|InflClass[nominal]=Ind|VerbForm=Inf|Voice=Pass	11	csubj	_	_
 
-# sent_id = Latin_SenecaYounger_Phoen_poetry-228
+# sent_id = SenPhoen-P-17-228
 # text = uereris fratris infesti dolos
 # speaker = Iocasta
 1	uereris	uereor	VERB	B2	Aspect=Imp|InflClass=LatE|Mood=Ind|Number=Sing|Person=2|Tense=Pres|VerbForm=Fin|Voice=Pass	0	root	_	_
@@ -13861,7 +13861,7 @@
 3	infesti	infestus	ADJ	C1	Case=Gen|Degree=Pos|Gender=Masc|InflClass=IndEurO|Number=Sing	2	amod	_	_
 4	dolos	dolus	NOUN	A2	Case=Acc|Gender=Masc|InflClass=IndEurO|Number=Plur	1	obj	_	_
 
-# sent_id = Latin_SenecaYounger_Phoen_poetry-229
+# sent_id = SenPhoen-P-17-229
 # text = quotiens necesse est fallere aut falli a suis patiare potius ipse quam facias scelus
 # speaker = Iocasta
 1	quotiens	quotiens	ADV	N	NumType=Mult|PronType=Rel	2	advmod:tmod	_	_
@@ -13879,7 +13879,7 @@
 13	facias	facio	VERB	B5	Aspect=Imp|InflClass=LatI2|Mood=Sub|Number=Sing|Person=2|Tense=Pres|VerbForm=Fin|Voice=Act	9	advcl:cmp	_	_
 14	scelus	scelus	NOUN	A3	Case=Acc|Gender=Neut|InflClass=IndEurX|Number=Sing	13	obj	_	_
 
-# sent_id = Latin_SenecaYounger_Phoen_poetry-230
+# sent_id = SenPhoen-P-17-230
 # text = sed ne uerere mater insidias et hinc et rursus illinc abiget
 # speaker = Iocasta
 1	sed	sed	CCONJ	S	_	3	cc	_	_
@@ -13894,12 +13894,12 @@
 10	illinc	illinc	ADV	M	Degree=Pos	7	conj	_	_
 11	abiget	abigo	VERB	B3	Aspect=Imp|InflClass=LatX|Mood=Ind|Number=Sing|Person=3|Tense=Fut|VerbForm=Fin|Voice=Act	3	conj	_	_
 
-# sent_id = Latin_SenecaYounger_Phoen_poetry-231
+# sent_id = SenPhoen-P-17-231
 # text = exoro
 # speaker = Iocasta
 1	exoro	exoro	VERB	B1	Aspect=Imp|InflClass=LatA|Mood=Ind|Number=Sing|Person=1|Tense=Pres|VerbForm=Fin|Voice=Act	0	root	_	_
 
-# sent_id = Latin_SenecaYounger_Phoen_poetry-232
+# sent_id = SenPhoen-P-17-232
 # text = an patri inuideo uestro
 # speaker = Iocasta
 1	an	an	PART	O	PartType=Int|Polarity=Neg	3	cc	_	_
@@ -13907,7 +13907,7 @@
 3	inuideo	inuideo	VERB	B2	Aspect=Imp|InflClass=LatE|Mood=Ind|Number=Sing|Person=1|Tense=Pres|VerbForm=Fin|Voice=Act	0	root	_	_
 4	uestro	uester	DET	F	Case=Dat|Gender=Masc|InflClass=IndEurO|Number=Sing|Number[psor]=Plur|Person[psor]=2|Poss=Yes|PronType=Prs	2	det	_	_
 
-# sent_id = Latin_SenecaYounger_Phoen_poetry-233
+# sent_id = SenPhoen-P-17-233
 # text = ueni ut arcerem nefas an ut uiderem propius
 # speaker = Iocasta
 1	ueni	uenio	VERB	B4	Aspect=Perf|InflClass=LatI|Mood=Ind|Number=Sing|Person=1|Tense=Past|VerbForm=Fin|Voice=Act	0	root	_	_
@@ -13919,7 +13919,7 @@
 7	uiderem	uideo	VERB	B2	Aspect=Imp|InflClass=LatE|Mood=Sub|Number=Sing|Person=1|Tense=Past|VerbForm=Fin|Voice=Act	3	conj	_	_
 8	propius	prope	ADV	M	Degree=Cmp	7	advmod:lmod	_	_
 
-# sent_id = Latin_SenecaYounger_Phoen_poetry-234
+# sent_id = SenPhoen-P-17-234
 # text = hic ferrum abdidit reclinis hasta est arma defixa incubant
 # speaker = Iocasta
 1	hic	hic	DET	I	Case=Nom|Gender=Masc|InflClass=LatPron|Number=Sing|PronType=Dem	3	nsubj	_	_
@@ -13932,7 +13932,7 @@
 8	defixa	defigo	VERB	B3	Aspect=Perf|Case=Nom|Degree=Pos|Gender=Neut|InflClass=LatX|InflClass[nominal]=IndEurO|Number=Plur|VerbForm=Part|Voice=Pass	9	xcomp	_	_
 9	incubant	incubo	VERB	B1	Aspect=Imp|InflClass=LatA|Mood=Ind|Number=Plur|Person=3|Tense=Pres|VerbForm=Fin|Voice=Act	3	conj	_	_
 
-# sent_id = Latin_SenecaYounger_Phoen_poetry-235
+# sent_id = SenPhoen-P-17-235
 # text = ad te preces nunc nate maternas feram sed ante lacrimas
 # speaker = Iocasta
 1	ad	ad	ADP	R	AdpType=Prep	2	case	_	_
@@ -13946,7 +13946,7 @@
 9	ante	ante	ADV	M	Degree=Pos	10	advmod:tmod	_	_
 10	lacrimas	lacrima	NOUN	A1	Case=Acc|Gender=Fem|InflClass=IndEurA|Number=Plur	3	conj	_	_
 
-# sent_id = Latin_SenecaYounger_Phoen_poetry-236
+# sent_id = SenPhoen-P-17-236
 # text = teneo longo tempore petita uotis ora
 # speaker = Iocasta
 1	teneo	teneo	VERB	B2	Aspect=Imp|InflClass=LatE|Mood=Ind|Number=Sing|Person=1|Tense=Pres|VerbForm=Fin|Voice=Act	0	root	_	_
@@ -13956,7 +13956,7 @@
 5	uotis	uotum	NOUN	A2	Case=Abl|Gender=Neut|InflClass=IndEurO|Number=Plur	4	obl	_	_
 6	ora	os	NOUN	A3	Case=Acc|Gender=Neut|InflClass=IndEurI|Number=Plur	1	obj	_	_
 
-# sent_id = Latin_SenecaYounger_Phoen_poetry-237
+# sent_id = SenPhoen-P-17-237
 # text = te profugum solo patrio Penates regis externi tegunt te maria tot diuersa tot casus uagum egere non te duxit in thalamos parens comitata primos nec sua festas manu ornauit aedes nec sacra laetas faces uitta reuinxit dona non auro graues gazas socer non arua non urbes dedit dotale bellum est
 # speaker = Iocasta
 1	te	tu	PRON	E	Case=Acc|InflClass=LatAnom|Number=Sing|Person=2|PronType=Prs	8	obj	_	_
@@ -14010,7 +14010,7 @@
 49	bellum	bellum	NOUN	A2	Case=Nom|Gender=Neut|InflClass=IndEurO|Number=Sing	48	nsubj	_	_
 50	est	sum	AUX	B6	Aspect=Imp|InflClass=LatAnom|Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	48	cop	_	_
 
-# sent_id = Latin_SenecaYounger_Phoen_poetry-238
+# sent_id = SenPhoen-P-17-238
 # text = hostium es factus gener patria remotus hospes alieni Laris externa consecutus expulsus tuis sine crimine exul
 # speaker = Iocasta
 1	hostium	hostis	NOUN	A3	Case=Gen|Gender=Fem,Masc|InflClass=IndEurI|Number=Plur	4	nmod	_	_
@@ -14030,7 +14030,7 @@
 15	crimine	crimen	NOUN	A3	Case=Abl|Gender=Neut|InflClass=IndEurX|Number=Sing	16	obl	_	_
 16	exul	exsul	NOUN	A3	Case=Nom|Gender=Fem,Masc|InflClass=IndEurX|Number=Sing	4	conj	_	_
 
-# sent_id = Latin_SenecaYounger_Phoen_poetry-239
+# sent_id = SenPhoen-P-17-239
 # text = ne quid e fatis tibi desset paternis hoc quoque ex illis habes errasse thalamis
 # speaker = Iocasta
 1	ne	ne	SCONJ	T	Polarity=Neg	6	mark	_	_
@@ -14048,7 +14048,7 @@
 13	errasse	erro	VERB	B1	Aspect=Perf|InflClass=LatA|InflClass[nominal]=Ind|VerbForm=Inf|Voice=Act	8	conj:expl	_	_
 14	thalamis	thalamus	NOUN	A2	Case=Abl|Gender=Masc|InflClass=IndEurO|Number=Plur	13	obl	_	_
 
-# sent_id = Latin_SenecaYounger_Phoen_poetry-240
+# sent_id = SenPhoen-P-17-240
 # text = nate post multos mihi remisse soles nate suspensae metus et spes parentis cuius aspectum deos semper rogaui cum tuus reditus mihi tantum esset erepturus aduentu tuo quantum daturus quando pro te desinam dixi timere
 # speaker = Iocasta
 1	nate	natus	NOUN	A2	Case=Voc|Gender=Masc|InflClass=IndEurO|Number=Sing	33	vocative	_	_
@@ -14086,7 +14086,7 @@
 33	dixi	dico	VERB	B3	Aspect=Perf|InflClass=LatX|Mood=Ind|Number=Sing|Person=1|Tense=Past|VerbForm=Fin|Voice=Act	0	root	_	_
 34	timere	timeo	VERB	B2	Aspect=Imp|InflClass=LatE|InflClass[nominal]=Ind|VerbForm=Inf|Voice=Act	32	xcomp	_	_
 
-# sent_id = Latin_SenecaYounger_Phoen_poetry-241
+# sent_id = SenPhoen-P-17-241
 # text = dixit inridens deus ipsum timebis
 # speaker = Iocasta (token 1-3), deus (token 4-5)
 1	dixit	dico	VERB	B3	Aspect=Perf|InflClass=LatX|Mood=Ind|Number=Sing|Person=3|Tense=Past|VerbForm=Fin|Voice=Act	0	root	_	_
@@ -14095,7 +14095,7 @@
 4	ipsum	ipse	DET	I	Case=Acc|Gender=Masc|InflClass=LatPron|Number=Sing|PronType=Dem	5	obj	_	_
 5	timebis	timeo	VERB	B2	Aspect=Imp|InflClass=LatE|Mood=Ind|Number=Sing|Person=2|Tense=Fut|VerbForm=Fin|Voice=Act	1	ccomp:reported	_	_
 
-# sent_id = Latin_SenecaYounger_Phoen_poetry-242
+# sent_id = SenPhoen-P-17-242
 # text = nempe nisi bellum foret ego te carerem nempe si tu non fores bello carerem
 # speaker = Iocasta
 1	nempe	nempe	PART	M	Form=Emp	3	discourse	_	_
@@ -14113,7 +14113,7 @@
 13	bello	bellum	NOUN	A2	Case=Abl|Gender=Neut|InflClass=IndEurO|Number=Sing	14	obl:arg	_	_
 14	carerem	careo	VERB	B2	Aspect=Imp|InflClass=LatE|Mood=Sub|Number=Sing|Person=1|Tense=Past|VerbForm=Fin|Voice=Act	7	conj	_	_
 
-# sent_id = Latin_SenecaYounger_Phoen_poetry-243
+# sent_id = SenPhoen-P-17-243
 # text = a triste conspectus datur pretium tui durumque sed matri placet
 # speaker = Iocasta
 1	a	ah	INTJ	U	_	4	discourse	_	_
@@ -14129,7 +14129,7 @@
 10	matri	mater	NOUN	A3	Case=Dat|Gender=Fem|InflClass=IndEurX|Number=Sing	11	obl:arg	_	_
 11	placet	placeo	VERB	B2	Aspect=Imp|InflClass=LatE|Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin|Voice=Act	4	conj	_	_
 
-# sent_id = Latin_SenecaYounger_Phoen_poetry-244
+# sent_id = SenPhoen-P-17-244
 # text = hinc modo recedant arma dum nullum nefas Mars saeuus audet hoc quoque est magnum nefas tam prope fuisse
 # speaker = Iocasta
 1	hinc	hinc	ADV	M	Degree=Pos	3	advmod:lmod	_	_
@@ -14151,7 +14151,7 @@
 17	prope	prope	ADV	M	Degree=Pos	15	conj:expl	_	_
 18	fuisse	sum	AUX	B6	Aspect=Perf|InflClass=LatAnom|InflClass[nominal]=Ind|VerbForm=Inf	17	cop	_	_
 
-# sent_id = Latin_SenecaYounger_Phoen_poetry-245
+# sent_id = SenPhoen-P-17-245
 # text = stupeo et exsanguis tremo cum stare fratres hinc et hinc uideo duos sceleris sub ictu
 # speaker = Iocasta
 1	stupeo	stupeo	VERB	B2	Aspect=Imp|InflClass=LatE|Mood=Ind|Number=Sing|Person=1|Tense=Pres|VerbForm=Fin|Voice=Act	0	root	_	_
@@ -14170,7 +14170,7 @@
 14	sub	sub	ADP	R	AdpType=Prep	15	case	_	_
 15	ictu	ictus	NOUN	A4	Case=Abl|Gender=Masc|InflClass=IndEurU|Number=Sing	6	obl	_	_
 
-# sent_id = Latin_SenecaYounger_Phoen_poetry-246
+# sent_id = SenPhoen-P-17-246
 # text = membra quassantur metu quam paene mater maius aspexi nefas quam quod miser uidere non potuit pater
 # speaker = Iocasta
 1	membra	membrum	NOUN	A2	Case=Nom|Gender=Neut|InflClass=IndEurO|Number=Plur	2	nsubj	_	_
@@ -14190,7 +14190,7 @@
 15	potuit	possum	VERB	B6	Aspect=Perf|InflClass=LatAnom|Mood=Ind|Number=Sing|Person=3|Tense=Past|VerbForm=Fin|Voice=Act	8	advcl:cmp	_	_
 16	pater	pater	NOUN	A3	Case=Nom|Gender=Masc|InflClass=IndEurX|Number=Sing	15	nsubj	_	_
 
-# sent_id = Latin_SenecaYounger_Phoen_poetry-247
+# sent_id = SenPhoen-P-17-247
 # text = licet timore facinoris tanti uacem uideamque iam nil tale sum infelix tamen quod paene uidi
 # speaker = Iocasta
 1	licet	licet	SCONJ	T	_	5	mark	_	_
@@ -14211,7 +14211,7 @@
 15	paene	paene	ADV	M	Degree=Pos	16	advmod	_	_
 16	uidi	uideo	VERB	B2	Aspect=Perf|InflClass=LatE|Mood=Ind|Number=Sing|Person=1|Tense=Past|VerbForm=Fin|Voice=Act	12	advcl	_	_
 
-# sent_id = Latin_SenecaYounger_Phoen_poetry-248
+# sent_id = SenPhoen-P-17-248
 # text = per decem mensum graues uteri labores perque pietatem inclitae precor sororis et per irati sibi genas parentis scelere quas nullo nocens erroris a se dira supplicia exigens hausit nefandas moenibus patriis faces auerte signa bellici retro agminis flecte ut recedas magna pars sceleris tamen uestri peracta est uidit hostili grege campos repleri patria fulgentes procul armis cateruas uidit equitatu leui Cadmea frangi prata et excelsos rotis uolitare proceres igne flagrantes trabes fumare cineri quae petunt nostras domos fratresque facinus quod nouum et Thebis fuit in se ruentes totus hoc exercitus hoc populus omnis utraque hoc uidit soror genetrixque uidi nam pater debet sibi quod ista non spectauit
 # speaker = Iocasta
 1	per	per	ADP	R	AdpType=Prep	6	case	_	_
@@ -14328,7 +14328,7 @@
 109	non	non	PART	P	Polarity=Neg	110	advmod:neg	_	_
 110	spectauit	specto	VERB	B1	Aspect=Perf|InflClass=LatA|Mood=Ind|Number=Sing|Person=3|Tense=Past|VerbForm=Fin|Voice=Act	105	advcl	_	_
 
-# sent_id = Latin_SenecaYounger_Phoen_poetry-249
+# sent_id = SenPhoen-P-17-249
 # text = occurrat tibi nunc Oedipus quo iudice erroris quoque poenae petuntur
 # speaker = Iocasta
 1	occurrat	occurro	VERB	B3	Aspect=Imp|InflClass=LatX|Mood=Sub|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin|Voice=Act	0	root	_	_
@@ -14342,7 +14342,7 @@
 9	poenae	poena	NOUN	A1	Case=Nom|Gender=Fem|InflClass=IndEurA|Number=Plur	10	nsubj:pass	_	_
 10	petuntur	peto	VERB	B3	Aspect=Imp|InflClass=LatX|Mood=Ind|Number=Plur|Person=3|Tense=Pres|VerbForm=Fin|Voice=Pass	4	acl:relcl	_	_
 
-# sent_id = Latin_SenecaYounger_Phoen_poetry-250
+# sent_id = SenPhoen-P-17-250
 # text = ne precor ferro erue patriam ac Penates neue quas regere expetis euerte Thebas
 # speaker = Iocasta
 1	ne	ne	PART	P	PartType=Emp|Polarity=Neg	4	advmod:neg	_	_
@@ -14359,7 +14359,7 @@
 12	euerte	euerto	VERB	B3	Aspect=Imp|InflClass=LatX|Mood=Imp|Number=Sing|Person=2|Tense=Pres|VerbForm=Fin|Voice=Act	4	conj	_	_
 13	Thebas	thebae	PROPN	A1	Case=Acc|Gender=Fem|InflClass=IndEurA|NameType=Geo|Number=Plur	12	obj	_	_
 
-# sent_id = Latin_SenecaYounger_Phoen_poetry-251
+# sent_id = SenPhoen-P-17-251
 # text = quis tenet mentem furor
 # speaker = Iocasta
 1	quis	quis	PRON	K	Case=Nom|Gender=Fem,Masc|InflClass=LatPron|Number=Sing|PronType=Int	4	det	_	_
@@ -14367,14 +14367,14 @@
 3	mentem	mens	NOUN	A3	Case=Acc|Gender=Fem|InflClass=IndEurI|Number=Sing	2	obj	_	_
 4	furor	furor	NOUN	A3	Case=Nom|Gender=Masc|InflClass=IndEurX|Number=Sing	2	nsubj	_	_
 
-# sent_id = Latin_SenecaYounger_Phoen_poetry-252
+# sent_id = SenPhoen-P-17-252
 # text = petendo patriam perdis
 # speaker = Iocasta
 1	petendo	peto	VERB	B3	Aspect=Prosp|Case=Abl|Degree=Pos|InflClass=LatX|InflClass[nominal]=IndEurO|Number=Sing|VerbForm=Ger|Voice=Pass	3	advcl	_	_
 2	patriam	patria	NOUN	A1	Case=Acc|Gender=Fem|InflClass=IndEurA|Number=Sing	3	obj	_	_
 3	perdis	perdo	VERB	B3	Aspect=Imp|InflClass=LatX|Mood=Ind|Number=Sing|Person=2|Tense=Pres|VerbForm=Fin|Voice=Act	0	root	_	_
 
-# sent_id = Latin_SenecaYounger_Phoen_poetry-253
+# sent_id = SenPhoen-P-17-253
 # text = ut fiat tua uis esse nullam
 # speaker = Iocasta
 1	ut	ut	SCONJ	T	_	2	mark	_	_
@@ -14384,7 +14384,7 @@
 5	esse	sum	AUX	B6	Aspect=Imp|InflClass=LatAnom|InflClass[nominal]=Ind|VerbForm=Inf	6	cop	_	_
 6	nullam	nullus	DET	L	Case=Acc|Gender=Fem|InflClass=LatPron|Number=Sing|PronType=Neg	4	ccomp	_	_
 
-# sent_id = Latin_SenecaYounger_Phoen_poetry-254
+# sent_id = SenPhoen-P-17-254
 # text = quin tuae causae nocet ipsum hoc quod armis uris infestis solum segetesque adultas sternis et totos fugam edis per agros nemo sic uastat sua quae corripi igne quae meti gladio iubes aliena credis
 # speaker = Iocasta
 1	quin	quin	PART	M	_	4	advmod:emph	_	_
@@ -14423,7 +14423,7 @@
 33	aliena	alienus	ADJ	C1	Case=Acc|Degree=Pos|Gender=Neut|InflClass=IndEurO|Number=Plur	34	xcomp	_	_
 34	credis	credo	VERB	B3	Aspect=Imp|InflClass=LatX|Mood=Ind|Number=Sing|Person=2|Tense=Pres|VerbForm=Fin|Voice=Act	24	conj	_	_
 
-# sent_id = Latin_SenecaYounger_Phoen_poetry-255
+# sent_id = SenPhoen-P-17-255
 # text = rex sit ex uobis uter manente regno quaerite
 # speaker = Iocasta
 1	rex	rex	NOUN	A3	Case=Nom|Gender=Masc|InflClass=IndEurX|Number=Sing	8	ccomp	_	_
@@ -14435,7 +14435,7 @@
 7	regno	regnum	NOUN	A2	Case=Abl|Gender=Neut|InflClass=IndEurO|Number=Sing	6	nsubj	_	_
 8	quaerite	quaero	VERB	B3	Aspect=Imp|InflClass=LatX|Mood=Imp|Number=Plur|Person=2|Tense=Pres|VerbForm=Fin|Voice=Act	0	root	_	_
 
-# sent_id = Latin_SenecaYounger_Phoen_poetry-256
+# sent_id = SenPhoen-P-17-256
 # text = haec telis petis flammisque tecta
 # speaker = Iocasta
 1	haec	hic	DET	I	Case=Acc|Gender=Neut|InflClass=LatPron|Number=Plur|PronType=Dem	6	det	_	_
@@ -14446,7 +14446,7 @@
 5	que	que	CCONJ	S	_	4	cc	_	_
 6	tecta	tectum	NOUN	A2	Case=Acc|Gender=Neut|InflClass=IndEurO|Number=Plur	3	obj	_	_
 
-# sent_id = Latin_SenecaYounger_Phoen_poetry-257
+# sent_id = SenPhoen-P-17-257
 # text = poteris has Amphionis quassare moles
 # speaker = Iocasta
 1	poteris	possum	VERB	B6	Aspect=Imp|InflClass=LatAnom|Mood=Ind|Number=Sing|Person=2|Tense=Fut|VerbForm=Fin|Voice=Act	0	root	_	_
@@ -14455,7 +14455,7 @@
 4	quassare	quasso	VERB	B1	Aspect=Imp|InflClass=LatA|InflClass[nominal]=Ind|VerbForm=Inf|Voice=Act	1	xcomp	_	_
 5	moles	moles	NOUN	A3	Case=Acc|Gender=Fem|InflClass=IndEurI|Number=Plur	4	obj	_	_
 
-# sent_id = Latin_SenecaYounger_Phoen_poetry-258
+# sent_id = SenPhoen-P-17-258
 # text = nulla quas struxit manus stridente tardum machina ducens onus sed conuocatus uocis et citharae sono per se ipse summas uenit in turres lapis haec saxa franges
 # speaker = Iocasta
 1	nulla	nullus	DET	L	Case=Nom|Gender=Fem|InflClass=LatPron|Number=Sing|PronType=Neg	4	det	_	_
@@ -14485,7 +14485,7 @@
 25	saxa	saxum	NOUN	A2	Case=Acc|Gender=Neut|InflClass=IndEurO|Number=Plur	26	obj	_	_
 26	franges	frango	VERB	B3	Aspect=Imp|InflClass=LatX|Mood=Ind|Number=Sing|Person=2|Tense=Fut|VerbForm=Fin|Voice=Act	20	conj	_	_
 
-# sent_id = Latin_SenecaYounger_Phoen_poetry-259
+# sent_id = SenPhoen-P-17-259
 # text = uictor hinc spolia auferes uinctosque duces patris aequales tui matresque ab ipso coniugum raptas sinu saeuus catena miles imposita trahet
 # speaker = Iocasta
 1	uictor	uictor	NOUN	A3	Case=Nom|Gender=Masc|InflClass=IndEurX|Number=Sing	4	advcl:pred	_	_
@@ -14513,7 +14513,7 @@
 21	imposita	impono	VERB	B3	Aspect=Perf|Case=Abl|Degree=Pos|Gender=Fem|InflClass=LatX|InflClass[nominal]=IndEurA|Number=Sing|VerbForm=Part|Voice=Pass	19	acl	_	_
 22	trahet	traho	VERB	B3	Aspect=Imp|InflClass=LatX|Mood=Ind|Number=Sing|Person=3|Tense=Fut|VerbForm=Fin|Voice=Act	4	conj	_	_
 
-# sent_id = Latin_SenecaYounger_Phoen_poetry-260
+# sent_id = SenPhoen-P-17-260
 # text = adulta uirgo mixta captiuo gregi Thebana nuribus munus Argolicis eat
 # speaker = Iocasta
 1	adulta	adultus	ADJ	C1	Case=Nom|Degree=Pos|Gender=Fem|InflClass=IndEurA|Number=Sing	2	amod	_	_
@@ -14527,7 +14527,7 @@
 9	Argolicis	argolicus	ADJ	C1	Case=Dat|Degree=Pos|Gender=Fem|InflClass=IndEurA|NameType=Geo|Number=Plur	7	amod	_	_
 10	eat	eo	VERB	B6	Aspect=Imp|InflClass=LatAnom|Mood=Sub|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin|Voice=Act	0	root	_	_
 
-# sent_id = Latin_SenecaYounger_Phoen_poetry-261
+# sent_id = SenPhoen-P-17-261
 # text = an et ipsa palmas uincta postergum datas mater triumphi praeda fraterni uehar
 # speaker = Iocasta
 1	an	an	PART	O	PartType=Int|Polarity=Neg	12	cc	_	_
@@ -14543,7 +14543,7 @@
 11	fraterni	fraternus	ADJ	C1	Case=Gen|Degree=Pos|Gender=Masc|InflClass=IndEurO|Number=Sing	9	amod	_	_
 12	uehar	ueho	VERB	B3	Aspect=Imp|InflClass=LatX|Mood=Sub|Number=Sing|Person=1|Tense=Pres|VerbForm=Fin|Voice=Pass	0	root	_	_
 
-# sent_id = Latin_SenecaYounger_Phoen_poetry-262
+# sent_id = SenPhoen-P-17-262
 # text = potesne ciues leto et exilio datos uidere passim
 # speaker = Iocasta
 1-2	potesne	_	_	_	_	_	_	_	_
@@ -14557,7 +14557,7 @@
 8	uidere	uideo	VERB	B2	Aspect=Imp|InflClass=LatE|InflClass[nominal]=Ind|VerbForm=Inf|Voice=Act	1	ccomp	_	_
 9	passim	passim	ADV	M	Degree=Pos	7	advmod:lmod	_	_
 
-# sent_id = Latin_SenecaYounger_Phoen_poetry-263
+# sent_id = SenPhoen-P-17-263
 # text = moenibus caris potes hostem admouere sanguine et flamma potes implere Thebas
 # speaker = Iocasta
 1	moenibus	moenia	NOUN	A3	Case=Dat|Gender=Neut|InflClass=IndEurI|Number=Plur	5	obl	_	_
@@ -14572,7 +14572,7 @@
 10	implere	impleo	VERB	B2	Aspect=Imp|InflClass=LatE|InflClass[nominal]=Ind|VerbForm=Inf|Voice=Act	9	csubj	_	_
 11	Thebas	thebae	PROPN	A1	Case=Acc|Gender=Fem|InflClass=IndEurA|NameType=Geo|Number=Plur	10	obj	_	_
 
-# sent_id = Latin_SenecaYounger_Phoen_poetry-264
+# sent_id = SenPhoen-P-17-264
 # text = tam ferus durum geris saeuumque in iras pectus
 # speaker = Iocasta
 1	tam	tam	ADV	M	Degree=Pos	3	advmod	_	_
@@ -14586,21 +14586,21 @@
 8	iras	ira	NOUN	A1	Case=Acc|Gender=Fem|InflClass=IndEurA|Number=Plur	5	obl	_	_
 9	pectus	pectus	NOUN	A3	Case=Acc|Gender=Neut|InflClass=IndEurX|Number=Sing	4	nsubj	_	_
 
-# sent_id = Latin_SenecaYounger_Phoen_poetry-265
+# sent_id = SenPhoen-P-17-265
 # text = et nondum imperas
 # speaker = Iocasta
 1	et	et	CCONJ	S	_	3	cc	_	_
 2	nondum	nondum	ADV	P	Polarity=Neg	3	advmod:tmod	_	_
 3	imperas	impero	VERB	B1	Aspect=Imp|InflClass=LatA|Mood=Ind|Number=Sing|Person=2|Tense=Pres|VerbForm=Fin|Voice=Act	0	root	_	_
 
-# sent_id = Latin_SenecaYounger_Phoen_poetry-266
+# sent_id = SenPhoen-P-17-266
 # text = quid sceptra facient
 # speaker = Iocasta
 1	quid	quis	PRON	K	Case=Acc|Gender=Neut|InflClass=LatPron|Number=Sing|PronType=Int	3	obj	_	_
 2	sceptra	sceptrum	NOUN	A2	Case=Nom|Gender=Neut|InflClass=IndEurO|Number=Plur	3	nsubj	_	_
 3	facient	facio	VERB	B5	Aspect=Imp|InflClass=LatI2|Mood=Ind|Number=Plur|Person=3|Tense=Fut|VerbForm=Fin|Voice=Act	0	root	_	_
 
-# sent_id = Latin_SenecaYounger_Phoen_poetry-267
+# sent_id = SenPhoen-P-17-267
 # text = pone uaesanos precor animi tumores teque pietati refer
 # speaker = Iocasta
 1	pone	pono	VERB	B3	Aspect=Imp|InflClass=LatX|Mood=Imp|Number=Sing|Person=2|Tense=Pres|VerbForm=Fin|Voice=Act	0	root	_	_
@@ -14614,14 +14614,14 @@
 8	pietati	pietas	NOUN	A3	Case=Dat|Gender=Fem|InflClass=IndEurX|Number=Sing	9	obl:lmod	_	_
 9	refer	refero	VERB	B6	Aspect=Imp|InflClass=LatAnom|Mood=Imp|Number=Sing|Person=2|Tense=Pres|VerbForm=Fin|Voice=Act	1	conj	_	_
 
-# sent_id = Latin_SenecaYounger_Phoen_poetry-268
+# sent_id = SenPhoen-P-17-268
 # text = ut profugus errem
 # speaker = Polynices
 1	ut	ut	SCONJ	T	_	3	mark	_	_
 2	profugus	profugus	ADJ	C1	Case=Nom|Degree=Pos|Gender=Masc|InflClass=IndEurO|Number=Sing	3	advcl:pred	_	_
 3	errem	erro	VERB	B1	Aspect=Imp|InflClass=LatA|Mood=Sub|Number=Sing|Person=1|Tense=Pres|VerbForm=Fin|Voice=Act	0	root	_	_
 
-# sent_id = Latin_SenecaYounger_Phoen_poetry-269
+# sent_id = SenPhoen-P-17-269
 # text = semper ut patria arcear opemque gentis hospes externae sequar
 # speaker = Polynices
 1	semper	semper	ADV	M	Degree=Pos	4	advmod:tmod	_	_
@@ -14636,7 +14636,7 @@
 9	externae	externus	ADJ	C1	Case=Gen|Degree=Pos|Gender=Fem|InflClass=IndEurA|Number=Sing	7	amod	_	_
 10	sequar	sequor	VERB	B3	Aspect=Imp|InflClass=LatX|Mood=Sub|Number=Sing|Person=1|Tense=Pres|VerbForm=Fin|Voice=Pass	4	conj	_	_
 
-# sent_id = Latin_SenecaYounger_Phoen_poetry-270
+# sent_id = SenPhoen-P-17-270
 # text = quid paterer aliud si fefellissem fidem
 # speaker = Polynices
 1	quid	quis	PRON	K	Case=Acc|Gender=Neut|InflClass=LatPron|Number=Sing|PronType=Int	2	obj	_	_
@@ -14646,13 +14646,13 @@
 5	fefellissem	fallo	VERB	B3	Aspect=Perf|InflClass=LatX|Mood=Sub|Number=Sing|Person=1|Tense=Pqp|VerbForm=Fin|Voice=Act	2	advcl	_	_
 6	fidem	fides	NOUN	A5	Case=Acc|Gender=Fem|InflClass=IndEurE|Number=Sing	5	obj	_	_
 
-# sent_id = Latin_SenecaYounger_Phoen_poetry-271
+# sent_id = SenPhoen-P-17-271
 # text = si peierassem
 # speaker = Polynices
 1	si	si	SCONJ	T	_	2	mark	_	_
 2	peierassem	peiero	VERB	B1	Aspect=Perf|InflClass=LatA|Mood=Sub|Number=Sing|Person=1|Tense=Pqp|VerbForm=Fin|Voice=Act	0	root	_	_
 
-# sent_id = Latin_SenecaYounger_Phoen_poetry-272
+# sent_id = SenPhoen-P-17-272
 # text = fraudis alienae dabo poenas at ille praemium scelerum feret
 # speaker = Polynices
 1	fraudis	fraus	NOUN	A3	Case=Gen|Gender=Fem|InflClass=IndEurI|Number=Sing	4	nmod	_	_
@@ -14665,7 +14665,7 @@
 8	scelerum	scelus	NOUN	A3	Case=Gen|Gender=Neut|InflClass=IndEurX|Number=Plur	7	nmod	_	_
 9	feret	fero	VERB	B6	Aspect=Imp|InflClass=LatAnom|Mood=Ind|Number=Sing|Person=3|Tense=Fut|VerbForm=Fin|Voice=Act	3	conj	_	_
 
-# sent_id = Latin_SenecaYounger_Phoen_poetry-273
+# sent_id = SenPhoen-P-17-273
 # text = iubes abire matris imperio obsequor da quo reuertar
 # speaker = Polynices
 1	iubes	iubeo	VERB	B2	Aspect=Imp|InflClass=LatE|Mood=Ind|Number=Sing|Person=2|Tense=Pres|VerbForm=Fin|Voice=Act	0	root	_	_
@@ -14677,7 +14677,7 @@
 7	quo	quo	SCONJ	N	PronType=Rel	8	mark	_	_
 8	reuertar	reuertor	VERB	B3	Aspect=Imp|InflClass=LatX|Mood=Sub|Number=Sing|Person=1|Tense=Pres|VerbForm=Fin|Voice=Pass	6	advcl	_	_
 
-# sent_id = Latin_SenecaYounger_Phoen_poetry-274
+# sent_id = SenPhoen-P-17-274
 # text = regia frater meus habitat superba parua me abscondat casa
 # speaker = Polynices
 1	regia	regia	NOUN	A1	Case=Abl|Gender=Fem|InflClass=IndEurA|Number=Sing	4	obl:lmod	_	_
@@ -14690,7 +14690,7 @@
 8	abscondat	abscondo	VERB	B3	Aspect=Imp|InflClass=LatX|Mood=Sub|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin|Voice=Act	4	conj	_	_
 9	casa	casa	NOUN	A1	Case=Nom|Gender=Fem|InflClass=IndEurA|Number=Sing	8	nsubj	_	_
 
-# sent_id = Latin_SenecaYounger_Phoen_poetry-275
+# sent_id = SenPhoen-P-17-275
 # text = hanc date repulso liceat exiguo Lare pensare regnum
 # speaker = Polynices
 1	hanc	hic	DET	I	Case=Acc|Gender=Fem|InflClass=LatPron|Number=Sing|PronType=Dem	2	nsubj	_	_
@@ -14702,7 +14702,7 @@
 7	pensare	penso	VERB	B1	Aspect=Imp|InflClass=LatA|InflClass[nominal]=Ind|VerbForm=Inf|Voice=Act	4	xcomp	_	_
 8	regnum	regnum	NOUN	A2	Case=Acc|Gender=Neut|InflClass=IndEurO|Number=Sing	7	obj	_	_
 
-# sent_id = Latin_SenecaYounger_Phoen_poetry-276
+# sent_id = SenPhoen-P-17-276
 # text = coniugi donum datus arbitria thalami dura felicis feram humilisque socerum lixa dominantem sequar
 # speaker = Polynices
 1	coniugi	coniux	NOUN	A3	Case=Dat|Gender=Fem,Masc|InflClass=IndEurX|Number=Sing	3	obl:arg	_	_
@@ -14721,7 +14721,7 @@
 13	dominantem	dominor	VERB	B1	Aspect=Imp|Case=Acc|Degree=Pos|Gender=Masc|InflClass=LatA|InflClass[nominal]=IndEurI|Number=Sing|VerbForm=Part|Voice=Act	11	acl	_	_
 14	sequar	sequor	VERB	B3	Aspect=Imp|InflClass=LatX|Mood=Sub|Number=Sing|Person=1|Tense=Pres|VerbForm=Fin|Voice=Pass	8	conj	_	_
 
-# sent_id = Latin_SenecaYounger_Phoen_poetry-277
+# sent_id = SenPhoen-P-17-277
 # text = in seruitutem cadere de regno graue est
 # speaker = Polynices
 1	in	in	ADP	R	AdpType=Prep	2	case	_	_
@@ -14732,7 +14732,7 @@
 6	graue	grauis	ADJ	C4	Case=Nom|Degree=Pos|Gender=Neut|InflClass=IndEurI|Number=Sing	0	root	_	_
 7	est	sum	AUX	B6	Aspect=Imp|InflClass=LatAnom|Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	6	cop	_	_
 
-# sent_id = Latin_SenecaYounger_Phoen_poetry-278
+# sent_id = SenPhoen-P-17-278
 # text = si regna quaeris nec potest sceptro manus uacare saeuo multa quae possunt peti in orbe toto quaelibet tellus dabit
 # speaker = Iocasta
 1	si	si	SCONJ	T	_	3	mark	_	_
@@ -14755,7 +14755,7 @@
 18	tellus	tellus	NOUN	A3	Case=Nom|Gender=Fem|InflClass=IndEurX|Number=Sing	19	nsubj	_	_
 19	dabit	do	VERB	B1	Aspect=Imp|InflClass=LatA|Mood=Ind|Number=Sing|Person=3|Tense=Fut|VerbForm=Fin|Voice=Act	0	root	_	_
 
-# sent_id = Latin_SenecaYounger_Phoen_poetry-279
+# sent_id = SenPhoen-P-17-279
 # text = hinc nota Baccho Tmolus attollit iuga qua lata terris spatia frugiferis iacent et qua trahens opulenta Pactolus uada inundat auro rura nec laetis minus Maeandros aruis flectit errantis aquas rapidusque campos fertiles Hermus secat hinc grata Cereri Gargara et diues solum quod Xanthus ambit niuibus Idaeis tumens hinc qua relinquit nomen Ionii mare faucesque Abydo Sestos opposita premit aut qua latus iam propius orienti dedit tutamque crebris portibus Lyciam uidet haec regna ferro quaere in hos populos ferat socer arma fortis has tuo sceptro paret tradatque gentes
 # speaker = Iocasta
 1	hinc	hinc	ADV	M	Degree=Pos	5	advmod:lmod	_	_
@@ -14854,7 +14854,7 @@
 90	que	que	CCONJ	S	_	89	cc	_	_
 91	gentes	gens	NOUN	A3	Case=Acc|Gender=Fem|InflClass=IndEurI|Number=Plur	89	obj	_	_
 
-# sent_id = Latin_SenecaYounger_Phoen_poetry-280
+# sent_id = SenPhoen-P-17-280
 # text = hoc adhuc regnum puta tenere patrem
 # speaker = Iocasta
 1	hoc	hic	DET	I	Case=Acc|Gender=Neut|InflClass=LatPron|Number=Sing|PronType=Dem	3	det	_	_
@@ -14864,7 +14864,7 @@
 5	tenere	teneo	VERB	B2	Aspect=Imp|InflClass=LatE|InflClass[nominal]=Ind|VerbForm=Inf|Voice=Act	4	ccomp	_	_
 6	patrem	pater	NOUN	A3	Case=Acc|Gender=Masc|InflClass=IndEurX|Number=Sing	5	nsubj	_	_
 
-# sent_id = Latin_SenecaYounger_Phoen_poetry-281
+# sent_id = SenPhoen-P-17-281
 # text = melius exilium est tibi quam reditus iste crimine alieno exulas tuo redibis
 # speaker = Iocasta
 1	melius	bonus	ADJ	C1	Case=Nom|Degree=Cmp|Gender=Neut|InflClass=IndEurX|Number=Sing	0	root	_	_
@@ -14880,7 +14880,7 @@
 11	tuo	tuus	DET	F	Case=Abl|Gender=Neut|InflClass=IndEurO|Number=Sing|Number[psor]=Sing|Person[psor]=2|Poss=Yes|PronType=Prs	12	obl	_	_
 12	redibis	redeo	VERB	B6	Aspect=Imp|InflClass=LatAnom|Mood=Ind|Number=Sing|Person=2|Tense=Fut|VerbForm=Fin|Voice=Act	1	conj	_	_
 
-# sent_id = Latin_SenecaYounger_Phoen_poetry-282
+# sent_id = SenPhoen-P-17-282
 # text = melius istis uiribus noua regna nullo scelere maculata appetes
 # speaker = Iocasta
 1	melius	bene	ADV	M	Degree=Cmp	9	advmod	_	_
@@ -14893,7 +14893,7 @@
 8	maculata	maculo	VERB	B1	Aspect=Perf|Case=Acc|Degree=Pos|Gender=Neut|InflClass=LatA|InflClass[nominal]=IndEurO|Number=Plur|VerbForm=Part|Voice=Pass	5	acl	_	_
 9	appetes	appeto	VERB	B3	Aspect=Imp|InflClass=LatX|Mood=Ind|Number=Sing|Person=2|Tense=Fut|VerbForm=Fin|Voice=Act	0	root	_	_
 
-# sent_id = Latin_SenecaYounger_Phoen_poetry-283
+# sent_id = SenPhoen-P-17-283
 # text = quin ipse frater arma comitatus tua tibi militabit
 # speaker = Iocasta
 1	quin	quin	PART	M	_	8	advmod:emph	_	_
@@ -14905,7 +14905,7 @@
 7	tibi	tu	PRON	E	Case=Dat|InflClass=LatAnom|Number=Sing|Person=2|PronType=Prs	8	obl	_	_
 8	militabit	milito	VERB	B1	Aspect=Imp|InflClass=LatA|Mood=Ind|Number=Sing|Person=3|Tense=Fut|VerbForm=Fin|Voice=Act	0	root	_	_
 
-# sent_id = Latin_SenecaYounger_Phoen_poetry-284
+# sent_id = SenPhoen-P-17-284
 # text = uade et id bellum gere in quo pater materque pugnanti tibi fauere possint
 # speaker = Iocasta
 1	uade	uado	VERB	B3	Aspect=Imp|InflClass=LatX|Mood=Imp|Number=Sing|Person=2|Tense=Pres|VerbForm=Fin|Voice=Act	0	root	_	_
@@ -14924,7 +14924,7 @@
 13	fauere	faueo	VERB	B2	Aspect=Imp|InflClass=LatE|InflClass[nominal]=Ind|VerbForm=Inf|Voice=Act	14	xcomp	_	_
 14	possint	possum	VERB	B6	Aspect=Imp|InflClass=LatAnom|Mood=Sub|Number=Plur|Person=3|Tense=Pres|VerbForm=Fin|Voice=Act	4	acl:relcl	_	_
 
-# sent_id = Latin_SenecaYounger_Phoen_poetry-285
+# sent_id = SenPhoen-P-17-285
 # text = regna cum scelere omnibus sunt exilis grauiora
 # speaker = Iocasta
 1	regna	regnum	NOUN	A2	Case=Nom|Gender=Neut|InflClass=IndEurO|Number=Plur	7	nsubj	_	_
@@ -14935,7 +14935,7 @@
 6	exilis	exsilium	NOUN	A2	Case=Abl|Gender=Neut|InflClass=IndEurO|Number=Plur	7	obl:cmp	_	_
 7	grauiora	grauis	ADJ	C4	Case=Nom|Degree=Cmp|Gender=Neut|InflClass=IndEurX|Number=Plur	0	root	_	_
 
-# sent_id = Latin_SenecaYounger_Phoen_poetry-286
+# sent_id = SenPhoen-P-17-286
 # text = nunc belli mala propone dubias Martis incerti uices licet omne tecum Graeciae robur trahas licet arma longe miles ac late explicet fortuna belli semper ancipiti in loco est
 # speaker = Iocasta
 1	nunc	nunc	ADV	M	Degree=Pos	4	advmod:tmod	_	_
@@ -14969,7 +14969,7 @@
 28	loco	locus	NOUN	A2	Case=Abl|Gender=Masc|InflClass=IndEurO|Number=Sing	15	obl:lmod	_	_
 29	est	sum	AUX	B6	Aspect=Imp|InflClass=LatAnom|Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	28	cop	_	_
 
-# sent_id = Latin_SenecaYounger_Phoen_poetry-287
+# sent_id = SenPhoen-P-17-287
 # text = quodcumque Mars decernit exaequat duos licet impares sint gladius et spes et metus Fors caeca uersat
 # speaker = Iocasta
 1	quodcumque	quicumque	DET	L	Case=Acc|Gender=Neut|InflClass=LatPron|Number=Sing|PronType=Ind	3	obj	_	_
@@ -14989,7 +14989,7 @@
 15	caeca	caecus	ADJ	C1	Case=Nom|Degree=Pos|Gender=Fem|InflClass=IndEurA|Number=Sing	14	amod	_	_
 16	uersat	uerso	VERB	B1	Aspect=Imp|InflClass=LatA|Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin|Voice=Act	3	conj	_	_
 
-# sent_id = Latin_SenecaYounger_Phoen_poetry-288
+# sent_id = SenPhoen-P-17-288
 # text = praemium incertum petis certum scelus
 # speaker = Iocasta
 1	praemium	praemium	NOUN	A2	Case=Acc|Gender=Neut|InflClass=IndEurO|Number=Sing	3	obj	_	_
@@ -14998,7 +14998,7 @@
 4	certum	certus	ADJ	C1	Case=Acc|Degree=Pos|Gender=Neut|InflClass=IndEurO|Number=Sing	5	amod	_	_
 5	scelus	scelus	NOUN	A3	Case=Acc|Gender=Neut|InflClass=IndEurX|Number=Sing	1	conj	_	_
 
-# sent_id = Latin_SenecaYounger_Phoen_poetry-289
+# sent_id = SenPhoen-P-17-289
 # text = fauisse fac uotis deos omnes tuis cessere et auersi fugam petiere ciues clade funesta iacens obtexit agros miles exultes licet uictorque fratris spolia deiecti geras frangenda palma est
 # speaker = Iocasta
 1	fauisse	faueo	VERB	B2	Aspect=Perf|InflClass=LatE|InflClass[nominal]=Ind|VerbForm=Inf|Voice=Act	2	ccomp	_	_
@@ -15032,7 +15032,7 @@
 28	palma	palma	NOUN	A1	Case=Nom|Gender=Fem|InflClass=IndEurA|Number=Sing	27	nsubj:pass	_	_
 29	est	sum	AUX	B6	Aspect=Imp|InflClass=LatAnom|Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	27	aux:pass	_	_
 
-# sent_id = Latin_SenecaYounger_Phoen_poetry-290
+# sent_id = SenPhoen-P-17-290
 # text = quale tu hoc bellum putas in quo execrandum uictor admittit nefas si gaudet
 # speaker = Iocasta
 1	quale	qualis	DET	K	Case=Acc|Gender=Neut|InflClass=IndEurI|Number=Sing|PronType=Int	4	det	_	_
@@ -15049,7 +15049,7 @@
 12	si	si	SCONJ	T	_	13	mark	_	_
 13	gaudet	gaudeo	VERB	B2	Aspect=Imp|InflClass=LatE|Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin|Voice=Act	10	advcl	_	_
 
-# sent_id = Latin_SenecaYounger_Phoen_poetry-291
+# sent_id = SenPhoen-P-17-291
 # text = hunc quem uincere infelix cupis cum uiceris lugebis
 # speaker = Iocasta
 1	hunc	hic	DET	I	Case=Acc|Gender=Masc|InflClass=LatPron|Number=Sing|PronType=Dem	3	obj	_	_
@@ -15061,7 +15061,7 @@
 7	uiceris	uinco	VERB	B3	Aspect=Perf|InflClass=LatX|Mood=Ind|Number=Sing|Person=2|Tense=Fut|VerbForm=Fin|Voice=Act	8	advcl	_	_
 8	lugebis	lugeo	VERB	B2	Aspect=Imp|InflClass=LatE|Mood=Ind|Number=Sing|Person=2|Tense=Fut|VerbForm=Fin|Voice=Act	1	acl:relcl	_	_
 
-# sent_id = Latin_SenecaYounger_Phoen_poetry-292
+# sent_id = SenPhoen-P-17-292
 # text = infaustas age dimitte pugnas libera patriam metu luctu parentes
 # speaker = Iocasta
 1	infaustas	infaustus	ADJ	C1	Case=Acc|Degree=Pos|Gender=Fem|InflClass=IndEurA|Number=Plur	4	amod	_	_
@@ -15074,7 +15074,7 @@
 8	luctu	luctus	NOUN	A4	Case=Abl|Gender=Masc|InflClass=IndEurU|Number=Sing	9	orphan	_	_
 9	parentes	parens	NOUN	A3	Case=Acc|Gender=Masc|InflClass=IndEurI|Number=Plur	6	conj	_	_
 
-# sent_id = Latin_SenecaYounger_Phoen_poetry-293
+# sent_id = SenPhoen-P-17-293
 # text = sceleris et fraudis suae poenas nefandus frater ut nullas ferat
 # speaker = Polynices
 1	sceleris	scelus	NOUN	A3	Case=Gen|Gender=Neut|InflClass=IndEurX|Number=Sing	5	nmod	_	_
@@ -15088,13 +15088,13 @@
 9	nullas	nullus	DET	L	Case=Acc|Gender=Fem|InflClass=LatPron|Number=Plur|PronType=Neg	5	det	_	_
 10	ferat	fero	VERB	B6	Aspect=Imp|InflClass=LatAnom|Mood=Sub|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin|Voice=Act	0	root	_	_
 
-# sent_id = Latin_SenecaYounger_Phoen_poetry-294
+# sent_id = SenPhoen-P-17-294
 # text = ne metue
 # speaker = Iocasta
 1	ne	ne	PART	P	PartType=Emp|Polarity=Neg	2	advmod:neg	_	_
 2	metue	metuo	VERB	B3	Aspect=Imp|InflClass=LatX|Mood=Imp|Number=Sing|Person=2|Tense=Pres|VerbForm=Fin|Voice=Act	0	root	_	_
 
-# sent_id = Latin_SenecaYounger_Phoen_poetry-295
+# sent_id = SenPhoen-P-17-295
 # text = poenas et quidem soluet graues regnabit
 # speaker = Iocasta
 1	poenas	poena	NOUN	A1	Case=Acc|Gender=Fem|InflClass=IndEurA|Number=Plur	4	obj	_	_
@@ -15104,14 +15104,14 @@
 5	graues	grauis	ADJ	C4	Case=Acc|Degree=Pos|Gender=Fem|InflClass=IndEurI|Number=Plur	1	amod	_	_
 6	regnabit	regno	VERB	B1	Aspect=Imp|InflClass=LatA|Mood=Ind|Number=Sing|Person=3|Tense=Fut|VerbForm=Fin|Voice=Act	4	conj	_	_
 
-# sent_id = Latin_SenecaYounger_Phoen_poetry-296
+# sent_id = SenPhoen-P-17-296
 # text = est haec poena
 # speaker = Iocasta
 1	est	sum	AUX	B6	Aspect=Imp|InflClass=LatAnom|Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	3	cop	_	_
 2	haec	hic	DET	I	Case=Nom|Gender=Fem|InflClass=LatPron|Number=Sing|PronType=Dem	3	nsubj	_	_
 3	poena	poena	NOUN	A1	Case=Nom|Gender=Fem|InflClass=IndEurA|Number=Sing	0	root	_	_
 
-# sent_id = Latin_SenecaYounger_Phoen_poetry-297
+# sent_id = SenPhoen-P-17-297
 # text = si dubitas auo patrique crede Cadmus hoc dicet tibi Cadmique proles
 # speaker = Iocasta
 1	si	si	SCONJ	T	_	2	mark	_	_
@@ -15130,7 +15130,7 @@
 12	que	que	CCONJ	S	_	13	cc	_	_
 13	proles	proles	NOUN	A3	Case=Nom|Gender=Fem|InflClass=IndEurI|Number=Sing	7	conj	_	_
 
-# sent_id = Latin_SenecaYounger_Phoen_poetry-298
+# sent_id = SenPhoen-P-17-298
 # text = sceptra Thebano fuit impune nulli gerere nec quisquam fide rupta tenebit illa iam numeres licet fratrem inter istos
 # speaker = Iocasta
 1	sceptra	sceptrum	NOUN	A2	Case=Acc|Gender=Neut|InflClass=IndEurO|Number=Plur	6	obj	_	_
@@ -15152,7 +15152,7 @@
 17	inter	inter	ADP	R	AdpType=Prep	18	case	_	_
 18	istos	iste	DET	I	Case=Acc|Gender=Masc|InflClass=LatPron|Number=Plur|PronType=Dem	14	obl	_	_
 
-# sent_id = Latin_SenecaYounger_Phoen_poetry-299
+# sent_id = SenPhoen-P-17-299
 # text = numeret est tanti mihi cum regibus iacere
 # speaker = Eteocles
 1	numeret	numero	VERB	B1	Aspect=Imp|InflClass=LatA|Mood=Sub|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin|Voice=Act	0	root	_	_
@@ -15163,7 +15163,7 @@
 6	regibus	rex	NOUN	A3	Case=Abl|Gender=Masc|InflClass=IndEurX|Number=Plur	7	obl	_	_
 7	iacere	iaceo	VERB	B2	Aspect=Imp|InflClass=LatE|InflClass[nominal]=Ind|VerbForm=Inf|Voice=Act	3	csubj	_	_
 
-# sent_id = Latin_SenecaYounger_Phoen_poetry-300
+# sent_id = SenPhoen-P-17-300
 # text = te turbae exulum ascribo
 # speaker = Eteocles
 1	te	tu	PRON	E	Case=Acc|InflClass=LatAnom|Number=Sing|Person=2|PronType=Prs	4	obj	_	_
@@ -15171,7 +15171,7 @@
 3	exulum	exsul	NOUN	A3	Case=Gen|Gender=Fem,Masc|InflClass=IndEurX|Number=Plur	2	nmod	_	_
 4	ascribo	ascribo	VERB	B3	Aspect=Imp|InflClass=LatX|Mood=Ind|Number=Sing|Person=1|Tense=Pres|VerbForm=Fin|Voice=Act	0	root	_	_
 
-# sent_id = Latin_SenecaYounger_Phoen_poetry-301
+# sent_id = SenPhoen-P-17-301
 # text = regna dummodo inuisus tuis
 # speaker = Iocasta
 1	regna	regno	VERB	B1	Aspect=Imp|InflClass=LatA|Mood=Imp|Number=Sing|Person=2|Tense=Pres|VerbForm=Fin|Voice=Act	0	root	_	_
@@ -15179,7 +15179,7 @@
 3	inuisus	inuisus	ADJ	C1	Case=Nom|Degree=Pos|Gender=Masc|InflClass=IndEurO|Number=Sing	1	advcl	_	_
 4	tuis	tui	DET	F	Case=Dat|Gender=Fem,Masc,Neut|InflClass=IndEurA,IndEurO|Number=Plur|Number[psor]=Sing|Person[psor]=2|Poss=Yes|PronType=Prs	3	obl	_	_
 
-# sent_id = Latin_SenecaYounger_Phoen_poetry-302
+# sent_id = SenPhoen-P-17-302
 # text = regnare non uult esse qui inuisus timet simul ista mundi conditor posuit deus odium atque regnum regis hoc magni reor odia ipsa premere
 # speaker = Eteocles
 1	regnare	regno	VERB	B1	Aspect=Imp|InflClass=LatA|InflClass[nominal]=Ind|VerbForm=Inf|Voice=Act	3	xcomp	_	_
@@ -15206,7 +15206,7 @@
 22	ipsa	ipse	DET	I	Case=Acc|Gender=Neut|InflClass=LatPron|Number=Plur|PronType=Dem	21	det	_	_
 23	premere	premo	VERB	B3	Aspect=Imp|InflClass=LatX|InflClass[nominal]=Ind|VerbForm=Inf|Voice=Act	20	xcomp	_	_
 
-# sent_id = Latin_SenecaYounger_Phoen_poetry-303
+# sent_id = SenPhoen-P-17-303
 # text = multa dominantem uetat amor suorum plus in iratos licet
 # speaker = Eteocles
 1	multa	multus	DET	C1	Case=Acc|Degree=Pos|Gender=Neut|InflClass=IndEurO|Number=Plur|NumType=Card|PronType=Ind	3	obj	_	_
@@ -15219,7 +15219,7 @@
 8	iratos	iratus	ADJ	C1	Case=Acc|Degree=Pos|Gender=Masc|InflClass=IndEurO|Number=Plur	9	obl	_	_
 9	licet	licet	VERB	B2	Aspect=Imp|InflClass=LatE|Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin|Voice=Act	3	conj	_	_
 
-# sent_id = Latin_SenecaYounger_Phoen_poetry-304
+# sent_id = SenPhoen-P-17-304
 # text = qui uult amari languida regnat manu
 # speaker = Eteocles
 1	qui	qui	PRON	J	Case=Nom|Gender=Masc|InflClass=LatPron|Number=Sing|PronType=Rel	2	nsubj	_	_
@@ -15229,7 +15229,7 @@
 5	regnat	regno	VERB	B1	Aspect=Imp|InflClass=LatA|Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin|Voice=Act	0	root	_	_
 6	manu	manus	NOUN	A4	Case=Abl|Gender=Fem|InflClass=IndEurU|Number=Sing	5	obl	_	_
 
-# sent_id = Latin_SenecaYounger_Phoen_poetry-305
+# sent_id = SenPhoen-P-17-305
 # text = inuisa numquam imperia retinentur diu
 # speaker = Iocasta
 1	inuisa	inuisus	ADJ	C1	Case=Nom|Degree=Pos|Gender=Neut|InflClass=IndEurO|Number=Plur	3	amod	_	_
@@ -15238,7 +15238,7 @@
 4	retinentur	retineo	VERB	B2	Aspect=Imp|InflClass=LatE|Mood=Ind|Number=Plur|Person=3|Tense=Pres|VerbForm=Fin|Voice=Pass	0	root	_	_
 5	diu	diu	ADV	M	Degree=Pos	4	advmod:tmod	_	_
 
-# sent_id = Latin_SenecaYounger_Phoen_poetry-306
+# sent_id = SenPhoen-P-17-306
 # text = praecepta melius imperi reges dabunt exilia tu dispone
 # speaker = Eteocles
 1	praecepta	praeceptum	NOUN	A2	Case=Acc|Gender=Neut|InflClass=IndEurO|Number=Plur	5	obj	_	_
@@ -15250,7 +15250,7 @@
 7	tu	tu	PRON	E	Case=Nom|InflClass=LatAnom|Number=Sing|Person=2|PronType=Prs	8	nsubj	_	_
 8	dispone	dispono	VERB	B3	Aspect=Imp|InflClass=LatX|Mood=Imp|Number=Sing|Person=2|Tense=Pres|VerbForm=Fin|Voice=Act	5	conj	_	_
 
-# sent_id = Latin_SenecaYounger_Phoen_poetry-307
+# sent_id = SenPhoen-P-17-307
 # text = pro regno uelim patriam Penates coniugem flammis dare
 # speaker = Eteocles (token 1-3), Iocasta (4-8)
 1	pro	pro	ADP	R	AdpType=Prep	2	case	_	_
@@ -15262,7 +15262,7 @@
 7	flammis	flamma	NOUN	A1	Case=Dat|Gender=Fem|InflClass=IndEurA|Number=Plur	8	obl:arg	_	_
 8	dare	do	VERB	B1	Aspect=Imp|InflClass=LatA|InflClass[nominal]=Ind|VerbForm=Inf|Voice=Act	3	xcomp	_	_
 
-# sent_id = Latin_SenecaYounger_Phoen_poetry-308
+# sent_id = SenPhoen-P-17-308
 # text = imperia pretio quolibet constant bene
 # speaker = Eteocles
 1	imperia	imperium	NOUN	A2	Case=Nom|Gender=Neut|InflClass=IndEurO|Number=Plur	4	nsubj	_	_
