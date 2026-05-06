@@ -1,17 +1,17 @@
 Running the following version of UD tools:
-commit 26e6c87a2f518322d15901a351199b6be6569062
+commit b39dc4111bb13658bc0c204b48bb78b492e45d2b
 Author: Dan Zeman <zeman@ufal.mff.cuni.cz>
-Date:   Fri Nov 7 15:39:58 2025 +0100
+Date:   Tue May 5 17:01:41 2026 +0200
 Evaluating the following revision of UD_Latin-CIRCSE:
-commit d7ae9581b0eb9b5f4eb82df3227636950d844387
-Merge: 06195cf 1374597
+commit 13d4fb5ef1b347f6009c14190696da4d80d17587
+Merge: 285bb71 01c0be6
 Author: Dan Zeman <zeman@ufal.mff.cuni.cz>
 CoNLL-U data file regular expression = '(.+)-ud-(train|dev|test)\.conllu'
 Language-treebank code (from CoNLL-U file name) = 'la_circse'
 Language code (from CoNLL-U file name) = 'la'
 Found the following data files: la_circse-ud-dev.conllu, la_circse-ud-test.conllu, la_circse-ud-train.conllu
-Size: counted 24899 of 24899 words (nodes).
-Size: min(0, log((N/1000)**2)) = 6.42965528404326.
+Size: counted 29055 of 29055 words (nodes).
+Size: min(0, log((N/1000)**2)) = 6.73838117105414.
 Size: maximum value 13.815511 is for 1000000 words or more.
 Split: Found more than 10000 training words.
 Split: Did not find at least 10000 development words.
@@ -19,7 +19,7 @@ Split: Found at least 10000 test words.
 Lemmas: source of annotation (from README) factor is 0.9.
 Universal POS tags: 14 out of 17 found in the corpus.
 Universal POS tags: source of annotation (from README) factor is 0.9.
-Features: 22471 out of 24899 total words have one or more features.
+Features: 26313 out of 29055 total words have one or more features.
 Features: source of annotation (from README) factor is 0.9.
 Universal relations: 29 out of 37 found in the corpus.
 Universal relations: source of annotation (from README) factor is 1.
@@ -27,24 +27,19 @@ Genres: found 2 out of 18 known.
 /net/work/people/zeman/unidep/tools/validate.py --lang la --max-err=10 UD_Latin-CIRCSE/la_circse-ud-dev.conllu
 *** PASSED ***
 /net/work/people/zeman/unidep/tools/validate.py --lang la --max-err=10 UD_Latin-CIRCSE/la_circse-ud-test.conllu
-[Line 6270 Sent Latin_SenecaYounger_Ag_poetry-289]: [L3 Warning obl-should-be-nmod] The parent (node [6] 'portus') is a nominal (and not a predicate), hence the relation should be 'nmod', not 'obl'.
-[Line 12230 Sent Latin_SenecaYounger_Oedip_poetry-228]: [L3 Warning obl-should-be-nmod] The parent (node [42] 'diua') is a nominal (and not a predicate), hence the relation should be 'nmod', not 'obl'.
-Warnings: 2
+[Line 14932 Sent SenPhoen-P-17-285]: [L3 WARNING orphan-parent] The parent of 'orphan' should normally be 'conj' but it is 'nsubj'.
+Warnings: 1
 *** PASSED ***
 /net/work/people/zeman/unidep/tools/validate.py --lang la --max-err=10 UD_Latin-CIRCSE/la_circse-ud-train.conllu
-[Line 4080 Sent Latin_SenecaYounger_HercF_poetry-213]: [L3 Warning obl-should-be-nmod] The parent (node [26] 'Mors') is a nominal (and not a predicate), hence the relation should be 'nmod', not 'obl'.
-[Line 14984 Sent Latin_SenecaYounger_Oedip_poetry-131]: [L3 Warning obl-should-be-nmod] The parent (node [21] 'uirgo') is a nominal (and not a predicate), hence the relation should be 'nmod', not 'obl'.
-[Line 14991 Sent Latin_SenecaYounger_Oedip_poetry-131]: [L3 Warning obl-should-be-nmod] The parent (node [21] 'uirgo') is a nominal (and not a predicate), hence the relation should be 'nmod', not 'obl'.
-Warnings: 3
 *** PASSED ***
 Validity: 1
 (weight=0.111111111111111) * (score{features}=0.9) = 0.1
 (weight=0.111111111111111) * (score{genres}=0.111111111111111) = 0.0123456790123457
 (weight=0.111111111111111) * (score{lemmas}=0.9) = 0.1
-(weight=0.37037037037037) * (score{size}=0.465393968400012) = 0.172368136444449
+(weight=0.37037037037037) * (score{size}=0.487740293258264) = 0.180644553058616
 (weight=0.0740740740740741) * (score{split}=0.67) = 0.0496296296296296
 (weight=0.111111111111111) * (score{tags}=0.741176470588235) = 0.0823529411764706
 (weight=0.111111111111111) * (score{udeprels}=0.783783783783784) = 0.0870870870870871
-(TOTAL score=0.603783473349982) * (availability=1) * (validity=1) = 0.603783473349982
+(TOTAL score=0.612059889964149) * (availability=1) * (validity=1) = 0.612059889964149
 STARS = 3
-UD_Latin-CIRCSE	0.603783473349982	3
+UD_Latin-CIRCSE	0.612059889964149	3
