@@ -58,6 +58,29 @@ In cases of reported speech, the character who utters the reported speech is lis
 
 #speaker = Danai (Eurybates)
 
+The text was enhanced with annotation of Conversation Analysis (CA) relevant features, such as interruptions. This annotation, performed manually at the CIRCSE, is formatted as a comment in the conllu file following the comment line reporting the text of speaker attribution, as exemplified in what follows:
+
+#sent_id = SenAgamn-P-21-366
+#text = quis esse credat uirginem
+#speaker = Clytemestra
+#interrupted TCU
+
+When the interrupting utterance completes the interrupted utterance, the corresponding values in the MISC column are, according to Pannitto et al. 2026 (Pannitto, L., et al. (2026) "Coconstructions in Spoken Data: UD Annotation Guidelines and First Results ." Proceedings of the Ninth Workshop on Universal Dependencies (UDW 2026), European Language Resources Association (ELRA), pp. 60-75), as follows:
+
+#sent_id = SenAgamn-P-21-366
+#text = quis esse credat uirginem
+#speaker = Clytemestra
+#interrupted TCU 1 quis quis PRON K Case=Nom|Gender=Fem,Masc|InflClass=LatPron|Number=Sing|PronType=Int 3 nsubj _ LASLAVariant=1|LiLaflcat=p
+2 esse sum AUX B6 Aspect=Imp|InflClass=LatAnom|InflClass[nominal]=Ind|VerbForm=Inf 4 cop _ LASLAVariant=1|LiLaflcat=v6
+3 credat credo VERB B3 Aspect=Imp|InflClass=LatX|Mood=Sub|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin|Voice=Act 0 root _ LiLaflcat=v3
+4 uirginem uirgo NOUN A3 Case=Acc|Gender=Fem,Masc|InflClass=IndEurX|Number=Sing 3 ccomp _ LiLaflcat=n3|Scrap=Yes
+
+#sent_id = SenAgamn-P-21-367
+#text = natam tuam
+#speaker = Electra
+1 natam nata NOUN A1 Case=Acc|Gender=Fem|InflClass=IndEurA|Number=Sing 0 root _ LiLaflcat=n1|Coconstruct=Yes
+2 tuam tuus DET F Case=Acc|Gender=Fem|InflClass=IndEurA|Number=Sing|Number[psor]=Sing|Person[psor]=2|Poss=Yes|PronType=Prs 1 det _ LiLaflcat=n6|Coconstruct=Yes
+
 
 #### Tacitus *Germania*
 
@@ -74,7 +97,7 @@ In few cases, the sentence splitting differs from the [received one](http://gith
 *Oedipus* is a tragedy written by Seneca the younger in 1st century CE. The source text was received with tokenisation, and annotation with respect to lemmatisation, POS tagging, and morphological features from the Opera Latina corpus built by the  [LASLA](http://web.philo.ulg.ac.be/lasla/) laboratory in Liège.
 In few cases, the [received annotation](http://github.com/CIRCSE/LASLA) with regard to POS tag and morphological annotation was modified during the syntactic annotation; deviations from the received annotation are detailed in the file [SenecaYounger_Oed_LASLA_CIRCSE](https://github.com/CIRCSE/UD_Latin-CIRCSE/blob/main/documentation/SenecaYounger_Oed_LASLA_CIRCSE.md).
 The syntactic annotation was performed manually at CIRCSE, and follows the UD scheme.
-The text (5931 tokens, 401 sentences) was enhanced with the annotation of the speakers to whom each sentence is attributed. This annotation, performed manually at the CIRCSE, is formatted as a comment in the conllu file following the comment line reporting the text of the sentence.
+The text (5931 tokens, 401 sentences) was enhanced with the annotation of the speakers to whom each sentence is attributed. This annotation, performed manually at the CIRCSE, is formatted as a comment in the conllu file following the comment line reporting the text of the sentence. In cases of reported speech or more than one speaker uttering words in the same sentence, the annotation is performed as exemplified above for Agamemnon.
 
 ### Seneca *Phoenissae*
 
@@ -89,13 +112,25 @@ The text (4155 tokens, 308 sentences) was enhanced with the annotation of the sp
 
 #speaker = Oedipus
 
-In cases where more than one speaker utters words in the same sentence, the indication of speakers details the distribution of tokens between the speakers, as exemplified in what follows:
+In cases of reported speech or more than one speaker uttering words in the same sentence, the annotation is performed as exemplified above for Agamemnon.
 
-#sent_id = Latin_SenecaYounger_Phoen_poetry-241 
+The text was enhanced with annotation of Conversation Analysis (CA) relevant features, such as interruptions. This annotation, performed manually at the CIRCSE, is formatted as a comment in the conllu file following the comment line reporting the text of speaker attribution, as exemplified in what follows:
 
-#text = dixit inridens deus ipsum timebis
+#sent_id = SenPhoen-P-17-307
+#text = pro regno uelim patriam Penates coniugem flammis dare
+#speaker = Eteocles (token 1-3), Iocasta (4-8)
+#interrupted TCU (token 1-3)
 
-#speaker = Iocasta (token 1-3), deus (token 4-5)
+When the interrupting utterance completes the interrupted utterance, the corresponding values in the MISC column are, according to Pannitto et al. 2026 (Pannitto, L., et al. (2026) "Coconstructions in Spoken Data: UD Annotation Guidelines and First Results ." Proceedings of the Ninth Workshop on Universal Dependencies (UDW 2026), European Language Resources Association (ELRA), pp. 60-75), as follows:
+
+1 pro pro ADP R AdpType=Prep 2 case _ _
+2 regno regnum NOUN A2 Case=Abl|Gender=Neut|InflClass=IndEurO|Number=Sing 3 obl _ _
+3 uelim uolo VERB B6 Aspect=Imp|InflClass=LatAnom|Mood=Sub|Number=Sing|Person=1|Tense=Pres|VerbForm=Fin|Voice=Act 0 root _ Scrap=Yes
+4 patriam patria NOUN A1 Case=Acc|Gender=Fem|InflClass=IndEurA|Number=Sing 8 obj _ Coconstruct=Yes
+5 Penates penates PROPN A3 Case=Acc|Gender=Masc|InflClass=IndEurI|NameType=Rel|Number=Plur 4 conj _ Coconstruct=Yes
+6 coniugem coniux NOUN A3 Case=Acc|Gender=Fem,Masc|InflClass=IndEurX|Number=Sing 4 conj _ Coconstruct=Yes
+7 flammis flamma NOUN A1 Case=Dat|Gender=Fem|InflClass=IndEurA|Number=Plur 8 obl:arg _ Coconstruct=Yes
+8 dare do VERB B1 Aspect=Imp|InflClass=LatA|InflClass[nominal]=Ind|VerbForm=Inf|Voice=Act 3 xcomp _ Coconstruct=Yes
 
 
 The distribution of the Seneca Hercules Furens (tokens: 7714) with respect to the subsets is as follows:
@@ -110,10 +145,10 @@ The distribution of the Seneca Agamemnon (tokens: 5580) with respect to the subs
 * `test`: 186 sentences (Latin_SenecaYounger_Ag_poetry-224; Latin_SenecaYounger_Ag_poetry-409) - 2215 tokens
 
 
-The distribution of the Tacitus Germania (tokens: 5674) with respect to the subsets is as follows:
-* `train`: 149 sentences (Latin_Tacitus_Ger_prose-1; Latin_Tacitus_Ger_prose-149) - 2848 tokens
-* `dev`: 31 sentences (Latin_Tacitus_Ger_prose-150; Latin_Tacitus_Ger_prose-180) - 577 tokens
-* `test`: 119 sentences (Latin_Tacitus_Ger_prose-181; Latin_Tacitus_Ger_prose-299) - 2249 tokens
+The distribution of the Tacitus Germania enhanced (tokens: 5674) with respect to the subsets is as follows:
+* `train`: 149 sentences (TacGerma-Q-01-1; TacGerma-Q-01-146) - 2848 tokens
+* `dev`: 31 sentences (TacGerma-Q-01-147; TacGerma-Q-01-177) - 577 tokens
+* `test`: 119 sentences (TacGerma-Q-01-178; TacGerma-Q-01-296) - 2249 tokens
 
 
 The distribution of the Seneca Oedipus (tokens: 5931) with respect to the subsets is as follows:
@@ -123,9 +158,9 @@ The distribution of the Seneca Oedipus (tokens: 5931) with respect to the subset
 
 
 The distribution of the Seneca Phoenissae (tokens: 4156) with respect to the subsets is as follows:
-* `train`: 156 sentences (Latin_SenecaYounger_Phoen_poetry-1; Latin_SenecaYounger_Phoen_poetry-156) - 2081 tokens
-* `dev`: 25 sentences (Latin_SenecaYounger_Phoen_poetry-157; Latin_SenecaYounger_Phoen_poetry-181) - 434 tokens
-* `test`: 127 sentences (Latin_SenecaYounger_Phoen_poetry-182; Latin_SenecaYounger_Phoen_poetry-308) - 1641 tokens
+* `train`: 156 sentences (SenPhoen-P-17-1; SenPhoen-P-17-156) - 2081 tokens
+* `dev`: 25 sentences (SenPhoen-P-17-157; SenPhoen-P-17-181) - 434 tokens
+* `test`: 127 sentences (SenPhoen-P-17-182; SenPhoen-P-17-308) - 1641 tokens
 
 
 Since the UD_Latin-CIRCSE treebank is a work in progress, its structure is subject to changes.

@@ -6644,13 +6644,13 @@
 1	quis	quis	PRON	K	Case=Nom|Gender=Fem,Masc|InflClass=LatPron|Number=Sing|PronType=Int	3	nsubj	_	LASLAVariant=1|LiLaflcat=p
 2	esse	sum	AUX	B6	Aspect=Imp|InflClass=LatAnom|InflClass[nominal]=Ind|VerbForm=Inf	4	cop	_	LASLAVariant=1|LiLaflcat=v6
 3	credat	credo	VERB	B3	Aspect=Imp|InflClass=LatX|Mood=Sub|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin|Voice=Act	0	root	_	LiLaflcat=v3
-4	uirginem	uirgo	NOUN	A3	Case=Acc|Gender=Fem,Masc|InflClass=IndEurX|Number=Sing	3	ccomp	_	LiLaflcat=n3
+4	uirginem	uirgo	NOUN	A3	Case=Acc|Gender=Fem,Masc|InflClass=IndEurX|Number=Sing	3	ccomp	_	LiLaflcat=n3|Scrap=Yes
 
 # sent_id = Latin_SenecaYounger_Ag_poetry-367
 # text = natam tuam
 # speaker = Electra
-1	natam	nata	NOUN	A1	Case=Acc|Gender=Fem|InflClass=IndEurA|Number=Sing	0	root	_	LiLaflcat=n1
-2	tuam	tuus	DET	F	Case=Acc|Gender=Fem|InflClass=IndEurA|Number=Sing|Number[psor]=Sing|Person[psor]=2|Poss=Yes|PronType=Prs	1	det	_	LiLaflcat=n6
+1	natam	nata	NOUN	A1	Case=Acc|Gender=Fem|InflClass=IndEurA|Number=Sing	0	root	_	LiLaflcat=n1|Coconstruct=Yes
+2	tuam	tuus	DET	F	Case=Acc|Gender=Fem|InflClass=IndEurA|Number=Sing|Number[psor]=Sing|Person[psor]=2|Poss=Yes|PronType=Prs	1	det	_	LiLaflcat=n6|Coconstruct=Yes
 
 # sent_id = Latin_SenecaYounger_Ag_poetry-368
 # text = modestius cum matre
@@ -7146,7 +7146,7 @@
 3	uobis	uos	PRON	E	Case=Dat|InflClass=LatAnom|Number=Plur|Person=2|PronType=Prs	1	obl	_	LiLaflcat=p
 4	furor	furor	NOUN	A3	Case=Nom|Gender=Masc|InflClass=IndEurX|Number=Sing	1	nsubj	_	LASLAVariant=1|LiLaflcat=n3
 
-# sent_id = Latin_Tacitus_Ger_prose-181
+# sent_id = TacGerma-Q-01-178
 # text = ita sede finibusque in sua ripa mente animoque nobiscum agunt cetera similes Batauis nisi quod ipso adhuc terrae suae solo et caelo acrius animantur
 1	ita	ita	ADV	M	PronType=Dem	7	orphan	_	LiLaflcat=i|UniqueTokenId=TacGerma-Q-01-178_1
 2	sede	sedes	NOUN	A3	Case=Abl|Gender=Fem|InflClass=IndEurX|Number=Sing	7	orphan	_	LiLaflcat=n3|UniqueTokenId=TacGerma-Q-01-178_2
@@ -7179,7 +7179,7 @@
 26	acrius	acriter	ADV	M	Degree=Cmp	27	advmod	_	LiLaflcat=i|UniqueTokenId=TacGerma-Q-01-178_26
 27	animantur	animo	VERB	B1	Aspect=Imp|InflClass=LatA|Mood=Ind|Number=Plur|Person=3|Tense=Pres|VerbForm=Fin|Voice=Pass	15	advcl	_	LiLaflcat=v1|TraditionalMood=Indicativus|TraditionalTense=Praesens|UniqueTokenId=TacGerma-Q-01-178_27
 
-# sent_id = Latin_Tacitus_Ger_prose-182
+# sent_id = TacGerma-Q-01-179
 # text = non numerauerim inter Germaniae populos quamquam trans Rhenum Danuuiumque consederint eos qui decumates agros exercent leuissimus quisque Gallorum et inopia audax dubiae possessionis solum occupauere mox limite acto promotisque praesidiis sinus imperii et pars prouinciae habentur
 1	non	non	PART	P	Polarity=Neg	2	advmod:neg	_	LiLaflcat=i|UniqueTokenId=TacGerma-Q-01-179_1
 2	numerauerim	numero	VERB	B1	Aspect=Perf|InflClass=LatA|Mood=Sub|Number=Sing|Person=1|Tense=Pres|VerbForm=Fin|Voice=Act	0	root	_	LASLAVariant=1|LiLaflcat=v1|TraditionalMood=Subiunctivus|TraditionalTense=Perfectum|UniqueTokenId=TacGerma-Q-01-179_2
@@ -7222,7 +7222,7 @@
 37	prouinciae	prouincia	NOUN	A1	Case=Gen|Gender=Fem|InflClass=IndEurA|Number=Sing	36	nmod	_	LiLaflcat=n1|UniqueTokenId=TacGerma-Q-01-179_37
 38	habentur	habeo	VERB	B2	Aspect=Imp|InflClass=LatE|Mood=Ind|Number=Plur|Person=3|Tense=Pres|VerbForm=Fin|Voice=Pass	26	conj	_	LiLaflcat=v2|TraditionalMood=Indicativus|TraditionalTense=Praesens|UniqueTokenId=TacGerma-Q-01-179_38
 
-# sent_id = Latin_Tacitus_Ger_prose-183
+# sent_id = TacGerma-Q-01-180
 # text = ultra hos Chatti initium sedis ab Hercynio saltu incohant non ita effusis ac palustribus locis ut ceterae ciuitates in quas Germania patescit durant siquidem colles paulatim rarescunt et Chattos suos saltus Hercynius prosequitur simul atque deponit
 1	ultra	ultra	ADP	R	_	2	case	_	LASLAVariant=2|LiLaflcat=i|UniqueTokenId=TacGerma-Q-01-180_1
 2	hos	hic	DET	I	Case=Acc|Gender=Masc|InflClass=LatPron|Number=Plur|PronType=Dem	9	obl:lmod	_	LASLAVariant=1|LiLaflcat=p|UniqueTokenId=TacGerma-Q-01-180_2
@@ -7263,7 +7263,7 @@
 36	atque	atque	CCONJ	S	Form=Emp	37	cc	_	LiLaflcat=i|UniqueTokenId=TacGerma-Q-01-180_36
 37	deponit	depono	VERB	B3	Aspect=Imp|InflClass=LatX|Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin|Voice=Act	34	conj	_	LiLaflcat=v3|TraditionalMood=Indicativus|TraditionalTense=Praesens|UniqueTokenId=TacGerma-Q-01-180_37
 
-# sent_id = Latin_Tacitus_Ger_prose-184
+# sent_id = TacGerma-Q-01-181
 # text = duriora genti corpora stricti artus minax uultus et maior animi uigor
 1	duriora	durus	ADJ	C1	Case=Nom|Degree=Cmp|Gender=Neut|InflClass=IndEurX|Number=Plur	3	amod	_	LiLaflcat=n7|UniqueTokenId=TacGerma-Q-01-181_1
 2	genti	gens	NOUN	A3	Case=Dat|Gender=Fem|InflClass=IndEurI|Number=Sing	0	root	_	LiLaflcat=n3|UniqueTokenId=TacGerma-Q-01-181_2
@@ -7277,7 +7277,7 @@
 10	animi	animus	NOUN	A2	Case=Gen|Gender=Masc|InflClass=IndEurO|Number=Sing	11	nmod	_	LiLaflcat=n2|UniqueTokenId=TacGerma-Q-01-181_10
 11	uigor	uigor	NOUN	A3	Case=Nom|Gender=Masc|InflClass=IndEurX|Number=Sing	3	conj	_	LiLaflcat=n3|UniqueTokenId=TacGerma-Q-01-181_11
 
-# sent_id = Latin_Tacitus_Ger_prose-185
+# sent_id = TacGerma-Q-01-182
 # text = multum ut inter Germanos rationis ac sollertiae praeponere electos audire praepositos nosse ordines intellegere occasiones differre impetus disponere diem uallare noctem fortunam inter dubia uirtutem inter certa numerare quodque rarissimum nec nisi Romanae disciplinae concessum plus reponere in duce quam in exercitu
 1	multum	multus	DET	A2	Case=Nom|Gender=Neut|InflClass=IndEurO|Number=Sing|NumType=Card|PronType=Ind	5	det:numgov	_	LASLAVariant=1|LiLaflcat=n2|UniqueTokenId=TacGerma-Q-01-182_1
 2	ut	ut	SCONJ	N	PronType=Rel	4	mark	_	LASLAVariant=1|LiLaflcat=i|UniqueTokenId=TacGerma-Q-01-182_2
@@ -7324,7 +7324,7 @@
 42	in	in	ADP	R	_	43	case	_	LiLaflcat=i|UniqueTokenId=TacGerma-Q-01-182_42
 43	exercitu	exercitus	NOUN	A4	Case=Abl|Gender=Masc|InflClass=IndEurU|Number=Sing	38	advcl:cmp	_	LASLAVariant=1|LiLaflcat=n4|UniqueTokenId=TacGerma-Q-01-182_43
 
-# sent_id = Latin_Tacitus_Ger_prose-186
+# sent_id = TacGerma-Q-01-183
 # text = omne robur in pedite quem super arma ferramentis quoque et copiis onerant alios ad proelium ire uideas Chattos ad bellum
 1	omne	omnis	DET	L	Case=Nom|Gender=Neut|InflClass=IndEurI|Number=Sing|PronType=Tot	2	det	_	LiLaflcat=n7|UniqueTokenId=TacGerma-Q-01-183_1
 2	robur	robur	NOUN	A3	Case=Nom|Gender=Neut|InflClass=IndEurX|Number=Sing	4	nsubj	_	LiLaflcat=n3|UniqueTokenId=TacGerma-Q-01-183_2
@@ -7347,7 +7347,7 @@
 19	ad	ad	ADP	R	_	20	case	_	LASLAVariant=2|LiLaflcat=i|UniqueTokenId=TacGerma-Q-01-183_19
 20	bellum	bellum	NOUN	A2	Case=Acc|Gender=Neut|InflClass=IndEurO|Number=Sing	18	orphan	_	LiLaflcat=n2|UniqueTokenId=TacGerma-Q-01-183_20
 
-# sent_id = Latin_Tacitus_Ger_prose-187
+# sent_id = TacGerma-Q-01-184
 # text = rari excursus et fortuita pugna
 1	rari	rarus	ADJ	C1	Case=Nom|Gender=Masc|InflClass=IndEurO|Number=Plur	0	root	_	LiLaflcat=n6|UniqueTokenId=TacGerma-Q-01-184_1
 2	excursus	excursus	NOUN	A4	Case=Nom|Gender=Masc|InflClass=IndEurU|Number=Plur	1	nsubj	_	LiLaflcat=n4|UniqueTokenId=TacGerma-Q-01-184_2
@@ -7355,7 +7355,7 @@
 4	fortuita	fortuitus	ADJ	C1	Case=Nom|Gender=Fem|InflClass=IndEurA|Number=Sing	5	amod	_	LiLaflcat=n6|UniqueTokenId=TacGerma-Q-01-184_4
 5	pugna	pugna	NOUN	A1	Case=Nom|Gender=Fem|InflClass=IndEurA|Number=Sing	2	conj	_	LiLaflcat=n1|UniqueTokenId=TacGerma-Q-01-184_5
 
-# sent_id = Latin_Tacitus_Ger_prose-188
+# sent_id = TacGerma-Q-01-185
 # text = equestrium sane uirium id proprium cito parare uictoriam cito cedere uelocitas iuxta formidinem cunctatio propior constantiae est
 1	equestrium	equester	ADJ	C3	Case=Gen|Gender=Fem|InflClass=IndEurI|Number=Plur	3	amod	_	LiLaflcat=n7|UniqueTokenId=TacGerma-Q-01-185_1
 2	sane	sane	ADV	M	_	5	advmod	_	LiLaflcat=i|UniqueTokenId=TacGerma-Q-01-185_2
@@ -7375,7 +7375,7 @@
 16	constantiae	constantia	NOUN	A1	Case=Gen|Gender=Fem|InflClass=IndEurA|Number=Sing	15	obl:arg	_	LiLaflcat=n1|UniqueTokenId=TacGerma-Q-01-185_16
 17	est	sum	AUX	B6	Aspect=Imp|InflClass=LatAnom|Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	15	cop	_	LASLAVariant=1|LiLaflcat=v6|TraditionalMood=Indicativus|TraditionalTense=Praesens|UniqueTokenId=TacGerma-Q-01-185_17
 
-# sent_id = Latin_Tacitus_Ger_prose-189
+# sent_id = TacGerma-Q-01-186
 # text = et aliis Germanorum populis usurpatum raro et priuata cuiusque audentia apud Chattos in consensum uertit ut primum adoleuerint crinem barbamque submittere nec nisi hoste caeso exuere uotiuum obligatumque uirtuti oris habitum
 1	et	et	CCONJ	M	_	4	advmod:emph	_	LASLAVariant=1|LiLaflcat=i|UniqueTokenId=TacGerma-Q-01-186_1
 2	aliis	alius	DET	L	Case=Dat|Gender=Masc|InflClass=LatPron|Number=Plur|PronType=Con	4	det	_	LiLaflcat=p|UniqueTokenId=TacGerma-Q-01-186_2
@@ -7413,7 +7413,7 @@
 32	oris	os	NOUN	A3	Case=Gen|Gender=Neut|InflClass=IndEurI|Number=Sing	33	nmod	_	LASLAVariant=1|LiLaflcat=n3|UniqueTokenId=TacGerma-Q-01-186_32
 33	habitum	habitus	NOUN	A4	Case=Acc|Gender=Masc|InflClass=IndEurU|Number=Sing	27	obj	_	LASLAVariant=1|LiLaflcat=n4|UniqueTokenId=TacGerma-Q-01-186_33
 
-# sent_id = Latin_Tacitus_Ger_prose-190
+# sent_id = TacGerma-Q-01-187
 # text = super sanguinem et spolia reuelant frontem seque tum demum pretia nascendi rettulisse dignosque patria ac parentibus ferunt ignauis et imbellibus manet squalor
 1	super	super	ADP	R	_	2	case	_	LASLAVariant=2|LiLaflcat=i|UniqueTokenId=TacGerma-Q-01-187_1
 2	sanguinem	sanguis	NOUN	A3	Case=Acc|Gender=Masc|InflClass=IndEurI|Number=Sing	5	obl:lmod	_	LiLaflcat=n3|UniqueTokenId=TacGerma-Q-01-187_2
@@ -7442,7 +7442,7 @@
 23	manet	maneo	VERB	B2	Aspect=Imp|InflClass=LatE|Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin|Voice=Act	5	conj	_	LiLaflcat=v2|TraditionalMood=Indicativus|TraditionalTense=Praesens|UniqueTokenId=TacGerma-Q-01-187_23
 24	squalor	squalor	NOUN	A3	Case=Nom|Gender=Masc|InflClass=IndEurX|Number=Sing	23	nsubj	_	LiLaflcat=n3|UniqueTokenId=TacGerma-Q-01-187_24
 
-# sent_id = Latin_Tacitus_Ger_prose-191
+# sent_id = TacGerma-Q-01-188
 # text = fortissimus quisque ferreum insuper anulum ignominiosum id genti uelut uinculum gestat donec se caede hostis absoluat
 1	fortissimus	fortis	ADJ	C4	Case=Nom|Degree=Abs|Gender=Masc|InflClass=IndEurO|Number=Sing	11	nsubj	_	LiLaflcat=n6|UniqueTokenId=TacGerma-Q-01-188_1
 2	quisque	quisque	DET	L	Case=Nom|Gender=Masc|InflClass=LatPron|Number=Sing|PronType=Tot	1	det	_	LASLAVariant=2|LiLaflcat=p|UniqueTokenId=TacGerma-Q-01-188_2
@@ -7461,7 +7461,7 @@
 15	hostis	hostis	NOUN	A3	Case=Gen|Gender=Masc|InflClass=IndEurI|Number=Sing	14	nmod	_	LiLaflcat=n3|UniqueTokenId=TacGerma-Q-01-188_15
 16	absoluat	absoluo	VERB	B3	Aspect=Imp|InflClass=LatX|Mood=Sub|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin|Voice=Act	11	advcl	_	LiLaflcat=v3|TraditionalMood=Subiunctivus|TraditionalTense=Praesens|UniqueTokenId=TacGerma-Q-01-188_16
 
-# sent_id = Latin_Tacitus_Ger_prose-192
+# sent_id = TacGerma-Q-01-189
 # text = plurimis Chattorum hic placet habitus iamque canent insignes et hostibus simul suisque monstrati
 1	plurimis	multus	DET	C1	Case=Dat|Degree=Abs|Gender=Masc|InflClass=IndEurO|Number=Plur|NumType=Card|PronType=Ind	4	obl:arg	_	LiLaflcat=n6|UniqueTokenId=TacGerma-Q-01-189_1
 2	Chattorum	chatti	NOUN	A2	Case=Gen|Gender=Masc|InflClass=IndEurO|NameType=Nat|Number=Plur	1	nmod	_	LASLAVariant=N|LiLaflcat=n2|UniqueTokenId=TacGerma-Q-01-189_2
@@ -7481,7 +7481,7 @@
 14	que	que	CCONJ	S	_	13	cc	_	LiLaflcat=i|UniqueTokenId=TacGerma-Q-01-189_14
 15	monstrati	monstro	VERB	B1	Aspect=Perf|Case=Nom|Gender=Masc|InflClass=LatA|InflClass[nominal]=IndEurO|Number=Plur|VerbForm=Part|Voice=Pass	9	conj	_	LiLaflcat=v1|TraditionalMood=Participium|TraditionalTense=Perfectum|UniqueTokenId=TacGerma-Q-01-189_15
 
-# sent_id = Latin_Tacitus_Ger_prose-193
+# sent_id = TacGerma-Q-01-190
 # text = omnium penes hos initia pugnarum haec prima semper acies uisu noua nam ne in pace quidem uultu mitiore mansuescunt
 1	omnium	omnis	DET	L	Case=Gen|Gender=Fem|InflClass=IndEurI|Number=Plur|PronType=Tot	5	det	_	LiLaflcat=n7|UniqueTokenId=TacGerma-Q-01-190_1
 2	penes	penes	ADP	R	_	3	case	_	LiLaflcat=i|UniqueTokenId=TacGerma-Q-01-190_2
@@ -7503,7 +7503,7 @@
 18	mitiore	mitis	ADJ	C4	Case=Abl|Degree=Cmp|Gender=Masc|InflClass=IndEurX|Number=Sing	17	amod	_	LiLaflcat=n7|UniqueTokenId=TacGerma-Q-01-190_18
 19	mansuescunt	mansuesco	VERB	B3	Aspect=Inch|InflClass=LatX|Mood=Ind|Number=Plur|Person=3|Tense=Pres|VerbForm=Fin|Voice=Act	9	conj	_	LiLaflcat=v3|TraditionalMood=Indicativus|TraditionalTense=Praesens|UniqueTokenId=TacGerma-Q-01-190_19
 
-# sent_id = Latin_Tacitus_Ger_prose-194
+# sent_id = TacGerma-Q-01-191
 # text = nulli domus aut ager aut aliqua cura prout ad quemque uenere aluntur prodigi alieni contemptores sui donec exsanguis senectus tam durae uirtuti impares faciat
 1	nulli	nullus	DET	L	Case=Dat|Gender=Masc|InflClass=LatPron|Number=Sing|Polarity=Neg|PronType=Ind	0	root	_	LiLaflcat=p|UniqueTokenId=TacGerma-Q-01-191_1
 2	domus	domus	NOUN	A6	Case=Nom|Gender=Fem|InflClass=IndEurU|Number=Sing	1	nsubj	_	LiLaflcat=n4|UniqueTokenId=TacGerma-Q-01-191_2
@@ -7530,7 +7530,7 @@
 23	impares	impar	ADJ	C5	Case=Acc|Gender=Masc|InflClass=IndEurI|Number=Plur	24	xcomp	_	LiLaflcat=n7|UniqueTokenId=TacGerma-Q-01-191_23
 24	faciat	facio	VERB	B5	Aspect=Imp|InflClass=LatI2|Mood=Sub|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin|Voice=Act	12	advcl	_	LiLaflcat=v5|TraditionalMood=Subiunctivus|TraditionalTense=Praesens|UniqueTokenId=TacGerma-Q-01-191_24
 
-# sent_id = Latin_Tacitus_Ger_prose-195
+# sent_id = TacGerma-Q-01-192
 # text = proximi Chattis certum iam alueo Rhenum quique terminus esse sufficiat Usipi ac Tencteri colunt
 1	proximi	propior	ADJ	C	Case=Nom|Degree=Abs|Gender=Masc|InflClass=IndEurO|Number=Plur	15	advcl:pred	_	LiLaflcat=null|UniqueTokenId=TacGerma-Q-01-192_1
 2	Chattis	chatti	NOUN	A2	Case=Dat|Gender=Masc|InflClass=IndEurO|NameType=Nat|Number=Plur	1	obl:arg	_	LASLAVariant=N|LiLaflcat=n2|UniqueTokenId=TacGerma-Q-01-192_2
@@ -7549,7 +7549,7 @@
 14	Tencteri	tencteri	NOUN	A2	Case=Nom|Gender=Masc|InflClass=IndEurO|NameType=Nat|Number=Plur	12	conj	_	LASLAVariant=N|LiLaflcat=n2|UniqueTokenId=TacGerma-Q-01-192_14
 15	colunt	colo	VERB	B3	Aspect=Imp|InflClass=LatX|Mood=Ind|Number=Plur|Person=3|Tense=Pres|VerbForm=Fin|Voice=Act	0	root	_	LASLAVariant=2|LiLaflcat=v3|TraditionalMood=Indicativus|TraditionalTense=Praesens|UniqueTokenId=TacGerma-Q-01-192_15
 
-# sent_id = Latin_Tacitus_Ger_prose-196
+# sent_id = TacGerma-Q-01-193
 # text = Tencteri super solitum bellorum decus equestris disciplinae arte praecellunt nec maior apud Chattos peditum laus quam Tencteris equitum
 1	Tencteri	tencteri	NOUN	A2	Case=Nom|Gender=Masc|InflClass=IndEurO|NameType=Nat|Number=Plur	9	nsubj	_	LASLAVariant=N|LiLaflcat=n2|UniqueTokenId=TacGerma-Q-01-193_1
 2	super	super	ADP	R	_	5	case	_	LASLAVariant=2|LiLaflcat=i|UniqueTokenId=TacGerma-Q-01-193_2
@@ -7570,7 +7570,7 @@
 17	Tencteris	tencteri	NOUN	A2	Case=Dat|Gender=Masc|InflClass=IndEurO|NameType=Nat|Number=Plur	18	orphan	_	LASLAVariant=N|LiLaflcat=n2|UniqueTokenId=TacGerma-Q-01-193_17
 18	equitum	eques	NOUN	A3	Case=Gen|Gender=Masc|InflClass=IndEurX|Number=Plur	11	advcl:cmp	_	LiLaflcat=n3|UniqueTokenId=TacGerma-Q-01-193_18
 
-# sent_id = Latin_Tacitus_Ger_prose-197
+# sent_id = TacGerma-Q-01-194
 # text = sic instituere maiores posteri imitantur
 1	sic	sic	ADV	M	PronType=Dem	2	advmod	_	LiLaflcat=i|UniqueTokenId=TacGerma-Q-01-194_1
 2	instituere	instituo	VERB	B3	Aspect=Perf|InflClass=LatX|Mood=Ind|Number=Plur|Person=3|Tense=Pres|VerbForm=Fin|Voice=Act	0	root	_	LiLaflcat=v3|TraditionalMood=Indicativus|TraditionalTense=Perfectum|UniqueTokenId=TacGerma-Q-01-194_2
@@ -7578,7 +7578,7 @@
 4	posteri	posteri	NOUN	A2	Case=Nom|Gender=Masc|InflClass=IndEurO|Number=Plur	5	nsubj	_	LiLaflcat=n2|UniqueTokenId=TacGerma-Q-01-194_4
 5	imitantur	imitor	VERB	B1	Aspect=Imp|InflClass=LatA|Mood=Ind|Number=Plur|Person=3|Tense=Pres|VerbForm=Fin|Voice=Pass	2	conj	_	LiLaflcat=v1|TraditionalMood=Indicativus|TraditionalTense=Praesens|UniqueTokenId=TacGerma-Q-01-194_5
 
-# sent_id = Latin_Tacitus_Ger_prose-198
+# sent_id = TacGerma-Q-01-195
 # text = hi lusus infantium haec iuuenum aemulatio perseuerant senes
 1	hi	hic	DET	I	Case=Nom|Gender=Masc|InflClass=LatPron|Number=Plur|PronType=Dem	2	nsubj	_	LASLAVariant=1|LiLaflcat=p|UniqueTokenId=TacGerma-Q-01-195_1
 2	lusus	lusus	NOUN	A4	Case=Nom|Gender=Masc|InflClass=IndEurU|Number=Plur	0	root	_	LiLaflcat=n4|UniqueTokenId=TacGerma-Q-01-195_2
@@ -7589,7 +7589,7 @@
 7	perseuerant	perseuero	VERB	B1	Aspect=Imp|InflClass=LatA|Mood=Ind|Number=Plur|Person=3|Tense=Pres|VerbForm=Fin|Voice=Act	2	conj	_	LiLaflcat=v1|TraditionalMood=Indicativus|TraditionalTense=Praesens|UniqueTokenId=TacGerma-Q-01-195_7
 8	senes	senex	NOUN	A3	Case=Nom|Gender=Neut|InflClass=IndEurX|Number=Plur	7	nsubj	_	LASLAVariant=1|LiLaflcat=n3|UniqueTokenId=TacGerma-Q-01-195_8
 
-# sent_id = Latin_Tacitus_Ger_prose-199
+# sent_id = TacGerma-Q-01-196
 # text = inter familiam et Penates et iura successionum equi traduntur excipit filius non ut cetera maximus natu sed prout ferox bello et melior
 1	inter	inter	ADP	R	_	2	case	_	LiLaflcat=i|UniqueTokenId=TacGerma-Q-01-196_1
 2	familiam	familia	NOUN	A1	Case=Acc|Gender=Fem|InflClass=IndEurA|Number=Sing	9	obl	_	LiLaflcat=n1|UniqueTokenId=TacGerma-Q-01-196_2
@@ -7614,7 +7614,7 @@
 21	et	et	CCONJ	S	_	22	cc	_	LASLAVariant=2|LiLaflcat=i|UniqueTokenId=TacGerma-Q-01-196_21
 22	melior	bonus	ADJ	C1	Case=Nom|Degree=Cmp|Gender=Masc|InflClass=IndEurX|Number=Sing	19	conj	_	LiLaflcat=n7|UniqueTokenId=TacGerma-Q-01-196_22
 
-# sent_id = Latin_Tacitus_Ger_prose-200
+# sent_id = TacGerma-Q-01-197
 # text = iuxta Tencteros Bructeri olim occurrebant nunc Chamauos et Angriuarios immigrasse narratur pulsis Bructeris ac penitus excisis uicinarum consensu nationum seu superbiae odio seu praedae dulcedine seu fauore quodam erga nos deorum nam ne proelii inuidere
 1	iuxta	iuxta	ADP	R	_	2	case	_	LASLAVariant=2|LiLaflcat=i|UniqueTokenId=TacGerma-Q-01-197_1
 2	Tencteros	tencteri	NOUN	A2	Case=Acc|Gender=Masc|InflClass=IndEurO|NameType=Nat|Number=Plur	5	obl:lmod	_	LASLAVariant=N|LiLaflcat=n2|UniqueTokenId=TacGerma-Q-01-197_2
@@ -7652,7 +7652,7 @@
 34	proelii	proelium	NOUN	A2	Case=Gen|Gender=Neut|InflClass=IndEurO|Number=Sing	35	obl:arg	_	LiLaflcat=n2|UniqueTokenId=TacGerma-Q-01-197_34
 35	inuidere	inuideo	VERB	B2	Aspect=Perf|InflClass=LatE|Mood=Ind|Number=Plur|Person=3|Tense=Pres|VerbForm=Fin|Voice=Act	27	conj:expl	_	LiLaflcat=v2|TraditionalMood=Indicativus|TraditionalTense=Perfectum|UniqueTokenId=TacGerma-Q-01-197_35
 
-# sent_id = Latin_Tacitus_Ger_prose-201
+# sent_id = TacGerma-Q-01-198
 # text = super sexaginta milia non armis telisque Romanis sed quod magnificentius est oblectationi oculisque ceciderunt
 1	super	super	ADP	R	_	2	case	_	LASLAVariant=2|LiLaflcat=i|UniqueTokenId=TacGerma-Q-01-198_1
 2	sexaginta	sexaginta	NUM	D1	NumForm=Word|NumType=Card	16	obl	_	LiLaflcat=n|UniqueTokenId=TacGerma-Q-01-198_2
@@ -7673,7 +7673,7 @@
 15	que	que	CCONJ	S	_	14	cc	_	LiLaflcat=i|UniqueTokenId=TacGerma-Q-01-198_15
 16	ceciderunt	cado	VERB	B3	Aspect=Perf|InflClass=LatX|Mood=Ind|Number=Plur|Person=3|Tense=Pres|VerbForm=Fin|Voice=Act	0	root	_	LiLaflcat=v3|TraditionalMood=Indicativus|TraditionalTense=Perfectum|UniqueTokenId=TacGerma-Q-01-198_16
 
-# sent_id = Latin_Tacitus_Ger_prose-202
+# sent_id = TacGerma-Q-01-199
 # text = maneat quaeso duretque gentibus si non amor nostri at certe odium sui quando urgentibus imperii fatis nihil iam praestare fortuna maius potest quam hostium discordiam
 1	maneat	maneo	VERB	B2	Aspect=Imp|InflClass=LatE|Mood=Sub|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin|Voice=Act	2	ccomp	_	LiLaflcat=v2|TraditionalMood=Subiunctivus|TraditionalTense=Praesens|UniqueTokenId=TacGerma-Q-01-199_1
 2	quaeso	quaeso	VERB	B6	Aspect=Imp|InflClass=LatAnom|Mood=Ind|Number=Sing|Person=1|Tense=Pres|VerbForm=Fin|Voice=Act	0	root	_	LiLaflcat=v6|TraditionalMood=Indicativus|TraditionalTense=Praesens|UniqueTokenId=TacGerma-Q-01-199_2
@@ -7703,7 +7703,7 @@
 25	hostium	hostis	NOUN	A3	Case=Gen|Gender=Masc|InflClass=IndEurI|Number=Plur	26	nmod	_	LiLaflcat=n3|UniqueTokenId=TacGerma-Q-01-199_25
 26	discordiam	discordia	NOUN	A1	Case=Acc|Gender=Fem|InflClass=IndEurA|Number=Sing	20	advcl:cmp	_	LiLaflcat=n1|UniqueTokenId=TacGerma-Q-01-199_26
 
-# sent_id = Latin_Tacitus_Ger_prose-203
+# sent_id = TacGerma-Q-01-200
 # text = Angriuarios et Chamauos a tergo Dulgubini et Chasuarii cludunt aliaeque gentes haud perinde memoratae a fronte Frisii excipiunt
 1	Angriuarios	angriuarii	NOUN	A2	Case=Acc|Gender=Masc|InflClass=IndEurO|NameType=Nat|Number=Plur	9	obj	_	LASLAVariant=N|LiLaflcat=n2|UniqueTokenId=TacGerma-Q-01-200_1
 2	et	et	CCONJ	S	_	3	cc	_	LASLAVariant=2|LiLaflcat=i|UniqueTokenId=TacGerma-Q-01-200_2
@@ -7726,7 +7726,7 @@
 18	Frisii	frisius	ADJ	A2	Case=Nom|Gender=Masc|InflClass=IndEurO|NameType=Nat|Number=Plur	19	nsubj	_	LASLAVariant=N|LiLaflcat=n2|UniqueTokenId=TacGerma-Q-01-200_18
 19	excipiunt	excipio	VERB	B5	Aspect=Imp|InflClass=LatI2|Mood=Ind|Number=Plur|Person=3|Tense=Pres|VerbForm=Fin|Voice=Act	9	conj	_	LiLaflcat=v5|TraditionalMood=Indicativus|TraditionalTense=Praesens|UniqueTokenId=TacGerma-Q-01-200_19
 
-# sent_id = Latin_Tacitus_Ger_prose-204
+# sent_id = TacGerma-Q-01-201
 # text = maioribus minoribusque Frisiis uocabulum est ex modo uirium
 1	maioribus	magnus	ADJ	C1	Case=Dat|Degree=Cmp|Gender=Masc|InflClass=IndEurX|Number=Plur	4	amod	_	LiLaflcat=n7|UniqueTokenId=TacGerma-Q-01-201_1
 2-3	minoribusque	_	_	_	_	_	_	_	UniqueTokenId=TacGerma-Q-01-201_2-3
@@ -7739,7 +7739,7 @@
 8	modo	modus	NOUN	A2	Case=Abl|Gender=Masc|InflClass=IndEurO|Number=Sing	0	root	_	LiLaflcat=n2|UniqueTokenId=TacGerma-Q-01-201_8
 9	uirium	uis	NOUN	A3	Case=Gen|Gender=Fem|InflClass=IndEurI|Number=Plur	8	nmod	_	LiLaflcat=n3|UniqueTokenId=TacGerma-Q-01-201_9
 
-# sent_id = Latin_Tacitus_Ger_prose-205
+# sent_id = TacGerma-Q-01-202
 # text = utraeque nationes usque ad Oceanum Rheno praetexuntur ambiuntque inmensos insuper lacus et Romanis classibus nauigatos
 1	utraeque	uterque	DET	L	Case=Nom|Gender=Fem|InflClass=LatPron|Number=Plur|PronType=Ind	2	amod	_	LiLaflcat=p|UniqueTokenId=TacGerma-Q-01-202_1
 2	nationes	natio	NOUN	A3	Case=Nom|Gender=Fem|InflClass=IndEurX|Number=Plur	7	nsubj:pass	_	LASLAVariant=1|LiLaflcat=n3|UniqueTokenId=TacGerma-Q-01-202_2
@@ -7759,7 +7759,7 @@
 15	classibus	classis	NOUN	A3	Case=Abl|Gender=Fem|InflClass=IndEurI|Number=Plur	16	obl:agent	_	LiLaflcat=n3|UniqueTokenId=TacGerma-Q-01-202_15
 16	nauigatos	nauigo	VERB	B1	Aspect=Perf|Case=Acc|Gender=Masc|InflClass=LatA|InflClass[nominal]=IndEurO|Number=Plur|VerbForm=Part|Voice=Pass	10	conj	_	LiLaflcat=v1|TraditionalMood=Participium|TraditionalTense=Perfectum|UniqueTokenId=TacGerma-Q-01-202_16
 
-# sent_id = Latin_Tacitus_Ger_prose-206
+# sent_id = TacGerma-Q-01-203
 # text = ipsum quin etiam Oceanum illa temptauimus et superesse adhuc Herculis columnas fama uulgauit siue adiit Hercules seu quicquid ubique magnificum est in claritatem eius referre consensimus
 1	ipsum	ipse	DET	I	Case=Acc|Form=Emp|Gender=Masc|InflClass=LatPron|Number=Sing|PronType=Dem	4	det	_	LiLaflcat=p|UniqueTokenId=TacGerma-Q-01-203_1
 2	quin	quin	PART	M	Polarity=Neg|PronType=Rel	6	discourse	_	LASLAVariant=1|LiLaflcat=i|UniqueTokenId=TacGerma-Q-01-203_2
@@ -7790,7 +7790,7 @@
 26	referre	refero	VERB	B6	Aspect=Imp|InflClass=LatAnom|VerbForm=Inf|Voice=Act	27	xcomp	_	LiLaflcat=v6|TraditionalMood=Infinitivus|TraditionalTense=Praesens|UniqueTokenId=TacGerma-Q-01-203_26
 27	consensimus	consentio	VERB	B4	Aspect=Perf|InflClass=LatI|Mood=Ind|Number=Plur|Person=1|Tense=Pres|VerbForm=Fin|Voice=Act	16	conj	_	LiLaflcat=v4|TraditionalMood=Indicativus|TraditionalTense=Perfectum|UniqueTokenId=TacGerma-Q-01-203_27
 
-# sent_id = Latin_Tacitus_Ger_prose-207
+# sent_id = TacGerma-Q-01-204
 # text = nec defuit audentia Druso Germanico sed obstitit Oceanus in se simul atque in Herculem inquiri
 1	nec	neque	CCONJ	S	Polarity=Neg	2	cc	_	LASLAVariant=2|LiLaflcat=i|UniqueTokenId=TacGerma-Q-01-204_1
 2	defuit	desum	VERB	B6	Aspect=Perf|InflClass=LatAnom|Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin|Voice=Act	0	root	_	LASLAVariant=1|LiLaflcat=v6|TraditionalMood=Indicativus|TraditionalTense=Perfectum|UniqueTokenId=TacGerma-Q-01-204_2
@@ -7808,7 +7808,7 @@
 14	Herculem	hercules	PROPN	A3	Case=Acc|Gender=Masc|InflClass=IndEurI|NameType=Giv|Number=Sing	10	conj	_	LASLAVariant=N|LiLaflcat=n3|UniqueTokenId=TacGerma-Q-01-204_14
 15	inquiri	inquiro	VERB	B3	Aspect=Imp|InflClass=LatX|VerbForm=Inf|Voice=Pass	7	ccomp	_	LiLaflcat=v3|TraditionalMood=Infinitivus|TraditionalTense=Praesens|UniqueTokenId=TacGerma-Q-01-204_15
 
-# sent_id = Latin_Tacitus_Ger_prose-208
+# sent_id = TacGerma-Q-01-205
 # text = mox nemo temptauit sanctiusque ac reuerentius uisum de actis deorum credere quam scire
 1	mox	mox	ADV	M	AdvType=Tim	3	advmod:tmod	_	LiLaflcat=i|UniqueTokenId=TacGerma-Q-01-205_1
 2	nemo	nemo	PRON	L	Case=Nom|InflClass=IndEurX|Number=Sing|Polarity=Neg|PronType=Ind	3	nsubj	_	LiLaflcat=n7|UniqueTokenId=TacGerma-Q-01-205_2
@@ -7826,7 +7826,7 @@
 13	quam	quam	SCONJ	N	PronType=Rel	14	mark	_	LASLAVariant=1|LiLaflcat=i|UniqueTokenId=TacGerma-Q-01-205_13
 14	scire	scio	VERB	B4	Aspect=Imp|InflClass=LatI|VerbForm=Inf|Voice=Act	8	advcl:cmp	_	LiLaflcat=v4|TraditionalMood=Infinitivus|TraditionalTense=Praesens|UniqueTokenId=TacGerma-Q-01-205_14
 
-# sent_id = Latin_Tacitus_Ger_prose-209
+# sent_id = TacGerma-Q-01-206
 # text = hactenus in occidentem Germaniam nouimus in septentrionem ingenti flexu redit
 1	hactenus	hactenus	ADV	M	_	5	advmod	_	LiLaflcat=i|UniqueTokenId=TacGerma-Q-01-206_1
 2	in	in	ADP	R	_	3	case	_	LiLaflcat=i|UniqueTokenId=TacGerma-Q-01-206_2
@@ -7839,7 +7839,7 @@
 9	flexu	flexus	NOUN	A4	Case=Abl|Gender=Masc|InflClass=IndEurU|Number=Sing	10	obl	_	LiLaflcat=n4|UniqueTokenId=TacGerma-Q-01-206_9
 10	redit	redeo	VERB	B6	Aspect=Imp|InflClass=LatAnom|Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin|Voice=Act	5	conj	_	LASLAVariant=1|LiLaflcat=v6|TraditionalMood=Indicativus|TraditionalTense=Praesens|UniqueTokenId=TacGerma-Q-01-206_10
 
-# sent_id = Latin_Tacitus_Ger_prose-210
+# sent_id = TacGerma-Q-01-207
 # text = ac primo statim Chaucorum gens quamquam incipiat a Frisiis ac partem litoris occupet omnium quas exposui gentium lateribus obtenditur donec in Chattos usque sinuetur
 1	ac	atque	CCONJ	S	Form=Emp	19	cc	_	LASLAVariant=1|LiLaflcat=i|UniqueTokenId=TacGerma-Q-01-207_1
 2	primo	primo	ADV	D5	Degree=Abs|NumType=Ord	19	advmod	_	LiLaflcat=i|UniqueTokenId=TacGerma-Q-01-207_2
@@ -7866,7 +7866,7 @@
 23	usque	usque	ADP	M	_	22	case	_	LiLaflcat=i|UniqueTokenId=TacGerma-Q-01-207_23
 24	sinuetur	sinuo	VERB	B1	Aspect=Imp|InflClass=LatA|Mood=Sub|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin|Voice=Pass	19	advcl	_	LiLaflcat=v1|TraditionalMood=Subiunctivus|TraditionalTense=Praesens|UniqueTokenId=TacGerma-Q-01-207_24
 
-# sent_id = Latin_Tacitus_Ger_prose-211
+# sent_id = TacGerma-Q-01-208
 # text = tam immensum terrarum spatium non tenent tantum Chauci sed et implent populus inter Germanos nobilissimus quique magnitudinem suam malit iustitia tueri
 1	tam	tam	ADV	M	PronType=Dem	2	advmod	_	LiLaflcat=i|UniqueTokenId=TacGerma-Q-01-208_1
 2	immensum	immensus	ADJ	C1	Case=Acc|Gender=Neut|InflClass=IndEurO|Number=Sing	4	amod	_	LiLaflcat=n6|UniqueTokenId=TacGerma-Q-01-208_2
@@ -7892,7 +7892,7 @@
 21	iustitia	iustitia	NOUN	A1	Case=Abl|Gender=Fem|InflClass=IndEurA|Number=Sing	22	obl	_	LiLaflcat=n1|UniqueTokenId=TacGerma-Q-01-208_21
 22	tueri	tueor	VERB	B2	Aspect=Imp|InflClass=LatE|VerbForm=Inf|Voice=Pass	20	ccomp	_	LiLaflcat=v2|TraditionalMood=Infinitivus|TraditionalTense=Praesens|UniqueTokenId=TacGerma-Q-01-208_22
 
-# sent_id = Latin_Tacitus_Ger_prose-212
+# sent_id = TacGerma-Q-01-209
 # text = sine cupiditate sine impotentia quieti secretique nulla prouocant bella nullis raptibus aut latrociniis populantur
 1	sine	sine	ADP	R	_	2	case	_	LiLaflcat=i|UniqueTokenId=TacGerma-Q-01-209_1
 2	cupiditate	cupiditas	NOUN	A3	Case=Abl|Gender=Fem|InflClass=IndEurX|Number=Sing	9	obl	_	LiLaflcat=n3|UniqueTokenId=TacGerma-Q-01-209_2
@@ -7911,7 +7911,7 @@
 14	latrociniis	latrocinium	NOUN	A2	Case=Abl|Gender=Neut|InflClass=IndEurO|Number=Plur	12	conj	_	LiLaflcat=n2|UniqueTokenId=TacGerma-Q-01-209_14
 15	populantur	populor	VERB	B1	Aspect=Imp|InflClass=LatA|Mood=Ind|Number=Plur|Person=3|Tense=Pres|VerbForm=Fin|Voice=Pass	9	conj	_	LiLaflcat=v1|TraditionalMood=Indicativus|TraditionalTense=Praesens|UniqueTokenId=TacGerma-Q-01-209_15
 
-# sent_id = Latin_Tacitus_Ger_prose-213
+# sent_id = TacGerma-Q-01-210
 # text = id praecipuum uirtutis ac uirium argumentum est quod ut superiores agant non per iniurias assequuntur prompta tamen omnibus arma ac si res poscat exercitus plurimum uirorum equorumque et quiescentibus eadem fama
 1	id	is	PRON	I	Case=Nom|Gender=Neut|InflClass=LatPron|Number=Sing|Person=3|PronType=Prs	6	nsubj	_	LiLaflcat=p|UniqueTokenId=TacGerma-Q-01-210_1
 2	praecipuum	praecipuus	ADJ	C1	Case=Nom|Gender=Neut|InflClass=IndEurO|Number=Sing	6	amod	_	LiLaflcat=n6|UniqueTokenId=TacGerma-Q-01-210_2
@@ -7947,7 +7947,7 @@
 31	eadem	idem	DET	I	Case=Nom|Form=Emp|Gender=Fem|InflClass=LatPron|Number=Sing|PronType=Dem	6	conj	_	LiLaflcat=p|UniqueTokenId=TacGerma-Q-01-210_31
 32	fama	fama	NOUN	A1	Case=Nom|Gender=Fem|InflClass=IndEurA|Number=Sing	31	nsubj	_	LiLaflcat=n1|UniqueTokenId=TacGerma-Q-01-210_32
 
-# sent_id = Latin_Tacitus_Ger_prose-214
+# sent_id = TacGerma-Q-01-211
 # text = in latere Chaucorum Chattorumque Cherusci nimiam ac marcentem diu pacem illacessiti nutrierunt idque iucundius quam tutius fuit quia inter impotentis et ualidos falso quiescas ubi manu agitur modestia ac probitas nomina superioris sunt
 1	in	in	ADP	R	_	2	case	_	LiLaflcat=i|UniqueTokenId=TacGerma-Q-01-211_1
 2	latere	latus	NOUN	A3	Case=Abl|Gender=Neut|InflClass=IndEurX|Number=Sing	13	obl:lmod	_	LASLAVariant=1|LiLaflcat=n3|UniqueTokenId=TacGerma-Q-01-211_2
@@ -7987,7 +7987,7 @@
 34	superioris	superus	ADJ	C1	Case=Gen|Degree=Cmp|Gender=Masc|InflClass=IndEurX|Number=Sing	33	nmod	_	LiLaflcat=n7|UniqueTokenId=TacGerma-Q-01-211_34
 35	sunt	sum	AUX	B6	Aspect=Imp|InflClass=LatAnom|Mood=Ind|Number=Plur|Person=3|Tense=Pres|VerbForm=Fin	33	cop	_	LASLAVariant=1|LiLaflcat=v6|TraditionalMood=Indicativus|TraditionalTense=Praesens|UniqueTokenId=TacGerma-Q-01-211_35
 
-# sent_id = Latin_Tacitus_Ger_prose-215
+# sent_id = TacGerma-Q-01-212
 # text = ita qui olim boni aequique Cherusci nunc inertes ac stulti uocantur Chattis uictoribus fortuna in sapientiam cessit
 1	ita	ita	ADV	M	PronType=Dem	12	advmod	_	LiLaflcat=i|UniqueTokenId=TacGerma-Q-01-212_1
 2	qui	qui	PRON	J	Case=Nom|Gender=Masc|InflClass=LatPron|Number=Plur|PronType=Rel	7	acl:relcl	_	LASLAVariant=1|LiLaflcat=p|UniqueTokenId=TacGerma-Q-01-212_2
@@ -8009,7 +8009,7 @@
 17	sapientiam	sapientia	PROPN	person	Case=Acc|Gender=Fem|InflClass=IndEurA|Number=Sing	18	obl	_	LiLaflcat=n1|UniqueTokenId=TacGerma-Q-01-212_17
 18	cessit	cedo	VERB	B3	Aspect=Perf|InflClass=LatX|Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin|Voice=Act	12	conj	_	LASLAVariant=1|LiLaflcat=v3|TraditionalMood=Indicativus|TraditionalTense=Perfectum|UniqueTokenId=TacGerma-Q-01-212_18
 
-# sent_id = Latin_Tacitus_Ger_prose-216
+# sent_id = TacGerma-Q-01-213
 # text = tracti ruina Cheruscorum et Fosi contermina gens aduersarum rerum ex aequo socii sunt cum in secundis minores fuissent
 1	tracti	traho	VERB	B3	Aspect=Perf|Case=Nom|Gender=Masc|InflClass=LatX|InflClass[nominal]=IndEurO|Number=Plur|VerbForm=Part|Voice=Pass	0	root	_	LiLaflcat=v3|TraditionalMood=Participium|TraditionalTense=Perfectum|UniqueTokenId=TacGerma-Q-01-213_1
 2	ruina	ruina	NOUN	A1	Case=Abl|Gender=Fem|InflClass=IndEurA|Number=Sing	1	obl	_	LiLaflcat=n1|UniqueTokenId=TacGerma-Q-01-213_2
@@ -8030,7 +8030,7 @@
 17	minores	paruus	ADJ	C1	Case=Acc|Degree=Cmp|Gender=Masc|InflClass=IndEurX|Number=Plur	12	advcl	_	LASLAVariant=2|LiLaflcat=n7|UniqueTokenId=TacGerma-Q-01-213_17
 18	fuissent	sum	AUX	B6	Aspect=Perf|InflClass=LatAnom|Mood=Sub|Number=Plur|Person=3|Tense=Past|VerbForm=Fin	17	cop	_	LASLAVariant=1|LiLaflcat=v6|TraditionalMood=Subiunctivus|TraditionalTense=Plusquamperfectum|UniqueTokenId=TacGerma-Q-01-213_18
 
-# sent_id = Latin_Tacitus_Ger_prose-217
+# sent_id = TacGerma-Q-01-214
 # text = eundem Germaniae sinum proximi Oceano Cimbri tenent parua nunc ciuitas sed gloria ingens
 1	eundem	idem	DET	I	Case=Acc|Form=Emp|Gender=Masc|InflClass=LatPron|Number=Sing|PronType=Dem	3	det	_	LiLaflcat=p|UniqueTokenId=TacGerma-Q-01-214_1
 2	Germaniae	germania	PROPN	A1	Case=Gen|Gender=Fem|InflClass=IndEurA|NameType=Geo|Number=Sing	3	nmod	_	LASLAVariant=N|LiLaflcat=n1|UniqueTokenId=TacGerma-Q-01-214_2
@@ -8046,7 +8046,7 @@
 12	gloria	gloria	NOUN	A1	Case=Abl|Gender=Fem|InflClass=IndEurA|Number=Sing	13	obl:arg	_	LiLaflcat=n1|UniqueTokenId=TacGerma-Q-01-214_12
 13	ingens	ingens	ADJ	C5	Case=Nom|Gender=Fem|InflClass=IndEurI|Number=Sing	8	conj	_	LiLaflcat=n7|UniqueTokenId=TacGerma-Q-01-214_13
 
-# sent_id = Latin_Tacitus_Ger_prose-218
+# sent_id = TacGerma-Q-01-215
 # text = ueterisque famae lata uestigia manent utraque ripa castra ac spatia quorum ambitu nunc quoque metiaris molem manusque gentis et tam magni exitus fidem
 1-2	ueterisque	_	_	_	_	_	_	_	UniqueTokenId=TacGerma-Q-01-215_1-2
 1	ueteris	uetus	ADJ	C2	Case=Gen|Gender=Fem|InflClass=IndEurX|Number=Sing	3	amod	_	LiLaflcat=n7|UniqueTokenId=TacGerma-Q-01-215_1
@@ -8076,7 +8076,7 @@
 24	exitus	exitus	NOUN	A4	Case=Gen|Gender=Masc|InflClass=IndEurU|Number=Sing	25	nmod	_	LiLaflcat=n4|UniqueTokenId=TacGerma-Q-01-215_24
 25	fidem	fides	NOUN	A5	Case=Acc|Gender=Fem|InflClass=IndEurE|Number=Sing	17	conj	_	LASLAVariant=2|LiLaflcat=n5|UniqueTokenId=TacGerma-Q-01-215_25
 
-# sent_id = Latin_Tacitus_Ger_prose-219
+# sent_id = TacGerma-Q-01-216
 # text = sescentesimum et quadragesimum annum urbs nostra agebat cum primum Cimbrorum audita sunt arma Caecilio Metello et Papirio Carbone consulibus
 1	sescentesimum	sescentesimus	ADJ	D2	Case=Acc|Gender=Masc|InflClass=IndEurO|Number=Sing|NumForm=Word|NumType=Ord	4	amod	_	LiLaflcat=n6|UniqueTokenId=TacGerma-Q-01-216_1
 2	et	et	CCONJ	S	_	3	cc	_	LASLAVariant=2|LiLaflcat=i|UniqueTokenId=TacGerma-Q-01-216_2
@@ -8098,7 +8098,7 @@
 18	Carbone	carbo	PROPN	A3	Case=Abl|Gender=Masc|InflClass=IndEurX|NameType=Sur|Number=Sing	17	flat:name	_	LASLAVariant=N|LiLaflcat=n3|UniqueTokenId=TacGerma-Q-01-216_18
 19	consulibus	consul	NOUN	A3	Case=Abl|Gender=Masc|InflClass=IndEurX|Number=Plur	11	advcl:abs	_	LiLaflcat=n3|UniqueTokenId=TacGerma-Q-01-216_19
 
-# sent_id = Latin_Tacitus_Ger_prose-220
+# sent_id = TacGerma-Q-01-217
 # text = ex quo si ad alterum imperatoris Traiani consulatum computemus ducenti ferme et decem anni colliguntur tam diu Germania uincitur
 1	ex	ex	ADP	R	_	2	case	_	LiLaflcat=i|UniqueTokenId=TacGerma-Q-01-217_1
 2	quo	qui	PRON	J	Case=Abl|Gender=Neut|InflClass=LatPron|Number=Sing|PronType=Rel	9	obl	_	LASLAVariant=1|LiLaflcat=p|UniqueTokenId=TacGerma-Q-01-217_2
@@ -8120,7 +8120,7 @@
 18	Germania	germania	PROPN	A1	Case=Nom|Gender=Fem|InflClass=IndEurA|NameType=Geo|Number=Sing	19	nsubj:pass	_	LASLAVariant=N|LiLaflcat=n1|UniqueTokenId=TacGerma-Q-01-217_18
 19	uincitur	uinco	VERB	B3	Aspect=Imp|InflClass=LatX|Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin|Voice=Pass	15	conj	_	LiLaflcat=v3|TraditionalMood=Indicativus|TraditionalTense=Praesens|UniqueTokenId=TacGerma-Q-01-217_19
 
-# sent_id = Latin_Tacitus_Ger_prose-221
+# sent_id = TacGerma-Q-01-218
 # text = medio tam longi aeui spatio multa in uicem damna
 1	medio	medius	ADJ	C1	Case=Abl|Gender=Neut|InflClass=IndEurO|Number=Sing	5	amod	_	LiLaflcat=n6|UniqueTokenId=TacGerma-Q-01-218_1
 2	tam	tam	ADV	M	PronType=Dem	3	advmod	_	LiLaflcat=i|UniqueTokenId=TacGerma-Q-01-218_2
@@ -8132,7 +8132,7 @@
 8	uicem	uicis	NOUN	A3	Case=Acc|Gender=Fem|InflClass=IndEurI|Number=Sing	9	nmod	_	LiLaflcat=n3|UniqueTokenId=TacGerma-Q-01-218_8
 9	damna	damnum	NOUN	A2	Case=Nom|Gender=Neut|InflClass=IndEurO|Number=Plur	6	nsubj	_	LiLaflcat=n2|UniqueTokenId=TacGerma-Q-01-218_9
 
-# sent_id = Latin_Tacitus_Ger_prose-222
+# sent_id = TacGerma-Q-01-219
 # text = non Samnis non Poeni non Hispaniae Galliaeue ne Parthi quidem saepius admonuere quippe regno Arsacis acrior est Germanorum libertas
 1	non	non	PART	P	Polarity=Neg	2	advmod:neg	_	LiLaflcat=i|UniqueTokenId=TacGerma-Q-01-219_1
 2	Samnis	samnis	ADJ	C5	Case=Nom|Gender=Masc|InflClass=IndEurI|NameType=Nat|Number=Sing	13	nsubj	_	LASLAVariant=A|LiLaflcat=n7|UniqueTokenId=TacGerma-Q-01-219_2
@@ -8156,7 +8156,7 @@
 19	Germanorum	germanus	ADJ	A2	Case=Gen|Gender=Masc|InflClass=IndEurO|NameType=Nat|Number=Plur	20	nmod	_	LASLAVariant=N|LiLaflcat=n2|UniqueTokenId=TacGerma-Q-01-219_19
 20	libertas	libertas	NOUN	A3	Case=Nom|Gender=Fem|InflClass=IndEurX|Number=Sing	17	nsubj	_	LiLaflcat=n3|UniqueTokenId=TacGerma-Q-01-219_20
 
-# sent_id = Latin_Tacitus_Ger_prose-223
+# sent_id = TacGerma-Q-01-220
 # text = quid enim aliud nobis quam caedem Crassi amisso et ipse Pacoro infra Uentidium deiectus Oriens obiecerit
 1	quid	quis	PRON	K	Case=Acc|Gender=Neut|InflClass=LatPron|Number=Sing|PronType=Int	16	obj	_	LASLAVariant=1|LiLaflcat=p|UniqueTokenId=TacGerma-Q-01-220_1
 2	enim	enim	PART	S	Form=Emp	16	discourse	_	LASLAVariant=2|LiLaflcat=i|UniqueTokenId=TacGerma-Q-01-220_2
@@ -8175,7 +8175,7 @@
 15	Oriens	oriens	NOUN	A3	Case=Nom|Gender=Masc|InflClass=IndEurI|NameType=Geo|Number=Sing|Proper=Yes|VerbForm=Part	16	nsubj	_	LASLAVariant=N|LiLaflcat=n3|UniqueTokenId=TacGerma-Q-01-220_15
 16	obiecerit	obicio	VERB	B5	Aspect=Perf|InflClass=LatI2|Mood=Sub|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin|Voice=Act	0	root	_	LiLaflcat=v5|TraditionalMood=Subiunctivus|TraditionalTense=Perfectum|UniqueTokenId=TacGerma-Q-01-220_16
 
-# sent_id = Latin_Tacitus_Ger_prose-224
+# sent_id = TacGerma-Q-01-221
 # text = at Germani Carbone et Cassio et Scauro Aurelio et Seruilio Caepione Maximoque Mallio fusis uel captis quinque simul consularis exercitus populo Romano Uarum trisque cum eo legiones etiam Caesari abstulerunt nec impune Caius Marius in Italia Diuus Iulius in Gallia Drusus ac Nero et Germanicus in suis eos sedibus perculerunt mox ingentes Cai Caesaris minae in ludibrium uersae
 1	at	at	CCONJ	S	_	2	cc	_	LASLAVariant=2|LiLaflcat=i|UniqueTokenId=TacGerma-Q-01-221_1
 2	Germani	germanus	ADJ	A2	Case=Nom|Gender=Masc|InflClass=IndEurO|NameType=Nat|Number=Plur	0	root	_	LASLAVariant=N|LiLaflcat=n2|UniqueTokenId=TacGerma-Q-01-221_2
@@ -8240,7 +8240,7 @@
 59	ludibrium	ludibrium	NOUN	A2	Case=Acc|Gender=Neut|InflClass=IndEurO|Number=Sing	60	obl:arg	_	LiLaflcat=n2|UniqueTokenId=TacGerma-Q-01-221_59
 60	uersae	uerto	VERB	Y3	Aspect=Perf|Case=Nom|Gender=Fem|InflClass=LatX|InflClass[nominal]=IndEurA|Number=Plur|VerbForm=Part|Voice=Pass	2	conj	_	LiLaflcat=v3|Tac=sunt|TraditionalMood=Participium|TraditionalTense=Perfectum|UniqueTokenId=TacGerma-Q-01-221_60
 
-# sent_id = Latin_Tacitus_Ger_prose-225
+# sent_id = TacGerma-Q-01-222
 # text = inde otium donec occasione discordiae nostrae et ciuilium armorum expugnatis legionum hibernis etiam Gallias affectauere ac rursus pulsi inde proximis temporibus triumphati magis quam uicti sunt
 1	inde	inde	ADV	M	AdvType=Loc|PronType=Dem	2	advmod:tmod	_	LiLaflcat=i|UniqueTokenId=TacGerma-Q-01-222_1
 2	otium	otium	NOUN	A2	Case=Nom|Gender=Neut|InflClass=IndEurO|Number=Sing	0	root	_	LiLaflcat=n2|UniqueTokenId=TacGerma-Q-01-222_2
@@ -8269,7 +8269,7 @@
 25	uicti	uinco	VERB	Y3	Aspect=Perf|Case=Nom|Gender=Masc|InflClass=LatX|InflClass[nominal]=IndEurO|Number=Plur|VerbForm=Part|Voice=Pass	22	advcl:cmp	_	LiLaflcat=v3|TraditionalMood=Participium|TraditionalTense=Perfectum|UniqueTokenId=TacGerma-Q-01-222_25
 26	sunt	sum	AUX	Z3	Aspect=Imp|InflClass=LatAnom|Mood=Ind|Number=Plur|Person=1|Tense=Pres|VerbForm=Fin	22	aux:pass	_	LASLAVariant=2|LiLaflcat=v6|TraditionalMood=Indicativus|TraditionalTense=Praesens|UniqueTokenId=TacGerma-Q-01-222_26
 
-# sent_id = Latin_Tacitus_Ger_prose-226
+# sent_id = TacGerma-Q-01-223
 # text = nunc de Suebis dicendum est quorum non una ut Chattorum Tencterorumue gens maiorem enim Germaniae partem obtinent propriis adhuc nationibus nominibusque discreti quamquam in commune Suebi uocentur
 1	nunc	nunc	ADV	M	AdvType=Tim	4	advmod:tmod	_	LiLaflcat=i|UniqueTokenId=TacGerma-Q-01-223_1
 2	de	de	ADP	R	_	3	case	_	LiLaflcat=i|UniqueTokenId=TacGerma-Q-01-223_2
@@ -8303,7 +8303,7 @@
 28	Suebi	suebi	NOUN	A2	Case=Nom|Gender=Masc|InflClass=IndEurO|NameType=Nat|Number=Plur	29	xcomp	_	LASLAVariant=N|LiLaflcat=n2|UniqueTokenId=TacGerma-Q-01-223_28
 29	uocentur	uoco	VERB	B1	Aspect=Imp|InflClass=LatA|Mood=Sub|Number=Plur|Person=3|Tense=Pres|VerbForm=Fin|Voice=Pass	24	advcl	_	LiLaflcat=v1|TraditionalMood=Subiunctivus|TraditionalTense=Praesens|UniqueTokenId=TacGerma-Q-01-223_29
 
-# sent_id = Latin_Tacitus_Ger_prose-227
+# sent_id = TacGerma-Q-01-224
 # text = insigne gentis obliquare crinem nodoque substringere sic Suebi a ceteris Germanis sic Sueborum ingenui a seruis separantur
 1	insigne	insigne	NOUN	A3	Case=Nom|Gender=Neut|InflClass=IndEurI|Number=Sing	0	root	_	LiLaflcat=n3|UniqueTokenId=TacGerma-Q-01-224_1
 2	gentis	gens	NOUN	A3	Case=Gen|Gender=Fem|InflClass=IndEurI|Number=Sing	1	nmod	_	LiLaflcat=n3|UniqueTokenId=TacGerma-Q-01-224_2
@@ -8325,7 +8325,7 @@
 17	seruis	seruus	NOUN	A2	Case=Abl|Gender=Masc|InflClass=IndEurO|Number=Plur	18	obl:arg	_	LASLAVariant=1|LiLaflcat=n2|UniqueTokenId=TacGerma-Q-01-224_17
 18	separantur	separo	VERB	B1	Aspect=Imp|InflClass=LatA|Mood=Ind|Number=Plur|Person=3|Tense=Pres|VerbForm=Fin|Voice=Pass	9	conj	_	LASLAVariant=2|LiLaflcat=v1|TraditionalMood=Indicativus|TraditionalTense=Praesens|UniqueTokenId=TacGerma-Q-01-224_18
 
-# sent_id = Latin_Tacitus_Ger_prose-228
+# sent_id = TacGerma-Q-01-225
 # text = in aliis gentibus seu cognatione aliqua Sueborum seu quod saepe accidit imitatione rarum et intra iuuentae spatium apud Suebos usque ad canitiem horrentem capillum retro sequuntur ac saepe in ipso uertice religant principes et ornatiorem habent
 1	in	in	ADP	R	_	3	case	_	LiLaflcat=i|UniqueTokenId=TacGerma-Q-01-225_1
 2	aliis	alius	DET	L	Case=Abl|Gender=Fem|InflClass=LatPron|Number=Plur|PronType=Con	3	det	_	LiLaflcat=p|UniqueTokenId=TacGerma-Q-01-225_2
@@ -8364,7 +8364,7 @@
 35	ornatiorem	ornatus	ADJ	C1	Case=Acc|Degree=Cmp|Gender=Masc|InflClass=IndEurX|Number=Sing	36	advcl:pred	_	LASLAVariant=2|LiLaflcat=n7|UniqueTokenId=TacGerma-Q-01-225_35
 36	habent	habeo	VERB	B2	Aspect=Imp|InflClass=LatE|Mood=Ind|Number=Plur|Person=3|Tense=Pres|VerbForm=Fin|Voice=Act	26	conj	_	LiLaflcat=v2|TraditionalMood=Indicativus|TraditionalTense=Praesens|UniqueTokenId=TacGerma-Q-01-225_36
 
-# sent_id = Latin_Tacitus_Ger_prose-229
+# sent_id = TacGerma-Q-01-226
 # text = ea cura formae sed innoxia neque enim ut ament amenturue in altitudinem quandam et terrorem adituri bella compti hostium oculis ornantur
 1	ea	is	PRON	I	Case=Nom|Gender=Fem|InflClass=LatPron|Number=Sing|Person=3|PronType=Prs	0	root	_	LiLaflcat=p|UniqueTokenId=TacGerma-Q-01-226_1
 2	cura	cura	NOUN	A1	Case=Nom|Gender=Fem|InflClass=IndEurA|Number=Sing	1	nsubj	_	LiLaflcat=n1|UniqueTokenId=TacGerma-Q-01-226_2
@@ -8390,7 +8390,7 @@
 21	oculis	oculus	NOUN	A2	Case=Dat|Gender=Masc|InflClass=IndEurO|Number=Plur	19	obl:arg	_	LiLaflcat=n2|UniqueTokenId=TacGerma-Q-01-226_21
 22	ornantur	orno	VERB	B1	Aspect=Imp|InflClass=LatA|Mood=Ind|Number=Plur|Person=3|Tense=Pres|VerbForm=Fin|Voice=Pass	1	conj	_	LiLaflcat=v1|TraditionalMood=Indicativus|TraditionalTense=Praesens|UniqueTokenId=TacGerma-Q-01-226_22
 
-# sent_id = Latin_Tacitus_Ger_prose-230
+# sent_id = TacGerma-Q-01-227
 # text = uetustissimos se nobilissimosque Sueborum Semnones memorant fides antiquitatis religione firmatur
 1	uetustissimos	uetustus	ADJ	C1	Case=Acc|Degree=Abs|Gender=Masc|InflClass=IndEurO|Number=Plur	7	ccomp	_	LiLaflcat=n6|UniqueTokenId=TacGerma-Q-01-227_1
 2	se	sui	PRON	G	Case=Acc|InflClass=LatAnom|Number=Sing|Person=3|PronType=Prs|Reflex=Yes	1	nsubj	_	LASLAVariant=1|LiLaflcat=p|UniqueTokenId=TacGerma-Q-01-227_2
@@ -8405,7 +8405,7 @@
 10	religione	religio	NOUN	A3	Case=Abl|Gender=Fem|InflClass=IndEurX|Number=Sing	11	obl	_	LiLaflcat=n3|UniqueTokenId=TacGerma-Q-01-227_10
 11	firmatur	firmo	VERB	B1	Aspect=Imp|InflClass=LatA|Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin|Voice=Pass	7	conj	_	LiLaflcat=v1|TraditionalMood=Indicativus|TraditionalTense=Praesens|UniqueTokenId=TacGerma-Q-01-227_11
 
-# sent_id = Latin_Tacitus_Ger_prose-231
+# sent_id = TacGerma-Q-01-228
 # text = stato tempore in siluam auguriis patrum et prisca formidine sacram omnes eiusdem sanguinis populi legationibus coeunt caesoque publice homine celebrant barbari ritus horrenda primordia
 1	stato	status	ADJ	C1	Case=Abl|Gender=Neut|InflClass=IndEurO|Number=Sing|VerbForm=Part	2	amod	_	LASLAVariant=2|LiLaflcat=n6|UniqueTokenId=TacGerma-Q-01-228_1
 2	tempore	tempus	NOUN	A3	Case=Abl|Gender=Neut|InflClass=IndEurX|Number=Sing	16	obl:tmod	_	LASLAVariant=1|LiLaflcat=n3|UniqueTokenId=TacGerma-Q-01-228_2
@@ -8434,7 +8434,7 @@
 24	horrenda	horrendus	ADJ	C1	Case=Acc|Gender=Neut|InflClass=IndEurO|Number=Plur	25	nsubj	_	LiLaflcat=n6|UniqueTokenId=TacGerma-Q-01-228_24
 25	primordia	primordium	NOUN	A2	Case=Acc|Gender=Neut|InflClass=IndEurO|Number=Plur	21	obj	_	LiLaflcat=n2|UniqueTokenId=TacGerma-Q-01-228_25
 
-# sent_id = Latin_Tacitus_Ger_prose-232
+# sent_id = TacGerma-Q-01-229
 # text = est et alia luco reuerentia nemo nisi uinculo ligatus ingreditur ut minor et potestatem numinis prae se ferens
 1	est	sum	AUX	B6	Aspect=Imp|InflClass=LatAnom|Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	3	cop	_	LASLAVariant=1|LiLaflcat=v6|TraditionalMood=Indicativus|TraditionalTense=Praesens|UniqueTokenId=TacGerma-Q-01-229_1
 2	et	et	CCONJ	M	_	3	advmod:emph	_	LASLAVariant=1|LiLaflcat=i|UniqueTokenId=TacGerma-Q-01-229_2
@@ -8455,7 +8455,7 @@
 17	se	sui	PRON	G	Case=Abl|InflClass=LatAnom|Number=Sing|Person=3|PronType=Prs|Reflex=Yes	18	obl	_	LASLAVariant=1|LiLaflcat=p|UniqueTokenId=TacGerma-Q-01-229_17
 18	ferens	fero	VERB	B6	Aspect=Imp|Case=Nom|Gender=Masc|InflClass=LatAnom|InflClass[nominal]=IndEurI|Number=Sing|VerbForm=Part|Voice=Act	12	conj	_	LiLaflcat=v6|TraditionalMood=Participium|TraditionalTense=Praesens|UniqueTokenId=TacGerma-Q-01-229_18
 
-# sent_id = Latin_Tacitus_Ger_prose-233
+# sent_id = TacGerma-Q-01-230
 # text = si forte prolapsus est attolli et insurgere haud licitum per humum euoluuntur
 1	si	si	SCONJ	T	_	3	mark	_	LASLAVariant=2|LiLaflcat=i|UniqueTokenId=TacGerma-Q-01-230_1
 2	forte	forte	ADV	M	_	3	advmod	_	LiLaflcat=i|UniqueTokenId=TacGerma-Q-01-230_2
@@ -8470,7 +8470,7 @@
 11	humum	humus	NOUN	A2	Case=Acc|Gender=Masc|InflClass=IndEurO|Number=Sing	12	obl:lmod	_	LiLaflcat=n2|UniqueTokenId=TacGerma-Q-01-230_11
 12	euoluuntur	euoluo	VERB	B3	Aspect=Imp|InflClass=LatX|Mood=Ind|Number=Plur|Person=3|Tense=Pres|VerbForm=Fin|Voice=Pass	9	conj	_	LiLaflcat=v3|TraditionalMood=Indicativus|TraditionalTense=Praesens|UniqueTokenId=TacGerma-Q-01-230_12
 
-# sent_id = Latin_Tacitus_Ger_prose-234
+# sent_id = TacGerma-Q-01-231
 # text = eoque omnis superstitio respicit tamquam inde initia gentis ibi regnator omnium deus cetera subiecta atque parentia
 1-2	eoque	_	_	_	_	_	_	_	UniqueTokenId=TacGerma-Q-01-231_1-2
 1	eo	eo	ADV	M	_	5	advmod	_	LASLAVariant=3|LiLaflcat=i|UniqueTokenId=TacGerma-Q-01-231_1
@@ -8491,7 +8491,7 @@
 16	atque	atque	CCONJ	S	Form=Emp	17	cc	_	LASLAVariant=1|LiLaflcat=i|UniqueTokenId=TacGerma-Q-01-231_16
 17	parentia	pareo	VERB	B2	Aspect=Imp|Case=Nom|Gender=Neut|InflClass=LatE|InflClass[nominal]=IndEurI|Number=Plur|VerbForm=Part|Voice=Act	15	conj	_	LiLaflcat=v2|TraditionalMood=Participium|TraditionalTense=Praesens|UniqueTokenId=TacGerma-Q-01-231_17
 
-# sent_id = Latin_Tacitus_Ger_prose-235
+# sent_id = TacGerma-Q-01-232
 # text = adicit auctoritatem fortuna Semnonum centum pagi iis habitantur magnoque corpore efficitur ut se Sueborum caput credant
 1	adicit	adicio	VERB	B5	Aspect=Imp|InflClass=LatI2|Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin|Voice=Act	0	root	_	LiLaflcat=v5|TraditionalMood=Indicativus|TraditionalTense=Praesens|UniqueTokenId=TacGerma-Q-01-232_1
 2	auctoritatem	auctoritas	NOUN	A3	Case=Acc|Gender=Fem|InflClass=IndEurX|Number=Sing	1	obj	_	LiLaflcat=n3|UniqueTokenId=TacGerma-Q-01-232_2
@@ -8512,7 +8512,7 @@
 16	caput	caput	NOUN	A3	Case=Acc|Gender=Neut|InflClass=IndEurX|Number=Sing	17	xcomp	_	LiLaflcat=n3|UniqueTokenId=TacGerma-Q-01-232_16
 17	credant	credo	VERB	B3	Aspect=Imp|InflClass=LatX|Mood=Sub|Number=Plur|Person=3|Tense=Pres|VerbForm=Fin|Voice=Act	12	csubj:pass	_	LiLaflcat=v3|TraditionalMood=Subiunctivus|TraditionalTense=Praesens|UniqueTokenId=TacGerma-Q-01-232_17
 
-# sent_id = Latin_Tacitus_Ger_prose-236
+# sent_id = TacGerma-Q-01-233
 # text = contra Langobardos paucitas nobilitat plurimis ac ualentissimis nationibus cincti non per obsequium sed proeliis ac periclitando tuti sunt
 1	contra	contra	ADV	M	_	4	advmod	_	LASLAVariant=1|LiLaflcat=i|UniqueTokenId=TacGerma-Q-01-233_1
 2	Langobardos	langobardi	NOUN	A2	Case=Acc|Gender=Masc|InflClass=IndEurO|NameType=Nat|Number=Plur	4	obj	_	LASLAVariant=N|LiLaflcat=n2|UniqueTokenId=TacGerma-Q-01-233_2
@@ -8533,7 +8533,7 @@
 17	tuti	tutus	ADJ	C1	Case=Nom|Gender=Masc|InflClass=IndEurO|Number=Plur	4	conj	_	LiLaflcat=n6|UniqueTokenId=TacGerma-Q-01-233_17
 18	sunt	sum	AUX	B6	Aspect=Imp|InflClass=LatAnom|Mood=Ind|Number=Plur|Person=3|Tense=Pres|VerbForm=Fin	17	cop	_	LASLAVariant=1|LiLaflcat=v6|TraditionalMood=Indicativus|TraditionalTense=Praesens|UniqueTokenId=TacGerma-Q-01-233_18
 
-# sent_id = Latin_Tacitus_Ger_prose-237
+# sent_id = TacGerma-Q-01-234
 # text = Reudigni deinde et Auiones et Anglii et Uarini et Eudoses et Suardones et Nuitones fluminibus aut siluis muniuntur
 1	Reudigni	reudigni	NOUN	A2	Case=Nom|Gender=Masc|InflClass=IndEurO|NameType=Nat|Number=Plur	18	nsubj:pass	_	LASLAVariant=N|LiLaflcat=n2|UniqueTokenId=TacGerma-Q-01-234_1
 2	deinde	deinde	ADV	M	AdvType=Loc	18	advmod:lmod	_	LiLaflcat=i|UniqueTokenId=TacGerma-Q-01-234_2
@@ -8554,7 +8554,7 @@
 17	siluis	silua	NOUN	A1	Case=Abl|Gender=Fem|InflClass=IndEurA|Number=Plur	15	conj	_	LiLaflcat=n1|UniqueTokenId=TacGerma-Q-01-234_17
 18	muniuntur	munio	VERB	B4	Aspect=Imp|InflClass=LatI|Mood=Ind|Number=Plur|Person=3|Tense=Pres|VerbForm=Fin|Voice=Pass	0	root	_	LASLAVariant=2|LiLaflcat=v4|TraditionalMood=Indicativus|TraditionalTense=Praesens|UniqueTokenId=TacGerma-Q-01-234_18
 
-# sent_id = Latin_Tacitus_Ger_prose-238
+# sent_id = TacGerma-Q-01-235
 # text = nec quicquam notabile in singulis nisi quod in commune Nerthum id est Terram matrem colunt eamque interuenire rebus hominum inuehi populis arbitrantur
 1	nec	neque	CCONJ	S	Polarity=Neg	5	cc	_	LASLAVariant=2|LiLaflcat=i|UniqueTokenId=TacGerma-Q-01-235_1
 2	quicquam	quisquam	PRON	L	Case=Nom|Gender=Neut|InflClass=LatPron|Number=Sing|PronType=Ind	5	nsubj	_	LiLaflcat=p|UniqueTokenId=TacGerma-Q-01-235_2
@@ -8581,7 +8581,7 @@
 22	populis	populus	NOUN	A2	Case=Dat|Gender=Masc|InflClass=IndEurO|Number=Plur	21	obl:arg	_	LASLAVariant=1|LiLaflcat=n2|UniqueTokenId=TacGerma-Q-01-235_22
 23	arbitrantur	arbitror	VERB	B1	Aspect=Imp|InflClass=LatA|Mood=Ind|Number=Plur|Person=3|Tense=Pres|VerbForm=Fin|Voice=Pass	15	conj	_	LiLaflcat=v1|TraditionalMood=Indicativus|TraditionalTense=Praesens|UniqueTokenId=TacGerma-Q-01-235_23
 
-# sent_id = Latin_Tacitus_Ger_prose-239
+# sent_id = TacGerma-Q-01-236
 # text = est in insula Oceani castum nemus dicatumque in eo uehiculum ueste contectum attingere uni sacerdoti concessum
 1	est	sum	AUX	B6	Aspect=Imp|InflClass=LatAnom|Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	3	cop	_	LASLAVariant=1|LiLaflcat=v6|TraditionalMood=Indicativus|TraditionalTense=Praesens|UniqueTokenId=TacGerma-Q-01-236_1
 2	in	in	ADP	R	_	3	case	_	LiLaflcat=i|UniqueTokenId=TacGerma-Q-01-236_2
@@ -8602,7 +8602,7 @@
 16	sacerdoti	sacerdos	NOUN	A3	Case=Dat|Gender=Masc|InflClass=IndEurX|Number=Sing	17	obl	_	LiLaflcat=n3|UniqueTokenId=TacGerma-Q-01-236_16
 17	concessum	concedo	VERB	Y3	Aspect=Perf|Case=Nom|Gender=Neut|InflClass=LatX|InflClass[nominal]=IndEurO|Number=Sing|VerbForm=Part|Voice=Pass	3	conj	_	LASLAVariant=1|LiLaflcat=v3|Tac=est|TraditionalMood=Participium|TraditionalTense=Perfectum|UniqueTokenId=TacGerma-Q-01-236_17
 
-# sent_id = Latin_Tacitus_Ger_prose-240
+# sent_id = TacGerma-Q-01-237
 # text = is adesse penetrali deam intellegit uectamque bubus feminis multa cum ueneratione prosequitur
 1	is	is	PRON	I	Case=Nom|Gender=Masc|InflClass=LatPron|Number=Sing|Person=3|PronType=Prs	5	nsubj	_	LiLaflcat=p|UniqueTokenId=TacGerma-Q-01-237_1
 2	adesse	assum	VERB	B6	Aspect=Imp|InflClass=LatAnom|VerbForm=Inf|Voice=Act	5	ccomp	_	LASLAVariant=1|LiLaflcat=v6|TraditionalMood=Infinitivus|TraditionalTense=Praesens|UniqueTokenId=TacGerma-Q-01-237_2
@@ -8619,7 +8619,7 @@
 12	ueneratione	ueneratio	NOUN	A3	Case=Abl|Gender=Fem|InflClass=IndEurX|Number=Sing	13	obl	_	LiLaflcat=n3|UniqueTokenId=TacGerma-Q-01-237_12
 13	prosequitur	prosequor	VERB	B3	Aspect=Imp|InflClass=LatX|Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin|Voice=Pass	5	conj	_	LiLaflcat=v3|TraditionalMood=Indicativus|TraditionalTense=Praesens|UniqueTokenId=TacGerma-Q-01-237_13
 
-# sent_id = Latin_Tacitus_Ger_prose-241
+# sent_id = TacGerma-Q-01-238
 # text = laeti tunc dies festa loca quaecumque aduentu hospitioque dignatur
 1	laeti	laetus	ADJ	C1	Case=Nom|Gender=Fem|InflClass=IndEurA|Number=Plur	0	root	_	LASLAVariant=2|LiLaflcat=n6|UniqueTokenId=TacGerma-Q-01-238_1
 2	tunc	tunc	ADV	M	AdvType=Tim|PronType=Dem	1	advmod:tmod	_	LiLaflcat=i|UniqueTokenId=TacGerma-Q-01-238_2
@@ -8633,7 +8633,7 @@
 9	que	que	CCONJ	S	_	8	cc	_	LiLaflcat=i|UniqueTokenId=TacGerma-Q-01-238_9
 10	dignatur	dignor	VERB	B1	Aspect=Imp|InflClass=LatA|Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin|Voice=Pass	5	acl:relcl	_	LiLaflcat=v1|TraditionalMood=Indicativus|TraditionalTense=Praesens|UniqueTokenId=TacGerma-Q-01-238_10
 
-# sent_id = Latin_Tacitus_Ger_prose-242
+# sent_id = TacGerma-Q-01-239
 # text = non bella ineunt non arma sumunt clausum omne ferrum pax et quies tunc tantum nota tunc tantum amata donec idem sacerdos satiatam conuersatione mortalium deam templo reddat
 1	non	non	PART	P	Polarity=Neg	3	advmod:neg	_	LiLaflcat=i|UniqueTokenId=TacGerma-Q-01-239_1
 2	bella	bellum	NOUN	A2	Case=Acc|Gender=Neut|InflClass=IndEurO|Number=Plur	3	obj	_	LiLaflcat=n2|UniqueTokenId=TacGerma-Q-01-239_2
@@ -8663,7 +8663,7 @@
 26	templo	templum	NOUN	A2	Case=Dat|Gender=Neut|InflClass=IndEurO|Number=Sing	27	obl	_	LiLaflcat=n2|UniqueTokenId=TacGerma-Q-01-239_26
 27	reddat	reddo	VERB	B3	Aspect=Imp|InflClass=LatX|Mood=Sub|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin|Voice=Act	3	advcl	_	LiLaflcat=v3|TraditionalMood=Subiunctivus|TraditionalTense=Praesens|UniqueTokenId=TacGerma-Q-01-239_27
 
-# sent_id = Latin_Tacitus_Ger_prose-243
+# sent_id = TacGerma-Q-01-240
 # text = mox uehiculum et uestes et si credere uelis numen ipsum secreto lacu abluitur
 1	mox	mox	ADV	M	AdvType=Tim	13	advmod:tmod	_	LiLaflcat=i|UniqueTokenId=TacGerma-Q-01-240_1
 2	uehiculum	uehiculum	NOUN	A2	Case=Nom|Gender=Neut|InflClass=IndEurO|Number=Sing	13	nsubj:pass	_	LiLaflcat=n2|UniqueTokenId=TacGerma-Q-01-240_2
@@ -8679,7 +8679,7 @@
 12	lacu	lacus	NOUN	A4	Case=Abl|Gender=Masc|InflClass=IndEurU|Number=Sing	13	obl:lmod	_	LiLaflcat=n4|UniqueTokenId=TacGerma-Q-01-240_12
 13	abluitur	abluo	VERB	B3	Aspect=Imp|InflClass=LatX|Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin|Voice=Pass	0	root	_	LiLaflcat=v3|TraditionalMood=Indicativus|TraditionalTense=Praesens|UniqueTokenId=TacGerma-Q-01-240_13
 
-# sent_id = Latin_Tacitus_Ger_prose-244
+# sent_id = TacGerma-Q-01-241
 # text = serui ministrant quos statim idem lacus haurit
 1	serui	seruus	NOUN	A2	Case=Nom|Gender=Masc|InflClass=IndEurO|Number=Plur	2	nsubj	_	LASLAVariant=1|LiLaflcat=n2|UniqueTokenId=TacGerma-Q-01-241_1
 2	ministrant	ministro	VERB	B1	Aspect=Imp|InflClass=LatA|Mood=Ind|Number=Plur|Person=3|Tense=Pres|VerbForm=Fin|Voice=Act	0	root	_	LiLaflcat=v1|TraditionalMood=Indicativus|TraditionalTense=Praesens|UniqueTokenId=TacGerma-Q-01-241_2
@@ -8689,7 +8689,7 @@
 6	lacus	lacus	NOUN	A4	Case=Nom|Gender=Masc|InflClass=IndEurU|Number=Sing	7	nsubj	_	LiLaflcat=n4|UniqueTokenId=TacGerma-Q-01-241_6
 7	haurit	haurio	VERB	B4	Aspect=Imp|InflClass=LatI|Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin|Voice=Act	1	acl:relcl	_	LiLaflcat=v4|TraditionalMood=Indicativus|TraditionalTense=Praesens|UniqueTokenId=TacGerma-Q-01-241_7
 
-# sent_id = Latin_Tacitus_Ger_prose-245
+# sent_id = TacGerma-Q-01-242
 # text = arcanus hinc terror sanctaque ignorantia quid sit illud quod tantum perituri uident
 1	arcanus	arcanus	ADJ	C1	Case=Nom|Gender=Masc|InflClass=IndEurO|Number=Sing	3	amod	_	LiLaflcat=n6|UniqueTokenId=TacGerma-Q-01-242_1
 2	hinc	hinc	ADV	M	AdvType=Loc|Case=Loc|PronType=Dem	0	root	_	LiLaflcat=i|UniqueTokenId=TacGerma-Q-01-242_2
@@ -8706,7 +8706,7 @@
 12	perituri	pereo	VERB	B6	Aspect=Prosp|Case=Nom|Gender=Masc|InflClass=LatAnom|InflClass[nominal]=IndEurO|Number=Plur|VerbForm=Part|Voice=Act	13	nsubj	_	LASLAVariant=1|LiLaflcat=v6|TraditionalMood=Participium|TraditionalTense=Futurum|UniqueTokenId=TacGerma-Q-01-242_12
 13	uident	uideo	VERB	B2	Aspect=Imp|InflClass=LatE|Mood=Ind|Number=Plur|Person=3|Tense=Pres|VerbForm=Fin|Voice=Act	9	acl:relcl	_	LiLaflcat=v2|TraditionalMood=Indicativus|TraditionalTense=Praesens|UniqueTokenId=TacGerma-Q-01-242_13
 
-# sent_id = Latin_Tacitus_Ger_prose-246
+# sent_id = TacGerma-Q-01-243
 # text = et haec quidem pars Sueborum in secretiora Germaniae porrigitur propior ut quo modo paulo ante Rhenum sic nunc Danuuium sequar Hermundurorum ciuitas fida Romanis eoque solis Germanorum non in ripa commercium sed penitus atque in splendidissima Raetiae prouinciae colonia
 1	et	et	CCONJ	S	_	9	cc	_	LASLAVariant=2|LiLaflcat=i|UniqueTokenId=TacGerma-Q-01-243_1
 2	haec	hic	DET	I	Case=Nom|Gender=Fem|InflClass=LatPron|Number=Sing|PronType=Dem	4	det	_	LASLAVariant=1|LiLaflcat=p|UniqueTokenId=TacGerma-Q-01-243_2
@@ -8750,7 +8750,7 @@
 39	prouinciae	prouincia	NOUN	A1	Case=Gen|Gender=Fem|InflClass=IndEurA|Number=Sing	38	flat:gov	_	LiLaflcat=n1|UniqueTokenId=TacGerma-Q-01-243_39
 40	colonia	colonia	NOUN	A1	Case=Abl|Gender=Fem|InflClass=IndEurA|Number=Sing	34	conj	_	LiLaflcat=n1|UniqueTokenId=TacGerma-Q-01-243_40
 
-# sent_id = Latin_Tacitus_Ger_prose-247
+# sent_id = TacGerma-Q-01-244
 # text = passim et sine custode transeunt et cum ceteris gentibus arma modo castraque nostra ostendamus his domos uillasque patefecimus non concupiscentibus
 1	passim	passim	ADV	M	AdvType=Loc	5	advmod:lmod	_	LiLaflcat=i|UniqueTokenId=TacGerma-Q-01-244_1
 2	et	et	CCONJ	S	_	4	cc	_	LASLAVariant=2|LiLaflcat=i|UniqueTokenId=TacGerma-Q-01-244_2
@@ -8777,7 +8777,7 @@
 21	non	non	PART	P	Polarity=Neg	22	advmod:neg	_	LiLaflcat=i|UniqueTokenId=TacGerma-Q-01-244_21
 22	concupiscentibus	concupisco	VERB	B3	Aspect=Inch|Case=Dat|Gender=Masc|InflClass=LatX|InflClass[nominal]=IndEurO|Number=Plur|VerbForm=Part|Voice=Act	20	advcl:pred	_	LiLaflcat=v3|TraditionalMood=Participium|UniqueTokenId=TacGerma-Q-01-244_22
 
-# sent_id = Latin_Tacitus_Ger_prose-248
+# sent_id = TacGerma-Q-01-245
 # text = in Hermunduris Albis oritur flumen inclutum et notum olim nunc tantum auditur
 1	in	in	ADP	R	_	2	case	_	LiLaflcat=i|UniqueTokenId=TacGerma-Q-01-245_1
 2	Hermunduris	hermunduri	NOUN	A2	Case=Abl|Gender=Masc|InflClass=IndEurO|NameType=Nat|Number=Plur	4	obl:lmod	_	LASLAVariant=N|LiLaflcat=n2|UniqueTokenId=TacGerma-Q-01-245_2
@@ -8792,7 +8792,7 @@
 11	tantum	tantum	ADV	M	NumType=Card|PronType=Dem	12	advmod	_	LASLAVariant=2|LiLaflcat=i|UniqueTokenId=TacGerma-Q-01-245_11
 12	auditur	audio	VERB	B4	Aspect=Imp|InflClass=LatI|Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin|Voice=Pass	4	conj	_	LiLaflcat=v4|TraditionalMood=Indicativus|TraditionalTense=Praesens|UniqueTokenId=TacGerma-Q-01-245_12
 
-# sent_id = Latin_Tacitus_Ger_prose-249
+# sent_id = TacGerma-Q-01-246
 # text = iuxta Hermunduros Naristi ac deinde Marcomani et Quadi agunt
 1	iuxta	iuxta	ADP	R	_	2	case	_	LASLAVariant=2|LiLaflcat=i|UniqueTokenId=TacGerma-Q-01-246_1
 2	Hermunduros	hermunduri	NOUN	A2	Case=Acc|Gender=Masc|InflClass=IndEurO|NameType=Nat|Number=Plur	3	orphan	_	LASLAVariant=N|LiLaflcat=n2|UniqueTokenId=TacGerma-Q-01-246_2
@@ -8804,7 +8804,7 @@
 8	Quadi	quadi	NOUN	A2	Case=Nom|Gender=Masc|InflClass=IndEurO|NameType=Nat|Number=Plur	6	conj	_	LASLAVariant=N|LiLaflcat=n2|UniqueTokenId=TacGerma-Q-01-246_8
 9	agunt	ago	VERB	B3	Aspect=Imp|InflClass=LatX|Mood=Ind|Number=Plur|Person=3|Tense=Pres|VerbForm=Fin|Voice=Act	3	conj	_	LiLaflcat=v3|TraditionalMood=Indicativus|TraditionalTense=Praesens|UniqueTokenId=TacGerma-Q-01-246_9
 
-# sent_id = Latin_Tacitus_Ger_prose-250
+# sent_id = TacGerma-Q-01-247
 # text = praecipua Marcomanorum gloria uiresque atque ipsa etiam sedes pulsis olim Boiis uirtute parta
 1	praecipua	praecipuus	ADJ	C1	Case=Nom|Gender=Fem|InflClass=IndEurA|Number=Sing	0	root	_	LiLaflcat=n6|UniqueTokenId=TacGerma-Q-01-247_1
 2	Marcomanorum	marcomani	NOUN	A2	Case=Gen|Gender=Masc|InflClass=IndEurO|NameType=Nat|Number=Plur	3	nmod	_	LASLAVariant=N|LiLaflcat=n2|UniqueTokenId=TacGerma-Q-01-247_2
@@ -8822,7 +8822,7 @@
 13	uirtute	uirtus	NOUN	A3	Case=Abl|Gender=Fem|InflClass=IndEurX|Number=Sing	14	obl	_	LiLaflcat=n3|UniqueTokenId=TacGerma-Q-01-247_13
 14	parta	pario	VERB	Y5	Aspect=Perf|Case=Nom|Gender=Fem|InflClass=LatI2|InflClass[nominal]=IndEurA|Number=Sing|VerbForm=Part|Voice=Pass	1	conj	_	LASLAVariant=2|LiLaflcat=v5|Tac=est|TraditionalMood=Participium|TraditionalTense=Perfectum|UniqueTokenId=TacGerma-Q-01-247_14
 
-# sent_id = Latin_Tacitus_Ger_prose-251
+# sent_id = TacGerma-Q-01-248
 # text = nec Naristi Quadiue degenerant
 1	nec	neque	CCONJ	S	Polarity=Neg	5	cc	_	LASLAVariant=2|LiLaflcat=i|UniqueTokenId=TacGerma-Q-01-248_1
 2	Naristi	naristi	NOUN	A2	Case=Nom|Gender=Masc|InflClass=IndEurO|NameType=Nat|Number=Plur	5	nsubj	_	LASLAVariant=N|LiLaflcat=n2|UniqueTokenId=TacGerma-Q-01-248_2
@@ -8831,7 +8831,7 @@
 4	ue	ue	CCONJ	S	_	3	cc	_	LiLaflcat=i|UniqueTokenId=TacGerma-Q-01-248_4
 5	degenerant	degenero	VERB	B1	Aspect=Imp|InflClass=LatA|Mood=Ind|Number=Plur|Person=3|Tense=Pres|VerbForm=Fin|Voice=Act	0	root	_	LiLaflcat=v1|TraditionalMood=Indicativus|TraditionalTense=Praesens|UniqueTokenId=TacGerma-Q-01-248_5
 
-# sent_id = Latin_Tacitus_Ger_prose-252
+# sent_id = TacGerma-Q-01-249
 # text = eaque Germaniae uelut frons est quatenus Danuuio peragitur
 1-2	eaque	_	_	_	_	_	_	_	UniqueTokenId=TacGerma-Q-01-249_1-2
 1	ea	is	PRON	I	Case=Nom|Gender=Fem|InflClass=LatPron|Number=Sing|Person=3|PronType=Prs	5	nsubj	_	LiLaflcat=p|UniqueTokenId=TacGerma-Q-01-249_1
@@ -8844,7 +8844,7 @@
 8	Danuuio	danuuius	PROPN	A2	Case=Abl|Gender=Masc|InflClass=IndEurO|NameType=Geo|Number=Sing	9	obl	_	LASLAVariant=N|LiLaflcat=n2|UniqueTokenId=TacGerma-Q-01-249_8
 9	peragitur	perago	VERB	B3	Aspect=Imp|InflClass=LatX|Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin|Voice=Pass	5	advcl	_	LiLaflcat=v3|TraditionalMood=Indicativus|TraditionalTense=Praesens|UniqueTokenId=TacGerma-Q-01-249_9
 
-# sent_id = Latin_Tacitus_Ger_prose-253
+# sent_id = TacGerma-Q-01-250
 # text = Marcomanis Quadisque usque ad nostram memoriam reges manserunt ex gente ipsorum nobile Marobodui et Tudri genus iam et externos patiuntur sed uis et potentia regibus ex auctoritate Romana
 1	Marcomanis	marcomani	NOUN	A2	Case=Dat|Gender=Masc|InflClass=IndEurO|NameType=Nat|Number=Plur	9	obl:arg	_	LASLAVariant=N|LiLaflcat=n2|UniqueTokenId=TacGerma-Q-01-250_1
 2-3	Quadisque	_	_	_	_	_	_	_	UniqueTokenId=TacGerma-Q-01-250_2-3
@@ -8877,7 +8877,7 @@
 28	auctoritate	auctoritas	NOUN	A3	Case=Abl|Gender=Fem|InflClass=IndEurX|Number=Sing	26	obl	_	LiLaflcat=n3|UniqueTokenId=TacGerma-Q-01-250_28
 29	Romana	romanus	ADJ	C1	Case=Abl|Gender=Fem|InflClass=IndEurA|NameType=Nat|Number=Sing	28	amod	_	LASLAVariant=A|LiLaflcat=n6|UniqueTokenId=TacGerma-Q-01-250_29
 
-# sent_id = Latin_Tacitus_Ger_prose-254
+# sent_id = TacGerma-Q-01-251
 # text = raro armis nostris saepius pecunia iuuantur nec minus ualent
 1	raro	raro	ADV	M	_	2	orphan	_	LiLaflcat=i|UniqueTokenId=TacGerma-Q-01-251_1
 2	armis	arma	NOUN	A2	Case=Abl|Gender=Neut|InflClass=IndEurO|Number=Plur	0	root	_	LiLaflcat=n2|UniqueTokenId=TacGerma-Q-01-251_2
@@ -8889,7 +8889,7 @@
 8	minus	parum	ADV	M	Degree=Cmp	9	advmod	_	LASLAVariant=2|LiLaflcat=i|UniqueTokenId=TacGerma-Q-01-251_8
 9	ualent	ualeo	VERB	B2	Aspect=Imp|InflClass=LatE|Mood=Ind|Number=Plur|Person=3|Tense=Pres|VerbForm=Fin|Voice=Act	6	conj	_	LiLaflcat=v2|TraditionalMood=Indicativus|TraditionalTense=Praesens|UniqueTokenId=TacGerma-Q-01-251_9
 
-# sent_id = Latin_Tacitus_Ger_prose-255
+# sent_id = TacGerma-Q-01-252
 # text = retro Marsigni Cotini Osi Buri terga Marcomanorum Quadorumque claudunt
 1	retro	retro	ADV	M	AdvType=Loc	10	advmod:lmod	_	LASLAVariant=1|LiLaflcat=i|UniqueTokenId=TacGerma-Q-01-252_1
 2	Marsigni	marsigni	NOUN	A2	Case=Nom|Gender=Masc|InflClass=IndEurO|NameType=Nat|Number=Plur	10	nsubj	_	LASLAVariant=N|LiLaflcat=n2|UniqueTokenId=TacGerma-Q-01-252_2
@@ -8903,7 +8903,7 @@
 9	que	que	CCONJ	S	_	8	cc	_	LiLaflcat=i|UniqueTokenId=TacGerma-Q-01-252_9
 10	claudunt	claudo	VERB	B3	Aspect=Imp|InflClass=LatX|Mood=Ind|Number=Plur|Person=3|Tense=Pres|VerbForm=Fin|Voice=Act	0	root	_	LASLAVariant=1|LiLaflcat=v3|TraditionalMood=Indicativus|TraditionalTense=Praesens|UniqueTokenId=TacGerma-Q-01-252_10
 
-# sent_id = Latin_Tacitus_Ger_prose-256
+# sent_id = TacGerma-Q-01-253
 # text = e quibus Marsigni et Buri sermone cultuque Suebos referunt Cotinos Gallica Osos Pannonica lingua coarguit non esse Germanos et quod tributa patiuntur
 1	e	ex	ADP	R	_	2	case	_	LiLaflcat=i|UniqueTokenId=TacGerma-Q-01-253_1
 2	quibus	qui	PRON	J	Case=Abl|Gender=Masc|InflClass=LatPron|Number=Plur|PronType=Rel	10	obl	_	LASLAVariant=1|LiLaflcat=p|UniqueTokenId=TacGerma-Q-01-253_2
@@ -8930,7 +8930,7 @@
 22	tributa	tributum	NOUN	A2	Case=Acc|Gender=Neut|InflClass=IndEurO|Number=Plur	23	obj	_	LiLaflcat=n2|UniqueTokenId=TacGerma-Q-01-253_22
 23	patiuntur	patior	VERB	B5	Aspect=Imp|InflClass=LatI2|Mood=Ind|Number=Plur|Person=3|Tense=Pres|VerbForm=Fin|Voice=Pass	12	conj	_	LiLaflcat=v5|TraditionalMood=Indicativus|TraditionalTense=Praesens|UniqueTokenId=TacGerma-Q-01-253_23
 
-# sent_id = Latin_Tacitus_Ger_prose-257
+# sent_id = TacGerma-Q-01-254
 # text = partem tributorum Sarmatae partem Quadi ut alienigenis imponunt Cotini quo magis pudeat et ferrum effodiunt
 1	partem	pars	NOUN	A3	Case=Acc|Gender=Fem|InflClass=IndEurI|Number=Sing	3	orphan	_	LiLaflcat=n3|UniqueTokenId=TacGerma-Q-01-254_1
 2	tributorum	tributum	NOUN	A2	Case=Gen|Gender=Neut|InflClass=IndEurO|Number=Plur	1	nmod	_	LiLaflcat=n2|UniqueTokenId=TacGerma-Q-01-254_2
@@ -8948,7 +8948,7 @@
 14	ferrum	ferrum	NOUN	A2	Case=Acc|Gender=Neut|InflClass=IndEurO|Number=Sing	15	obj	_	LiLaflcat=n2|UniqueTokenId=TacGerma-Q-01-254_14
 15	effodiunt	effodio	VERB	B5	Aspect=Imp|InflClass=LatI2|Mood=Ind|Number=Plur|Person=3|Tense=Pres|VerbForm=Fin|Voice=Act	3	conj	_	LiLaflcat=v5|TraditionalMood=Indicativus|TraditionalTense=Praesens|UniqueTokenId=TacGerma-Q-01-254_15
 
-# sent_id = Latin_Tacitus_Ger_prose-258
+# sent_id = TacGerma-Q-01-255
 # text = omnesque hi populi pauca campestrium ceterum saltus et uertices montium insederunt
 1-2	omnesque	_	_	_	_	_	_	_	UniqueTokenId=TacGerma-Q-01-255_1-2
 1	omnes	omnis	DET	L	Case=Nom|Gender=Masc|InflClass=IndEurI|Number=Plur|PronType=Tot	4	det	_	LiLaflcat=n7|UniqueTokenId=TacGerma-Q-01-255_1
@@ -8964,7 +8964,7 @@
 11	montium	mons	NOUN	A3	Case=Gen|Gender=Masc|InflClass=IndEurI|Number=Plur	10	nmod	_	LiLaflcat=n3|UniqueTokenId=TacGerma-Q-01-255_11
 12	insederunt	insideo	VERB	B2	Aspect=Perf|InflClass=LatE|Mood=Ind|Number=Plur|Person=3|Tense=Pres|VerbForm=Fin|Voice=Act	4	conj	_	LiLaflcat=v2|TraditionalMood=Indicativus|TraditionalTense=Perfectum|UniqueTokenId=TacGerma-Q-01-255_12
 
-# sent_id = Latin_Tacitus_Ger_prose-259
+# sent_id = TacGerma-Q-01-256
 # text = dirimit enim scinditque Suebiam continuum montium iugum ultra quod plurimae gentes agunt ex quibus latissime patet Lugiorum nomen in plures ciuitates diffusum
 1	dirimit	dirimo	VERB	B3	Aspect=Imp|InflClass=LatX|Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin|Voice=Act	0	root	_	LiLaflcat=v3|TraditionalMood=Indicativus|TraditionalTense=Praesens|UniqueTokenId=TacGerma-Q-01-256_1
 2	enim	enim	PART	S	Form=Emp	1	discourse	_	LASLAVariant=2|LiLaflcat=i|UniqueTokenId=TacGerma-Q-01-256_2
@@ -8991,7 +8991,7 @@
 22	ciuitates	ciuitas	NOUN	A3	Case=Acc|Gender=Fem|InflClass=IndEurX|Number=Plur	23	obl	_	LiLaflcat=n3|UniqueTokenId=TacGerma-Q-01-256_22
 23	diffusum	diffusus	ADJ	C1	Case=Nom|Gender=Neut|InflClass=IndEurO|Number=Sing	19	acl	_	LiLaflcat=n6|UniqueTokenId=TacGerma-Q-01-256_23
 
-# sent_id = Latin_Tacitus_Ger_prose-260
+# sent_id = TacGerma-Q-01-257
 # text = ualentissimas nominasse sufficiet Harios Helueconas Manimos Helisios Nahanarualos
 1	ualentissimas	ualens	ADJ	C5	Case=Acc|Degree=Abs|Gender=Fem|InflClass=IndEurA|Number=Plur	2	obj	_	LiLaflcat=n6|UniqueTokenId=TacGerma-Q-01-257_1
 2	nominasse	nomino	VERB	B1	Aspect=Perf|InflClass=LatA|VerbForm=Inf|Voice=Act	3	csubj	_	LiLaflcat=v1|TraditionalMood=Infinitivus|TraditionalTense=Perfectum|UniqueTokenId=TacGerma-Q-01-257_2
@@ -9002,7 +9002,7 @@
 7	Helisios	helisii	NOUN	A2	Case=Acc|Gender=Masc|InflClass=IndEurO|NameType=Nat|Number=Plur	4	conj	_	LASLAVariant=N|LiLaflcat=n2|UniqueTokenId=TacGerma-Q-01-257_7
 8	Nahanarualos	nahanaruali	NOUN	A2	Case=Acc|Gender=Masc|InflClass=IndEurO|NameType=Nat|Number=Plur	4	conj	_	LASLAVariant=N|LiLaflcat=n2|UniqueTokenId=TacGerma-Q-01-257_8
 
-# sent_id = Latin_Tacitus_Ger_prose-261
+# sent_id = TacGerma-Q-01-258
 # text = apud Nahanarualos antiquae religionis lucus ostenditur
 1	apud	apud	ADP	R	_	2	case	_	LiLaflcat=i|UniqueTokenId=TacGerma-Q-01-258_1
 2	Nahanarualos	nahanaruali	NOUN	A2	Case=Acc|Gender=Masc|InflClass=IndEurO|NameType=Nat|Number=Plur	6	obl:lmod	_	LASLAVariant=N|LiLaflcat=n2|UniqueTokenId=TacGerma-Q-01-258_2
@@ -9011,7 +9011,7 @@
 5	lucus	lucus	NOUN	A2	Case=Nom|Gender=Masc|InflClass=IndEurO|Number=Sing	6	nsubj:pass	_	LiLaflcat=n2|UniqueTokenId=TacGerma-Q-01-258_5
 6	ostenditur	ostendo	VERB	B3	Aspect=Imp|InflClass=LatX|Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin|Voice=Pass	0	root	_	LiLaflcat=v3|TraditionalMood=Indicativus|TraditionalTense=Praesens|UniqueTokenId=TacGerma-Q-01-258_6
 
-# sent_id = Latin_Tacitus_Ger_prose-262
+# sent_id = TacGerma-Q-01-259
 # text = praesidet sacerdos muliebri ornatu sed deos interpretatione Romana Castorem Pollucemque memorant
 1	praesidet	praesideo	VERB	B2	Aspect=Imp|InflClass=LatE|Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin|Voice=Act	0	root	_	LiLaflcat=v2|TraditionalMood=Indicativus|TraditionalTense=Praesens|UniqueTokenId=TacGerma-Q-01-259_1
 2	sacerdos	sacerdos	NOUN	A3	Case=Nom|Gender=Masc|InflClass=IndEurX|Number=Sing	1	nsubj	_	LiLaflcat=n3|UniqueTokenId=TacGerma-Q-01-259_2
@@ -9027,7 +9027,7 @@
 11	que	que	CCONJ	S	_	10	cc	_	LiLaflcat=i|UniqueTokenId=TacGerma-Q-01-259_11
 12	memorant	memoro	VERB	B1	Aspect=Imp|InflClass=LatA|Mood=Ind|Number=Plur|Person=3|Tense=Pres|VerbForm=Fin|Voice=Act	1	conj	_	LiLaflcat=v1|TraditionalMood=Indicativus|TraditionalTense=Praesens|UniqueTokenId=TacGerma-Q-01-259_12
 
-# sent_id = Latin_Tacitus_Ger_prose-263
+# sent_id = TacGerma-Q-01-260
 # text = ea uis numini nomen Alcis
 1	ea	is	PRON	I	Case=Nom|Gender=Fem|InflClass=LatPron|Number=Sing|Person=3|PronType=Prs	0	root	_	LiLaflcat=p|UniqueTokenId=TacGerma-Q-01-260_1
 2	uis	uis	NOUN	A3	Case=Nom|Gender=Fem|InflClass=IndEurI|Number=Sing	1	nsubj	_	LiLaflcat=n3|UniqueTokenId=TacGerma-Q-01-260_2
@@ -9035,7 +9035,7 @@
 4	nomen	nomen	NOUN	A3	Case=Nom|Gender=Neut|InflClass=IndEurX|Number=Sing	3	advcl:pred	_	LiLaflcat=n3|UniqueTokenId=TacGerma-Q-01-260_4
 5	Alcis	alcis	PROPN	A3	Case=Nom|Gender=Masc|InflClass=IndEurI|NameType=Rel|Number=Sing	3	nsubj	_	LASLAVariant=N|LiLaflcat=n3|UniqueTokenId=TacGerma-Q-01-260_5
 
-# sent_id = Latin_Tacitus_Ger_prose-264
+# sent_id = TacGerma-Q-01-261
 # text = nulla simulacra nullum peregrinae superstitionis uestigium ut fratres tamen ut iuuenes uenerantur
 1	nulla	nullus	DET	L	Case=Nom|Gender=Neut|InflClass=LatPron|Number=Plur|Polarity=Neg|PronType=Ind	2	det	_	LiLaflcat=p|UniqueTokenId=TacGerma-Q-01-261_1
 2	simulacra	simulacrum	NOUN	A2	Case=Nom|Gender=Neut|InflClass=IndEurO|Number=Plur	0	root	_	LiLaflcat=n2|UniqueTokenId=TacGerma-Q-01-261_2
@@ -9050,7 +9050,7 @@
 11	iuuenes	iuuenis	NOUN	A3	Case=Acc|Gender=Masc|InflClass=IndEurI|Number=Plur	8	conj	_	LASLAVariant=1|LiLaflcat=n3|UniqueTokenId=TacGerma-Q-01-261_11
 12	uenerantur	ueneror	VERB	B1	Aspect=Imp|InflClass=LatA|Mood=Ind|Number=Plur|Person=3|Tense=Pres|VerbForm=Fin|Voice=Pass	2	conj	_	LiLaflcat=v1|TraditionalMood=Indicativus|TraditionalTense=Praesens|UniqueTokenId=TacGerma-Q-01-261_12
 
-# sent_id = Latin_Tacitus_Ger_prose-265
+# sent_id = TacGerma-Q-01-262
 # text = ceterum Harii super uires quibus enumeratos paulo ante populos antecedunt truces insitae feritati arte ac tempore lenocinantur nigra scuta tincta corpora atras ad proelia noctes legunt ipsaque formidine atque umbra feralis exercitus terrorem inferunt nullo hostium sustinente nouum ac uelut infernum aspectum nam primi in omnibus proeliis oculi uincuntur
 1	ceterum	ceterum	ADV	M	PronType=Con	17	advmod	_	LASLAVariant=2|LiLaflcat=i|UniqueTokenId=TacGerma-Q-01-262_1
 2	Harii	harii	NOUN	A2	Case=Nom|Gender=Masc|InflClass=IndEurO|NameType=Nat|Number=Plur	17	nsubj	_	LASLAVariant=N|LiLaflcat=n2|UniqueTokenId=TacGerma-Q-01-262_2
@@ -9104,7 +9104,7 @@
 49	oculi	oculus	NOUN	A2	Case=Nom|Gender=Masc|InflClass=IndEurO|Number=Plur	50	nsubj:pass	_	LiLaflcat=n2|UniqueTokenId=TacGerma-Q-01-262_49
 50	uincuntur	uinco	VERB	B3	Aspect=Imp|InflClass=LatX|Mood=Ind|Number=Plur|Person=3|Tense=Pres|VerbForm=Fin|Voice=Pass	35	conj	_	LiLaflcat=v3|TraditionalMood=Indicativus|TraditionalTense=Praesens|UniqueTokenId=TacGerma-Q-01-262_50
 
-# sent_id = Latin_Tacitus_Ger_prose-266
+# sent_id = TacGerma-Q-01-263
 # text = trans Lugios Gotones regnantur paulo iam adductius quam ceterae Germanorum gentes nondum tamen supra libertatem
 1	trans	trans	ADP	R	_	2	case	_	LASLAVariant=2|LiLaflcat=i|UniqueTokenId=TacGerma-Q-01-263_1
 2	Lugios	lugii	NOUN	A2	Case=Acc|Gender=Masc|InflClass=IndEurO|NameType=Nat|Number=Plur	4	obl:lmod	_	LASLAVariant=N|LiLaflcat=n2|UniqueTokenId=TacGerma-Q-01-263_2
@@ -9122,7 +9122,7 @@
 14	supra	supra	ADP	R	_	15	case	_	LASLAVariant=2|LiLaflcat=i|UniqueTokenId=TacGerma-Q-01-263_14
 15	libertatem	libertas	NOUN	A3	Case=Acc|Gender=Fem|InflClass=IndEurX|Number=Sing	4	conj	_	LiLaflcat=n3|UniqueTokenId=TacGerma-Q-01-263_15
 
-# sent_id = Latin_Tacitus_Ger_prose-267
+# sent_id = TacGerma-Q-01-264
 # text = protinus deinde ab Oceano Rugii et Lemouii omniumque harum gentium insigne rotunda scuta breues gladii et erga reges obsequium
 1	protinus	protinus	ADV	M	AdvType=Loc	0	root	_	LiLaflcat=i|UniqueTokenId=TacGerma-Q-01-264_1
 2	deinde	deinde	ADV	M	AdvType=Loc	1	advmod:lmod	_	LiLaflcat=i|UniqueTokenId=TacGerma-Q-01-264_2
@@ -9146,7 +9146,7 @@
 19	reges	rex	NOUN	A3	Case=Acc|Gender=Masc|InflClass=IndEurX|Number=Plur	20	nmod	_	LiLaflcat=n3|UniqueTokenId=TacGerma-Q-01-264_19
 20	obsequium	obsequium	NOUN	A2	Case=Nom|Gender=Neut|InflClass=IndEurO|Number=Sing	14	conj	_	LiLaflcat=n2|UniqueTokenId=TacGerma-Q-01-264_20
 
-# sent_id = Latin_Tacitus_Ger_prose-268
+# sent_id = TacGerma-Q-01-265
 # text = Suionum hinc ciuitates ipso in Oceano praeter uiros armaque classibus ualent
 1	Suionum	suiones	NOUN	A3	Case=Gen|Gender=Masc|InflClass=IndEurX|NameType=Nat|Number=Plur	3	nmod	_	LASLAVariant=N|LiLaflcat=n3|UniqueTokenId=TacGerma-Q-01-265_1
 2	hinc	hinc	ADV	M	AdvType=Loc|Case=Loc|PronType=Dem	12	advmod:lmod	_	LiLaflcat=i|UniqueTokenId=TacGerma-Q-01-265_2
@@ -9162,7 +9162,7 @@
 11	classibus	classis	NOUN	A3	Case=Abl|Gender=Fem|InflClass=IndEurI|Number=Plur	12	obl	_	LiLaflcat=n3|UniqueTokenId=TacGerma-Q-01-265_11
 12	ualent	ualeo	VERB	B2	Aspect=Imp|InflClass=LatE|Mood=Ind|Number=Plur|Person=3|Tense=Pres|VerbForm=Fin|Voice=Act	0	root	_	LiLaflcat=v2|TraditionalMood=Indicativus|TraditionalTense=Praesens|UniqueTokenId=TacGerma-Q-01-265_12
 
-# sent_id = Latin_Tacitus_Ger_prose-269
+# sent_id = TacGerma-Q-01-266
 # text = forma nauium eo differt quod utrimque prora paratam semper appulsui frontem agit
 1	forma	forma	NOUN	A1	Case=Nom|Gender=Fem|InflClass=IndEurA|Number=Sing	4	nsubj	_	LiLaflcat=n1|UniqueTokenId=TacGerma-Q-01-266_1
 2	nauium	nauis	NOUN	A3	Case=Gen|Gender=Fem|InflClass=IndEurI|Number=Plur	1	nmod	_	LiLaflcat=n3|UniqueTokenId=TacGerma-Q-01-266_2
@@ -9177,7 +9177,7 @@
 11	frontem	frons	NOUN	A3	Case=Acc|Gender=Fem|InflClass=IndEurI|Number=Sing	12	obj	_	LASLAVariant=1|LiLaflcat=n3|UniqueTokenId=TacGerma-Q-01-266_11
 12	agit	ago	VERB	B3	Aspect=Imp|InflClass=LatX|Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin|Voice=Act	4	advcl	_	LiLaflcat=v3|TraditionalMood=Indicativus|TraditionalTense=Praesens|UniqueTokenId=TacGerma-Q-01-266_12
 
-# sent_id = Latin_Tacitus_Ger_prose-270
+# sent_id = TacGerma-Q-01-267
 # text = nec uelis ministrant nec remos in ordinem lateribus adiungunt solutum ut in quibusdam fluminum et mutabile ut res poscit hinc uel illinc remigium
 1	nec	neque	CCONJ	S	Polarity=Neg	3	cc	_	LASLAVariant=2|LiLaflcat=i|UniqueTokenId=TacGerma-Q-01-267_1
 2	uelis	uelum	NOUN	A2	Case=Dat|Gender=Neut|InflClass=IndEurO|Number=Plur	3	obl:arg	_	LiLaflcat=n2|UniqueTokenId=TacGerma-Q-01-267_2
@@ -9203,7 +9203,7 @@
 22	illinc	illinc	ADV	M	AdvType=Loc|PronType=Dem	20	conj	_	LiLaflcat=i|UniqueTokenId=TacGerma-Q-01-267_22
 23	remigium	remigium	NOUN	A2	Case=Nom|Gender=Neut|InflClass=IndEurO|Number=Sing	10	nsubj	_	LiLaflcat=n2|UniqueTokenId=TacGerma-Q-01-267_23
 
-# sent_id = Latin_Tacitus_Ger_prose-271
+# sent_id = TacGerma-Q-01-268
 # text = est apud illos et opibus honos eoque unus imperitat nullis iam exceptionibus non precario iure parendi
 1	est	sum	AUX	B6	Aspect=Imp|InflClass=LatAnom|Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	5	cop	_	LASLAVariant=1|LiLaflcat=v6|TraditionalMood=Indicativus|TraditionalTense=Praesens|UniqueTokenId=TacGerma-Q-01-268_1
 2	apud	apud	ADP	R	_	3	case	_	LiLaflcat=i|UniqueTokenId=TacGerma-Q-01-268_2
@@ -9224,7 +9224,7 @@
 16	iure	ius	NOUN	A3	Case=Abl|Gender=Neut|InflClass=IndEurI|Number=Sing	10	obl	_	LASLAVariant=1|LiLaflcat=n3|UniqueTokenId=TacGerma-Q-01-268_16
 17	parendi	pareo	VERB	B2	Aspect=Prosp|Case=Gen|Gender=Neut|InflClass=LatE|InflClass[nominal]=IndEurO|Number=Sing|VerbForm=Part|Voice=Pass	16	acl	_	LiLaflcat=v2|TraditionalMood=Gerundium|UniqueTokenId=TacGerma-Q-01-268_17
 
-# sent_id = Latin_Tacitus_Ger_prose-272
+# sent_id = TacGerma-Q-01-269
 # text = nec arma ut apud ceteros Germanos in promiscuo sed clausa sub custode et quidem seruo quia subitos hostium incursus prohibet Oceanus otiosae porro armatorum manus facile lasciuiunt enimuero neque nobilem neque ingenuum ne libertinum quidem armis praeponere regia utilitas est
 1	nec	neque	CCONJ	S	Polarity=Neg	8	cc	_	LASLAVariant=2|LiLaflcat=i|UniqueTokenId=TacGerma-Q-01-269_1
 2	arma	arma	NOUN	A2	Case=Nom|Gender=Neut|InflClass=IndEurO|Number=Plur	8	nsubj	_	LiLaflcat=n2|UniqueTokenId=TacGerma-Q-01-269_2
@@ -9267,7 +9267,7 @@
 39	utilitas	utilitas	NOUN	A3	Case=Nom|Gender=Fem|InflClass=IndEurX|Number=Sing	8	conj	_	LiLaflcat=n3|UniqueTokenId=TacGerma-Q-01-269_39
 40	est	sum	AUX	B6	Aspect=Imp|InflClass=LatAnom|Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	39	cop	_	LASLAVariant=1|LiLaflcat=v6|TraditionalMood=Indicativus|TraditionalTense=Praesens|UniqueTokenId=TacGerma-Q-01-269_40
 
-# sent_id = Latin_Tacitus_Ger_prose-273
+# sent_id = TacGerma-Q-01-270
 # text = trans Suionas aliud mare pigrum ac prope immotum quo cingi cludique terrarum orbem hinc fides quod extremus cadentis iam solis fulgor in ortus edurat adeo clarus ut sidera hebetet sonum insuper emergentis audiri formasque equorum et radios capitis aspici persuasio adicit
 1	trans	trans	ADP	R	_	2	case	_	LASLAVariant=2|LiLaflcat=i|UniqueTokenId=TacGerma-Q-01-270_1
 2	Suionas	suionae	NOUN	A1	Case=Acc|Gender=Fem|InflClass=IndEurA|NameType=Nat|Number=Plur	0	root	_	LASLAVariant=N|LiLaflcat=n1|UniqueTokenId=TacGerma-Q-01-270_2
@@ -9315,7 +9315,7 @@
 42	persuasio	persuasio	NOUN	A3	Case=Nom|Gender=Fem|InflClass=IndEurX|Number=Sing	43	nsubj	_	LiLaflcat=n3|UniqueTokenId=TacGerma-Q-01-270_42
 43	adicit	adicio	VERB	B5	Aspect=Imp|InflClass=LatI2|Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin|Voice=Act	2	conj	_	LiLaflcat=v5|TraditionalMood=Indicativus|TraditionalTense=Praesens|UniqueTokenId=TacGerma-Q-01-270_43
 
-# sent_id = Latin_Tacitus_Ger_prose-274
+# sent_id = TacGerma-Q-01-271
 # text = illuc usque et fama uera tantum natura
 1	illuc	illuc	ADV	M	AdvType=Loc|PronType=Dem	0	root	_	LiLaflcat=i|UniqueTokenId=TacGerma-Q-01-271_1
 2	usque	usque	ADP	M	_	1	case	_	LiLaflcat=i|UniqueTokenId=TacGerma-Q-01-271_2
@@ -9325,7 +9325,7 @@
 6	tantum	tantum	ADV	M	NumType=Card|PronType=Dem	1	advmod	_	LASLAVariant=2|LiLaflcat=i|UniqueTokenId=TacGerma-Q-01-271_6
 7	natura	natura	NOUN	A1	Case=Nom|Gender=Fem|InflClass=IndEurA|Number=Sing	1	nsubj	_	LiLaflcat=n1|UniqueTokenId=TacGerma-Q-01-271_7
 
-# sent_id = Latin_Tacitus_Ger_prose-275
+# sent_id = TacGerma-Q-01-272
 # text = ergo iam dextro Suebici maris litore Aestiorum gentes adluuntur quibus ritus habitusque Sueborum lingua Britannicae propior
 1	ergo	ergo	ADV	S	AdvType=Loc	9	discourse	_	LASLAVariant=2|LiLaflcat=i|UniqueTokenId=TacGerma-Q-01-272_1
 2	iam	iam	ADV	M	AdvType=Tim	9	advmod:tmod	_	LiLaflcat=i|UniqueTokenId=TacGerma-Q-01-272_2
@@ -9346,13 +9346,13 @@
 16	Britannicae	britannicus	ADJ	C1	Case=Gen|Gender=Fem|InflClass=IndEurA|NameType=Nat|Number=Sing	17	obl:arg	_	LASLAVariant=A|LiLaflcat=n6|UniqueTokenId=TacGerma-Q-01-272_16
 17	propior	propior	ADJ	C	Case=Nom|Degree=Cmp|Gender=Fem|InflClass=IndEurX|Number=Sing	10	conj	_	LiLaflcat=null|UniqueTokenId=TacGerma-Q-01-272_17
 
-# sent_id = Latin_Tacitus_Ger_prose-276
+# sent_id = TacGerma-Q-01-273
 # text = matrem deum uenerantur
 1	matrem	mater	NOUN	A3	Case=Acc|Gender=Fem|InflClass=IndEurX|Number=Sing	3	obj	_	LiLaflcat=n3|UniqueTokenId=TacGerma-Q-01-273_1
 2	deum	deus	NOUN	A2	Case=Gen|Gender=Masc|InflClass=IndEurO|Number=Plur	1	nmod	_	LiLaflcat=n2|UniqueTokenId=TacGerma-Q-01-273_2
 3	uenerantur	ueneror	VERB	B1	Aspect=Imp|InflClass=LatA|Mood=Ind|Number=Plur|Person=3|Tense=Pres|VerbForm=Fin|Voice=Pass	0	root	_	LiLaflcat=v1|TraditionalMood=Indicativus|TraditionalTense=Praesens|UniqueTokenId=TacGerma-Q-01-273_3
 
-# sent_id = Latin_Tacitus_Ger_prose-277
+# sent_id = TacGerma-Q-01-274
 # text = insigne superstitionis formas aprorum gestant id pro armis omniumque tutela securum deae cultorem etiam inter hostis praestat
 1	insigne	insigne	NOUN	A3	Case=Acc|Gender=Neut|InflClass=IndEurI|Number=Sing	5	advcl:pred	_	LiLaflcat=n3|UniqueTokenId=TacGerma-Q-01-274_1
 2	superstitionis	superstitio	NOUN	A3	Case=Gen|Gender=Fem|InflClass=IndEurX|Number=Sing	1	nmod	_	LiLaflcat=n3|UniqueTokenId=TacGerma-Q-01-274_2
@@ -9374,7 +9374,7 @@
 17	hostis	hostis	NOUN	A3	Case=Acc|Gender=Masc|InflClass=IndEurI|Number=Plur	18	obl:lmod	_	LiLaflcat=n3|UniqueTokenId=TacGerma-Q-01-274_17
 18	praestat	praesto	VERB	B1	Aspect=Imp|InflClass=LatA|Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin|Voice=Act	5	conj	_	LASLAVariant=1|LiLaflcat=v1|TraditionalMood=Indicativus|TraditionalTense=Praesens|UniqueTokenId=TacGerma-Q-01-274_18
 
-# sent_id = Latin_Tacitus_Ger_prose-278
+# sent_id = TacGerma-Q-01-275
 # text = rarus ferri frequens fustium usus
 1	rarus	rarus	ADJ	C1	Case=Nom|Gender=Masc|InflClass=IndEurO|Number=Sing	0	root	_	LiLaflcat=n6|UniqueTokenId=TacGerma-Q-01-275_1
 2	ferri	ferrum	NOUN	A2	Case=Gen|Gender=Neut|InflClass=IndEurO|Number=Sing	1	orphan	_	LiLaflcat=n2|UniqueTokenId=TacGerma-Q-01-275_2
@@ -9382,7 +9382,7 @@
 4	fustium	fustis	NOUN	A3	Case=Gen|Gender=Masc|InflClass=IndEurI|Number=Plur	5	nmod	_	LiLaflcat=n3|UniqueTokenId=TacGerma-Q-01-275_4
 5	usus	usus	NOUN	A4	Case=Nom|Gender=Masc|InflClass=IndEurU|Number=Sing	3	nsubj	_	LiLaflcat=n4|UniqueTokenId=TacGerma-Q-01-275_5
 
-# sent_id = Latin_Tacitus_Ger_prose-279
+# sent_id = TacGerma-Q-01-276
 # text = frumenta ceterosque fructus patientius quam pro solita Germanorum inertia laborant
 1	frumenta	frumentum	NOUN	A2	Case=Acc|Gender=Neut|InflClass=IndEurO|Number=Plur	11	obj	_	LiLaflcat=n2|UniqueTokenId=TacGerma-Q-01-276_1
 2-3	ceterosque	_	_	_	_	_	_	_	UniqueTokenId=TacGerma-Q-01-276_2-3
@@ -9397,7 +9397,7 @@
 10	inertia	inertia	NOUN	A1	Case=Abl|Gender=Fem|InflClass=IndEurA|Number=Sing	11	advcl:cmp	_	LiLaflcat=n1|UniqueTokenId=TacGerma-Q-01-276_10
 11	laborant	laboro	VERB	B1	Aspect=Imp|InflClass=LatA|Mood=Ind|Number=Plur|Person=3|Tense=Pres|VerbForm=Fin|Voice=Act	0	root	_	LiLaflcat=v1|TraditionalMood=Indicativus|TraditionalTense=Praesens|UniqueTokenId=TacGerma-Q-01-276_11
 
-# sent_id = Latin_Tacitus_Ger_prose-280
+# sent_id = TacGerma-Q-01-277
 # text = sed et mare scrutantur ac soli omnium sucinum quod ipsi glesum uocant inter uada atque in ipso litore legunt
 1	sed	sed	CCONJ	S	_	4	cc	_	LiLaflcat=i|UniqueTokenId=TacGerma-Q-01-277_1
 2	et	et	CCONJ	M	_	3	advmod:emph	_	LASLAVariant=1|LiLaflcat=i|UniqueTokenId=TacGerma-Q-01-277_2
@@ -9419,7 +9419,7 @@
 18	litore	litus	NOUN	A3	Case=Abl|Gender=Neut|InflClass=IndEurX|Number=Sing	14	conj	_	LiLaflcat=n3|UniqueTokenId=TacGerma-Q-01-277_18
 19	legunt	lego	VERB	B3	Aspect=Imp|InflClass=LatX|Mood=Ind|Number=Plur|Person=3|Tense=Pres|VerbForm=Fin|Voice=Act	4	conj	_	LASLAVariant=2|LiLaflcat=v3|TraditionalMood=Indicativus|TraditionalTense=Praesens|UniqueTokenId=TacGerma-Q-01-277_19
 
-# sent_id = Latin_Tacitus_Ger_prose-281
+# sent_id = TacGerma-Q-01-278
 # text = nec quae natura quaeue ratio gignat ut barbaris quaesitum compertumue diu quin etiam inter cetera eiectamenta maris iacebat donec luxuria nostra dedit nomen
 1	nec	neque	CCONJ	S	Polarity=Neg	10	cc	_	LASLAVariant=2|LiLaflcat=i|UniqueTokenId=TacGerma-Q-01-278_1
 2	quae	quis	PRON	K	Case=Nom|Gender=Fem|InflClass=LatPron|Number=Sing|PronType=Int	3	det	_	LASLAVariant=1|LiLaflcat=p|UniqueTokenId=TacGerma-Q-01-278_2
@@ -9449,7 +9449,7 @@
 24	dedit	do	VERB	B1	Aspect=Perf|InflClass=LatA|Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin|Voice=Act	20	advcl	_	LiLaflcat=v1|TraditionalMood=Indicativus|TraditionalTense=Perfectum|UniqueTokenId=TacGerma-Q-01-278_24
 25	nomen	nomen	NOUN	A3	Case=Acc|Gender=Neut|InflClass=IndEurX|Number=Sing	24	obj	_	LiLaflcat=n3|UniqueTokenId=TacGerma-Q-01-278_25
 
-# sent_id = Latin_Tacitus_Ger_prose-282
+# sent_id = TacGerma-Q-01-279
 # text = ipsis in nullo usu rude legitur informe perfertur pretiumque mirantes accipiunt
 1	ipsis	ipse	DET	I	Case=Dat|Form=Emp|Gender=Masc|InflClass=LatPron|Number=Plur|PronType=Dem	6	obl:agent	_	LiLaflcat=p|UniqueTokenId=TacGerma-Q-01-279_1
 2	in	in	ADP	R	_	4	case	_	LiLaflcat=i|UniqueTokenId=TacGerma-Q-01-279_2
@@ -9465,7 +9465,7 @@
 11	mirantes	miror	VERB	B1	Aspect=Imp|Case=Nom|Gender=Masc|InflClass=LatA|InflClass[nominal]=IndEurI|Number=Plur|VerbForm=Part|Voice=Act	12	advcl:pred	_	LiLaflcat=v1|TraditionalMood=Participium|TraditionalTense=Praesens|UniqueTokenId=TacGerma-Q-01-279_11
 12	accipiunt	accipio	VERB	B5	Aspect=Imp|InflClass=LatI2|Mood=Ind|Number=Plur|Person=3|Tense=Pres|VerbForm=Fin|Voice=Act	8	conj	_	LiLaflcat=v5|TraditionalMood=Indicativus|TraditionalTense=Praesens|UniqueTokenId=TacGerma-Q-01-279_12
 
-# sent_id = Latin_Tacitus_Ger_prose-283
+# sent_id = TacGerma-Q-01-280
 # text = sucum tamen arborum esse intellegas quia terrena quaedam atque etiam uolucria animalia plerumque interlucent quae implicata humore mox durescente materia cluduntur
 1	sucum	sucus	NOUN	A2	Case=Acc|Gender=Masc|InflClass=IndEurO|Number=Sing	5	ccomp	_	LiLaflcat=n2|UniqueTokenId=TacGerma-Q-01-280_1
 2	tamen	tamen	ADV	M	Form=Emp|PronType=Dem	5	advmod	_	LiLaflcat=i|UniqueTokenId=TacGerma-Q-01-280_2
@@ -9489,7 +9489,7 @@
 20	materia	materia	NOUN	A1	Case=Abl|Gender=Fem|InflClass=IndEurA|Number=Sing	19	nsubj	_	LiLaflcat=n1|UniqueTokenId=TacGerma-Q-01-280_20
 21	cluduntur	cludo	VERB	B3	Aspect=Imp|InflClass=LatX|Mood=Ind|Number=Plur|Person=3|Tense=Pres|VerbForm=Fin|Voice=Pass	12	acl:relcl	_	LiLaflcat=v3|TraditionalMood=Indicativus|TraditionalTense=Praesens|UniqueTokenId=TacGerma-Q-01-280_21
 
-# sent_id = Latin_Tacitus_Ger_prose-284
+# sent_id = TacGerma-Q-01-281
 # text = fecundiora igitur nemora lucosque sicut Orientis secretis ubi tura balsamaque sudantur ita Occidentis insulis terrisque inesse crediderim quae uicini solis radiis expressa atque liquentia in proximum mare labuntur ac ui tempestatum in aduersa litora exundant
 1	fecundiora	fecundus	ADJ	C1	Case=Acc|Degree=Cmp|Gender=Neut|InflClass=IndEurX|Number=Plur	3	amod	_	LiLaflcat=n7|UniqueTokenId=TacGerma-Q-01-281_1
 2	igitur	igitur	PART	S	_	20	discourse	_	LiLaflcat=i|UniqueTokenId=TacGerma-Q-01-281_2
@@ -9533,7 +9533,7 @@
 37	litora	litus	NOUN	A3	Case=Acc|Gender=Neut|InflClass=IndEurX|Number=Plur	38	obl:lmod	_	LiLaflcat=n3|UniqueTokenId=TacGerma-Q-01-281_37
 38	exundant	exundo	VERB	B1	Aspect=Imp|InflClass=LatA|Mood=Ind|Number=Plur|Person=3|Tense=Pres|VerbForm=Fin|Voice=Act	31	conj	_	LiLaflcat=v1|TraditionalMood=Indicativus|TraditionalTense=Praesens|UniqueTokenId=TacGerma-Q-01-281_38
 
-# sent_id = Latin_Tacitus_Ger_prose-285
+# sent_id = TacGerma-Q-01-282
 # text = si naturam sucini admoto igni temptes in modum taedae accenditur alitque flammam pinguem et olentem mox ut in picem resinamue lentescit
 1	si	si	SCONJ	T	_	6	mark	_	LASLAVariant=2|LiLaflcat=i|UniqueTokenId=TacGerma-Q-01-282_1
 2	naturam	natura	NOUN	A1	Case=Acc|Gender=Fem|InflClass=IndEurA|Number=Sing	6	obj	_	LiLaflcat=n1|UniqueTokenId=TacGerma-Q-01-282_2
@@ -9561,14 +9561,14 @@
 22	ue	ue	CCONJ	S	_	21	cc	_	LiLaflcat=i|UniqueTokenId=TacGerma-Q-01-282_22
 23	lentescit	lentesco	VERB	B3	Aspect=Inch|InflClass=LatX|Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin|Voice=Act	10	conj	_	LiLaflcat=v3|TraditionalMood=Indicativus|TraditionalTense=Praesens|UniqueTokenId=TacGerma-Q-01-282_23
 
-# sent_id = Latin_Tacitus_Ger_prose-286
+# sent_id = TacGerma-Q-01-283
 # text = Suionibus Sithonum gentes continuantur
 1	Suionibus	suiones	NOUN	A3	Case=Dat|Gender=Masc|InflClass=IndEurX|NameType=Nat|Number=Plur	4	obl:arg	_	LASLAVariant=N|LiLaflcat=n3|UniqueTokenId=TacGerma-Q-01-283_1
 2	Sithonum	sithones	NOUN	A3	Case=Gen|Gender=Masc|InflClass=IndEurX|NameType=Nat|Number=Plur	3	nmod	_	LASLAVariant=N|LiLaflcat=n3|UniqueTokenId=TacGerma-Q-01-283_2
 3	gentes	gens	NOUN	A3	Case=Nom|Gender=Fem|InflClass=IndEurI|Number=Plur	4	nsubj	_	LiLaflcat=n3|UniqueTokenId=TacGerma-Q-01-283_3
 4	continuantur	continuo	VERB	B1	Aspect=Imp|InflClass=LatA|Mood=Ind|Number=Plur|Person=3|Tense=Pres|VerbForm=Fin|Voice=Pass	0	root	_	LASLAVariant=1|LiLaflcat=v1|TraditionalMood=Indicativus|TraditionalTense=Praesens|UniqueTokenId=TacGerma-Q-01-283_4
 
-# sent_id = Latin_Tacitus_Ger_prose-287
+# sent_id = TacGerma-Q-01-284
 # text = cetera similes uno differunt quod femina dominatur in tantum non modo a libertate sed etiam a seruitute degenerant
 1	cetera	ceterus	DET	A2	Case=Acc|Gender=Neut|InflClass=IndEurO|Number=Plur|PronType=Con	2	obl	_	LASLAVariant=1|LiLaflcat=n2|UniqueTokenId=TacGerma-Q-01-284_1
 2	similes	similis	ADJ	C4	Case=Nom|Gender=Masc|InflClass=IndEurI|Number=Plur	4	advcl:pred	_	LiLaflcat=n7|UniqueTokenId=TacGerma-Q-01-284_2
@@ -9589,13 +9589,13 @@
 17	seruitute	seruitus	NOUN	A3	Case=Abl|Gender=Fem|InflClass=IndEurX|Number=Sing	13	conj	_	LiLaflcat=n3|UniqueTokenId=TacGerma-Q-01-284_17
 18	degenerant	degenero	VERB	B1	Aspect=Imp|InflClass=LatA|Mood=Ind|Number=Plur|Person=3|Tense=Pres|VerbForm=Fin|Voice=Act	4	conj	_	LiLaflcat=v1|TraditionalMood=Indicativus|TraditionalTense=Praesens|UniqueTokenId=TacGerma-Q-01-284_18
 
-# sent_id = Latin_Tacitus_Ger_prose-288
+# sent_id = TacGerma-Q-01-285
 # text = hic Suebiae finis
 1	hic	hic	ADV	M	AdvType=Loc|Case=Loc|PronType=Dem	0	root	_	LASLAVariant=2|LiLaflcat=i|UniqueTokenId=TacGerma-Q-01-285_1
 2	Suebiae	suebia	PROPN	A1	Case=Gen|Gender=Fem|InflClass=IndEurA|NameType=Geo|Number=Sing	3	nmod	_	LASLAVariant=N|LiLaflcat=n1|UniqueTokenId=TacGerma-Q-01-285_2
 3	finis	finis	NOUN	A3	Case=Nom|Gender=Fem|InflClass=IndEurI|Number=Sing	1	nsubj	_	LiLaflcat=n3|UniqueTokenId=TacGerma-Q-01-285_3
 
-# sent_id = Latin_Tacitus_Ger_prose-289
+# sent_id = TacGerma-Q-01-286
 # text = Peucinorum Uenethorumque et Fennorum nationes Germanis an Sarmatis ascribam dubito
 1	Peucinorum	peucini	NOUN	A2	Case=Gen|Gender=Masc|InflClass=IndEurO|NameType=Nat|Number=Plur	6	nmod	_	LASLAVariant=N|LiLaflcat=n2|UniqueTokenId=TacGerma-Q-01-286_1
 2-3	Uenethorumque	_	_	_	_	_	_	_	UniqueTokenId=TacGerma-Q-01-286_2-3
@@ -9610,7 +9610,7 @@
 10	ascribam	ascribo	VERB	B3	Aspect=Imp|InflClass=LatX|Mood=Sub|Number=Sing|Person=1|Tense=Pres|VerbForm=Fin|Voice=Act	11	ccomp	_	LiLaflcat=v3|TraditionalMood=Subiunctivus|TraditionalTense=Praesens|UniqueTokenId=TacGerma-Q-01-286_10
 11	dubito	dubito	VERB	B1	Aspect=Imp|InflClass=LatA|Mood=Ind|Number=Sing|Person=1|Tense=Pres|VerbForm=Fin|Voice=Act	0	root	_	LiLaflcat=v1|TraditionalMood=Indicativus|TraditionalTense=Praesens|UniqueTokenId=TacGerma-Q-01-286_11
 
-# sent_id = Latin_Tacitus_Ger_prose-290
+# sent_id = TacGerma-Q-01-287
 # text = quamquam Peucini quos quidam Bastarnas uocant sermone cultu sede ac domiciliis ut Germani agunt
 1	quamquam	quamquam	SCONJ	N	PronType=Rel	14	mark	_	LASLAVariant=1|LiLaflcat=i|UniqueTokenId=TacGerma-Q-01-287_1
 2	Peucini	peucini	NOUN	A2	Case=Nom|Gender=Masc|InflClass=IndEurO|NameType=Nat|Number=Plur	14	nsubj	_	LASLAVariant=N|LiLaflcat=n2|UniqueTokenId=TacGerma-Q-01-287_2
@@ -9627,7 +9627,7 @@
 13	Germani	germanus	ADJ	A2	Case=Nom|Gender=Masc|InflClass=IndEurO|NameType=Nat|Number=Plur	14	advcl:cmp	_	LASLAVariant=N|LiLaflcat=n2|UniqueTokenId=TacGerma-Q-01-287_13
 14	agunt	ago	VERB	B3	Aspect=Imp|InflClass=LatX|Mood=Ind|Number=Plur|Person=3|Tense=Pres|VerbForm=Fin|Voice=Act	0	root	_	LiLaflcat=v3|TraditionalMood=Indicativus|TraditionalTense=Praesens|UniqueTokenId=TacGerma-Q-01-287_14
 
-# sent_id = Latin_Tacitus_Ger_prose-291
+# sent_id = TacGerma-Q-01-288
 # text = sordes omnium ac torpor procerum
 1	sordes	sordes	NOUN	A3	Case=Nom|Gender=Fem|InflClass=IndEurI|Number=Sing	2	nsubj	_	LiLaflcat=n3|UniqueTokenId=TacGerma-Q-01-288_1
 2	omnium	omnis	DET	L	Case=Gen|Gender=Masc|InflClass=IndEurI|Number=Plur|PronType=Tot	0	root	_	LiLaflcat=n7|UniqueTokenId=TacGerma-Q-01-288_2
@@ -9635,7 +9635,7 @@
 4	torpor	torpor	NOUN	A3	Case=Nom|Gender=Masc|InflClass=IndEurX|Number=Sing	5	nsubj	_	LiLaflcat=n3|UniqueTokenId=TacGerma-Q-01-288_4
 5	procerum	procer	NOUN	A3	Case=Gen|Gender=Masc|InflClass=IndEurX|Number=Plur	2	conj	_	LiLaflcat=n3|UniqueTokenId=TacGerma-Q-01-288_5
 
-# sent_id = Latin_Tacitus_Ger_prose-292
+# sent_id = TacGerma-Q-01-289
 # text = conubiis mixtis nonnihil in Sarmatarum habitum foedantur
 1	conubiis	connubium	NOUN	A2	Case=Abl|Gender=Neut|InflClass=IndEurO|Number=Plur	2	nsubj:pass	_	LiLaflcat=n2|UniqueTokenId=TacGerma-Q-01-289_1
 2	mixtis	misceo	VERB	B2	Aspect=Perf|Case=Abl|Gender=Neut|InflClass=LatE|InflClass[nominal]=IndEurO|Number=Plur|VerbForm=Part|Voice=Pass	7	advcl:abs	_	LiLaflcat=v2|TraditionalMood=Participium|TraditionalTense=Perfectum|UniqueTokenId=TacGerma-Q-01-289_2
@@ -9645,7 +9645,7 @@
 6	habitum	habitus	NOUN	A4	Case=Acc|Gender=Masc|InflClass=IndEurU|Number=Sing	7	obl	_	LASLAVariant=1|LiLaflcat=n4|UniqueTokenId=TacGerma-Q-01-289_6
 7	foedantur	foedo	VERB	B1	Aspect=Imp|InflClass=LatA|Mood=Ind|Number=Plur|Person=3|Tense=Pres|VerbForm=Fin|Voice=Pass	0	root	_	LiLaflcat=v1|TraditionalMood=Indicativus|TraditionalTense=Praesens|UniqueTokenId=TacGerma-Q-01-289_7
 
-# sent_id = Latin_Tacitus_Ger_prose-293
+# sent_id = TacGerma-Q-01-290
 # text = Uenethi multum ex moribus traxerunt nam quicquid inter Peucinos Fennosque siluarum ac montium erigitur latrociniis pererrant
 1	Uenethi	uenethi	NOUN	A2	Case=Nom|Gender=Masc|InflClass=IndEurO|NameType=Nat|Number=Plur	5	nsubj	_	LASLAVariant=N|LiLaflcat=n2|UniqueTokenId=TacGerma-Q-01-290_1
 2	multum	multus	DET	A2	Case=Acc|Gender=Neut|InflClass=IndEurO|Number=Sing|NumType=Card|PronType=Ind	5	obj	_	LASLAVariant=1|LiLaflcat=n2|UniqueTokenId=TacGerma-Q-01-290_2
@@ -9666,7 +9666,7 @@
 16	latrociniis	latrocinium	NOUN	A2	Case=Abl|Gender=Neut|InflClass=IndEurO|Number=Plur	17	obl	_	LiLaflcat=n2|UniqueTokenId=TacGerma-Q-01-290_16
 17	pererrant	pererro	VERB	B1	Aspect=Imp|InflClass=LatA|Mood=Ind|Number=Plur|Person=3|Tense=Pres|VerbForm=Fin|Voice=Act	5	conj	_	LASLAVariant=2|LiLaflcat=v1|TraditionalMood=Indicativus|TraditionalTense=Praesens|UniqueTokenId=TacGerma-Q-01-290_17
 
-# sent_id = Latin_Tacitus_Ger_prose-294
+# sent_id = TacGerma-Q-01-291
 # text = hi tamen inter Germanos potius referuntur quia et domos figunt et scuta gestant et pedum usu ac pernicitate gaudent quae omnia diuersa Sarmatis sunt in plaustro equoque uiuentibus
 1	hi	hic	DET	I	Case=Nom|Gender=Masc|InflClass=LatPron|Number=Plur|PronType=Dem	6	nsubj:pass	_	LASLAVariant=1|LiLaflcat=p|UniqueTokenId=TacGerma-Q-01-291_1
 2	tamen	tamen	ADV	M	Form=Emp|PronType=Dem	6	advmod	_	LiLaflcat=i|UniqueTokenId=TacGerma-Q-01-291_2
@@ -9699,7 +9699,7 @@
 28	que	que	CCONJ	S	_	27	cc	_	LiLaflcat=i|UniqueTokenId=TacGerma-Q-01-291_28
 29	uiuentibus	uiuo	VERB	B3	Aspect=Imp|Case=Dat|Gender=Masc|InflClass=LatX|InflClass[nominal]=IndEurI|Number=Plur|VerbForm=Part|Voice=Act	23	acl	_	LiLaflcat=v3|TraditionalMood=Participium|TraditionalTense=Praesens|UniqueTokenId=TacGerma-Q-01-291_29
 
-# sent_id = Latin_Tacitus_Ger_prose-295
+# sent_id = TacGerma-Q-01-292
 # text = Fennis mira feritas foeda paupertas non arma non equi non Penates uictui herba uestitui pelles cubile humus solae in sagittis spes quas inopia ferri ossibus asperant
 1	Fennis	fenni	NOUN	A2	Case=Dat|Gender=Masc|InflClass=IndEurO|NameType=Nat|Number=Plur	0	root	_	LASLAVariant=N|LiLaflcat=n2|UniqueTokenId=TacGerma-Q-01-292_1
 2	mira	mirus	ADJ	C1	Case=Nom|Gender=Fem|InflClass=IndEurA|Number=Sing	3	amod	_	LiLaflcat=n6|UniqueTokenId=TacGerma-Q-01-292_2
@@ -9728,7 +9728,7 @@
 25	ossibus	os	NOUN	A3	Case=Abl|Gender=Neut|InflClass=IndEurI|Number=Plur	26	obl	_	LASLAVariant=2|LiLaflcat=n3|UniqueTokenId=TacGerma-Q-01-292_25
 26	asperant	aspero	VERB	B1	Aspect=Imp|InflClass=LatA|Mood=Ind|Number=Plur|Person=3|Tense=Pres|VerbForm=Fin|Voice=Act	20	acl:relcl	_	LiLaflcat=v1|TraditionalMood=Indicativus|TraditionalTense=Praesens|UniqueTokenId=TacGerma-Q-01-292_26
 
-# sent_id = Latin_Tacitus_Ger_prose-296
+# sent_id = TacGerma-Q-01-293
 # text = idemque uenatus uiros pariter ac feminas alit passim enim comitantur partemque praedae petunt
 1-2	idemque	_	_	_	_	_	_	_	UniqueTokenId=TacGerma-Q-01-293_1-2
 1	idem	idem	DET	I	Form=Emp|PronType=Dem	8	advmod	_	LiLaflcat=p|UniqueTokenId=TacGerma-Q-01-293_1
@@ -9748,7 +9748,7 @@
 14	praedae	praeda	NOUN	A1	Case=Gen|Gender=Fem|InflClass=IndEurA|Number=Sing	12	nmod	_	LiLaflcat=n1|UniqueTokenId=TacGerma-Q-01-293_14
 15	petunt	peto	VERB	B3	Aspect=Imp|InflClass=LatX|Mood=Ind|Number=Plur|Person=3|Tense=Pres|VerbForm=Fin|Voice=Act	11	conj	_	LiLaflcat=v3|TraditionalMood=Indicativus|TraditionalTense=Praesens|UniqueTokenId=TacGerma-Q-01-293_15
 
-# sent_id = Latin_Tacitus_Ger_prose-297
+# sent_id = TacGerma-Q-01-294
 # text = nec aliud infantibus ferarum imbriumque suffugium quam ut in aliquo ramorum nexu contegantur huc redeunt iuuenes hoc senum receptaculum
 1	nec	neque	CCONJ	S	Polarity=Neg	2	cc	_	LASLAVariant=2|LiLaflcat=i|UniqueTokenId=TacGerma-Q-01-294_1
 2	aliud	alius	DET	L	Case=Nom|Gender=Neut|InflClass=LatPron|Number=Sing|PronType=Con	0	root	_	LiLaflcat=p|UniqueTokenId=TacGerma-Q-01-294_2
@@ -9772,7 +9772,7 @@
 19	senum	senex	NOUN	A3	Case=Gen|Gender=Neut|InflClass=IndEurX|Number=Plur	20	nmod	_	LASLAVariant=1|LiLaflcat=n3|UniqueTokenId=TacGerma-Q-01-294_19
 20	receptaculum	receptaculum	NOUN	A2	Case=Nom|Gender=Neut|InflClass=IndEurO|Number=Sing	16	conj	_	LiLaflcat=n2|UniqueTokenId=TacGerma-Q-01-294_20
 
-# sent_id = Latin_Tacitus_Ger_prose-298
+# sent_id = TacGerma-Q-01-295
 # text = sed beatius arbitrantur quam ingemere agris illaborare domibus suas alienasque fortunas spe metuque uersare securi aduersus homines securi aduersus deos rem difficillimam assecuti sunt ut illis ne uoto quidem opus esset
 1	sed	sed	CCONJ	S	_	3	cc	_	LiLaflcat=i|UniqueTokenId=TacGerma-Q-01-295_1
 2	beatius	beatus	ADJ	C1	Case=Acc|Degree=Cmp|Gender=Neut|InflClass=IndEurX|Number=Sing	3	xcomp	_	LiLaflcat=n7|UniqueTokenId=TacGerma-Q-01-295_2
@@ -9810,7 +9810,7 @@
 32	opus	opus	NOUN	A6	_	23	conj:expl	_	LASLAVariant=2|LiLaflcat=n|UniqueTokenId=TacGerma-Q-01-295_32
 33	esset	sum	AUX	B6	Aspect=Imp|InflClass=LatAnom|Mood=Sub|Number=Sing|Person=3|Tense=Past|VerbForm=Fin	32	cop	_	LASLAVariant=1|LiLaflcat=v6|TraditionalMood=Subiunctivus|TraditionalTense=Imperfectum|UniqueTokenId=TacGerma-Q-01-295_33
 
-# sent_id = Latin_Tacitus_Ger_prose-299
+# sent_id = TacGerma-Q-01-296
 # text = cetera iam fabulosa Hellusios et Oxionas ora hominum uultusque corpora atque artus ferarum gerere quod ego ut incompertum in medium relinquam
 1	cetera	ceterus	DET	A2	Case=Nom|Gender=Neut|InflClass=IndEurO|Number=Plur|PronType=Con	3	nsubj	_	LASLAVariant=1|LiLaflcat=n2|UniqueTokenId=TacGerma-Q-01-296_1
 2	iam	iam	ADV	M	AdvType=Tim	3	advmod:tmod	_	LiLaflcat=i|UniqueTokenId=TacGerma-Q-01-296_2
@@ -15255,12 +15255,12 @@
 # speaker = Eteocles (token 1-3), Iocasta (4-8)
 1	pro	pro	ADP	R	AdpType=Prep	2	case	_	_
 2	regno	regnum	NOUN	A2	Case=Abl|Gender=Neut|InflClass=IndEurO|Number=Sing	3	obl	_	_
-3	uelim	uolo	VERB	B6	Aspect=Imp|InflClass=LatAnom|Mood=Sub|Number=Sing|Person=1|Tense=Pres|VerbForm=Fin|Voice=Act	0	root	_	_
-4	patriam	patria	NOUN	A1	Case=Acc|Gender=Fem|InflClass=IndEurA|Number=Sing	8	obj	_	_
-5	Penates	penates	PROPN	A3	Case=Acc|Gender=Masc|InflClass=IndEurI|NameType=Rel|Number=Plur	4	conj	_	_
-6	coniugem	coniux	NOUN	A3	Case=Acc|Gender=Fem,Masc|InflClass=IndEurX|Number=Sing	4	conj	_	_
-7	flammis	flamma	NOUN	A1	Case=Dat|Gender=Fem|InflClass=IndEurA|Number=Plur	8	obl:arg	_	_
-8	dare	do	VERB	B1	Aspect=Imp|InflClass=LatA|InflClass[nominal]=Ind|VerbForm=Inf|Voice=Act	3	xcomp	_	_
+3	uelim	uolo	VERB	B6	Aspect=Imp|InflClass=LatAnom|Mood=Sub|Number=Sing|Person=1|Tense=Pres|VerbForm=Fin|Voice=Act	0	root	_	Scrap=Yes
+4	patriam	patria	NOUN	A1	Case=Acc|Gender=Fem|InflClass=IndEurA|Number=Sing	8	obj	_	Coconstruct=Yes
+5	Penates	penates	PROPN	A3	Case=Acc|Gender=Masc|InflClass=IndEurI|NameType=Rel|Number=Plur	4	conj	_	Coconstruct=Yes
+6	coniugem	coniux	NOUN	A3	Case=Acc|Gender=Fem,Masc|InflClass=IndEurX|Number=Sing	4	conj	_	Coconstruct=Yes
+7	flammis	flamma	NOUN	A1	Case=Dat|Gender=Fem|InflClass=IndEurA|Number=Plur	8	obl:arg	_	Coconstruct=Yes
+8	dare	do	VERB	B1	Aspect=Imp|InflClass=LatA|InflClass[nominal]=Ind|VerbForm=Inf|Voice=Act	3	xcomp	_	Coconstruct=Yes
 
 # sent_id = SenPhoen-P-17-308
 # text = imperia pretio quolibet constant bene
